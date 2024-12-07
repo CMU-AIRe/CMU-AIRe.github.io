@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>CMU AIRe - People</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+
+    <style>
+      .people-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+
+      .person {
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        margin: 0 auto;
+        box-sizing: border-box;
+      }
+
+      .person-image {
+        width: 100%;
+        padding-top: 100%; /* Creates a 1:1 aspect ratio */
+        position: relative;
+        overflow: hidden;
+        border-radius: 4px;
+      }
+
+      .person-image img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .person-info {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+
+      .person h2 {
+        font-size: 1.2em;
+        margin: 10px 0;
+        text-align: center;
+      }
+
+      .person p {
+        font-size: 0.9em;
+        margin: 5px 0;
+      }
+
+      .person-details {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 10px;
+      }
+
+      @media (max-width: 1040px) {
+        .people-grid {
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
+      }
+
+      @media (max-width: 940px) {
+        .people-grid {
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
+      }
+
+      @media (max-width: 640px) {
+        .people-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <div class="inner">
+          <!-- Header -->
+          <header id="header">
+            <a href="../index.html" class="logo"
+              ><strong>AIRe Lab @ CMU</strong></a
+            >
+            <!-- <ul class="icons">
+              <li>
+                <a href="#" class="icon brands fa-twitter"
+                  ><span class="label">Twitter</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-facebook-f"
+                  ><span class="label">Facebook</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-snapchat-ghost"
+                  ><span class="label">Snapchat</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-instagram"
+                  ><span class="label">Instagram</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-medium-m"
+                  ><span class="label">Medium</span></a
+                >
+              </li>
+            </ul> -->
+          </header>
+
+          <!-- Content -->
+          <section>
+            <header class="main">
+              <h1>People</h1>
+            </header>
+            <h2>Faculty</h2>
+            <div>
+              <div class="person">
+                <div class="person-image">
+                  <img
+                    alt="Photo of Faculty Member"
+                    src="../images/people/aviral_kumar.jpg"
+                  />
+                </div>
+                <div class="person-info">
+                  <h2>
+                    <a href="https://aviralkumar2907.github.io/"
+                      >Aviral Kumar</a
+                    >
+                  </h2>
+                  <div class="person-details">
+                    <p>Position: Assistant Professor</p>
+                    <p>Department: CSD & MLD</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="major" />
+            <h2>Ph.D. Students</h2>
+
+            <div class="people-grid">
+              <div class="person">
+                <div class="person-image">
+                  <img
+                    alt="Photo of Yuxiao Qu"
+                    src="../images/people/yuxiao_qu.jpg"
+                  />
+                </div>
+                <div class="person-info">
+                  <h2>
+                    <a href="https://cohenqu.github.io/">Yuxiao Qu</a>
+                  </h2>
+                  <div class="person-details">
+                    <p>Research Interests:</p>
+                    <p>
+                      Intersection of reinforcement learning and foundation
+                      model agents.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="person">
+                <div class="person-image">
+                  <img
+                    alt="Photo of Max Sobol Mark"
+                    src="../images/people/max_sobol_mark.jpeg"
+                  />
+                </div>
+                <div class="person-info">
+                  <h2>
+                    <a href="https://maxsobolmark.com/">Max Sobol Mark</a>
+                  </h2>
+                  <div class="person-details">
+                    <p>Research Interests:</p>
+                    <p>
+                      RL methods that can make use of pre-trained policies and
+                      large-scale datasets to accelerate learning.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="person">
+                <div class="person-image">
+                  <img
+                    alt="Photo of Bhavya Agrawalla"
+                    src="../images/people/bhavya_agrawalla.jpg"
+                  />
+                </div>
+                <div class="person-info">
+                  <h2>
+                    <a href="https://agrawallabhavya.github.io/"
+                      >Bhavya Agrawalla</a
+                    >
+                  </h2>
+                  <div class="person-details">
+                    <p>Research Interests:</p>
+                    <p>
+                      Reinforcement learning algorithms with enhanced predictive
+                      capabilities, complemented by robust theoretical
+                      guarantees.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="person">
+                <div class="person-image">
+                  <img
+                    alt="Photo of Zheyuan Hu"
+                    src="../images/people/zhenyuan_hu.jpg"
+                  />
+                </div>
+                <div class="person-info">
+                  <h2>
+                    <a href="https://huzheyuan.io/">Zheyuan Hu</a>
+                  </h2>
+                  <div class="person-details">
+                    <p>Research Interests:</p>
+                    <p>
+                      Deep reinforcement learning and dexterous manipulation in
+                      the real world.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="major" />
+            <h2>Masters & Undergraduate Students</h2>
+            <div class="people-grid">
+              <div class="person">
+                <div class="person-image">
+                  <img
+                    alt="Photo of Khush Agrawal"
+                    src="../images/people/khush_agrawal.jpg"
+                  />
+                </div>
+                <div class="person-info">
+                  <h2>
+                    <a href="https://khush3.github.io/">Khush Agrawal</a>
+                  </h2>
+                  <div class="person-details">
+                    <p>Research Interests: Machine Learning and robotics</p>
+                  </div>
+                </div>
+              </div>
+              <div class="person">
+                <div class="person-image">
+                  <img
+                    alt="Photo of Matthew Yang"
+                    src="../images/people/matthew_yang.jpg"
+                  />
+                </div>
+                <div class="person-info">
+                  <h2>
+                    <a href="https://www.matthewyryang.com/"
+                      >Matthew Y.R. Yang</a
+                    >
+                  </h2>
+                  <div class="person-details">
+                    <p>
+                      Research Interests: LLM Agents and Reinforcement Learning
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <hr class="major" />
+            <h2>Close Collaborators</h2>
+            <ul>
+              <li>
+                <a
+                  href="https://scholar.google.com/citations?user=i7V1kJgAAAAJ&hl=en"
+                  >Amrith Setlur (PhD student at CMU)
+                </a>
+              </li>
+              <li>
+                <a href="https://nakamotoo.github.io/"
+                  >Mitsuhiko Nakamoto (PhD student at UC Berkeley)
+                </a>
+              </li>
+              <li>
+                <a href="https://yifeizhou02.github.io/"
+                  >Yifei Zhou (PhD student at UC Berkeley)
+                </a>
+              </li>
+              <li>
+                <a href="https://tajwarfahim.github.io/"
+                  >Fahim Tajwar (PhD student at CMU)
+                </a>
+              </li>
+              <li>
+                <a href="https://asap7772.github.io/"
+                  >Anikait Singh (PhD student at Stanford)
+                </a>
+              </li>
+              <li>
+                <a href="https://young-geng.xyz/"
+                  >Xinyang (Young) Geng (Senior Research Scientist at Google
+                  DeepMind)
+                </a>
+              </li>
+              <li>
+                <a href="https://agarwl.github.io/"
+                  >Rishabh Agarwal (Senior Research Scientist at Google
+                  DeepMind)
+                </a>
+              </li>
+              <li>
+                <a href="https://seohong.me/"
+                  >Seohong Park (PhD student at UC Berkeley)
+                </a>
+              </li>
+              <li>
+                <a href="https://people.eecs.berkeley.edu/~oleh/"
+                  >Oleh Rybkin (Post-doctoral scholar at UC Berkeley)
+                </a>
+              </li>
+              <li>
+                <a href="https://biechi.github.io/"
+                  >Hao Bai (MS student at UIUC)
+                </a>
+              </li>
+              <li>
+                <a href="http://katiekang.com/"
+                  >Katie Kang (PhD student at Berkeley)
+                </a>
+              </li>
+              <li>
+                <a href="https://verityw.github.io/"
+                  >William Chen (PhD student at Berkeley)
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div id="sidebar">
+        <div class="inner">
+          <!-- Menu -->
+          <nav id="menu">
+            <header class="major">
+              <h2>Menu</h2>
+            </header>
+            <ul>
+              <li><a href="../index.html">Homepage</a></li>
+              <li><a href="../index.html#news">News</a></li>
+              <li><a href="people.html">People</a></li>
+              <!-- <li><a href="research.html">Research</a></li> -->
+              <li><a href="publications.html">Publications</a></li>
+              <li><a href="join_us.html">Join Us</a></li>
+            </ul>
+          </nav>
+
+          <!-- Footer -->
+          <footer id="footer">
+            <p class="copyright">
+              &copy; Untitled. All rights reserved. Demo Images:
+              <a href="https://unsplash.com">Unsplash</a>. Design:
+              <a href="https://html5up.net">HTML5 UP</a>.
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
