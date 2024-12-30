@@ -16,7 +16,7 @@
     <style>
       .people-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(4, minmax(250px, 1fr));
         gap: 20px;
         max-width: 1040px;
         margin: 0 auto;
@@ -29,7 +29,7 @@
         border-radius: 8px;
         display: flex;
         flex-direction: column;
-        width: 250px;
+        width: 200px;
         margin: 0 auto;
         box-sizing: border-box;
       }
@@ -90,7 +90,7 @@
         }
 
         .person {
-          max-width: 100%;
+          max-width: 90%;
         }
       }
     </style>
@@ -157,8 +157,8 @@
                     >
                   </h2>
                   <div class="person-details">
-                    <p>Position: Assistant Professor</p>
-                    <p>Department: CSD & MLD</p>
+                    <p>Assistant Professor</p>
+                    <p>Computer Science & Machine Learning</p>
                   </div>
                 </div>
               </div>
@@ -167,46 +167,6 @@
             <h2>Ph.D. Students</h2>
 
             <div class="people-grid">
-              <div class="person">
-                <div class="person-image">
-                  <img
-                    alt="Photo of Yuxiao Qu"
-                    src="../images/people/yuxiao_qu.jpg"
-                  />
-                </div>
-                <div class="person-info">
-                  <h2>
-                    <a href="https://cohenqu.github.io/">Yuxiao Qu</a>
-                  </h2>
-                  <div class="person-details">
-                    <p>Research Interests:</p>
-                    <p>
-                      Intersection of reinforcement learning and foundation
-                      model agents.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="person">
-                <div class="person-image">
-                  <img
-                    alt="Photo of Max Sobol Mark"
-                    src="../images/people/max_sobol_mark.jpeg"
-                  />
-                </div>
-                <div class="person-info">
-                  <h2>
-                    <a href="https://maxsobolmark.com/">Max Sobol Mark</a>
-                  </h2>
-                  <div class="person-details">
-                    <p>Research Interests:</p>
-                    <p>
-                      RL methods that can make use of pre-trained policies and
-                      large-scale datasets to accelerate learning.
-                    </p>
-                  </div>
-                </div>
-              </div>
               <div class="person">
                 <div class="person-image">
                   <img
@@ -224,7 +184,7 @@
                     <p>Research Interests:</p>
                     <p>
                       Reinforcement learning algorithms with enhanced predictive
-                      capabilities, complemented by robust theoretical
+                      capabilities complemented by robust theoretical
                       guarantees.
                     </p>
                   </div>
@@ -244,12 +204,52 @@
                   <div class="person-details">
                     <p>Research Interests:</p>
                     <p>
-                      Deep reinforcement learning and dexterous manipulation in
-                      the real world.
+                      Deep reinforcement learning and dexterous manipulation on
+                      real-world robots.
                     </p>
                   </div>
                 </div>
               </div>
+              <div class="person">
+                <div class="person-image">
+                  <img
+                    alt="Photo of Max Sobol Mark"
+                    src="../images/people/max_sobol_mark.jpeg"
+                  />
+                </div>
+                <div class="person-info">
+                  <h2>
+                    <a href="https://maxsobolmark.com/">Max Sobol Mark</a>
+                  </h2>
+                  <div class="person-details">
+                    <p>Research Interests:</p>
+                    <p>
+                      reinforcement learning with & for pre-trained policies and
+                      large-scale datasets.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="person">
+                <div class="person-image">
+                  <img
+                    alt="Photo of Yuxiao Qu"
+                    src="../images/people/yuxiao_qu.jpg"
+                  />
+                </div>
+                <div class="person-info">
+                  <h2>
+                    <a href="https://cohenqu.github.io/">Yuxiao Qu</a>
+                  </h2>
+                  <div class="person-details">
+                    <p>Research Interests:</p>
+                    <p>
+                      Intersection of reinforcement learning and foundation
+                      models.
+                    </p>
+                  </div>
+                </div>
+              </div>              
             </div>
             <hr class="major" />
             <h2>Masters & Undergraduate Students</h2>
@@ -285,7 +285,7 @@
                   </h2>
                   <div class="person-details">
                     <p>
-                      Research Interests: LLM Agents and Reinforcement Learning
+                      Research Interests: LLMs and Reinforcement Learning
                     </p>
                   </div>
                 </div>
@@ -322,25 +322,8 @@
                 </a>
               </li>
               <li>
-                <a href="https://young-geng.xyz/"
-                  >Xinyang (Young) Geng (Senior Research Scientist at Google
-                  DeepMind)
-                </a>
-              </li>
-              <li>
-                <a href="https://agarwl.github.io/"
-                  >Rishabh Agarwal (Senior Research Scientist at Google
-                  DeepMind)
-                </a>
-              </li>
-              <li>
                 <a href="https://seohong.me/"
                   >Seohong Park (PhD student at UC Berkeley)
-                </a>
-              </li>
-              <li>
-                <a href="https://people.eecs.berkeley.edu/~oleh/"
-                  >Oleh Rybkin (Post-doctoral scholar at UC Berkeley)
                 </a>
               </li>
               <li>
@@ -350,12 +333,29 @@
               </li>
               <li>
                 <a href="http://katiekang.com/"
-                  >Katie Kang (PhD student at Berkeley)
+                  >Katie Kang (PhD student at UC Berkeley)
+                </a>
+              </li>
+              <li>
+                <a href="https://people.eecs.berkeley.edu/~oleh/"
+                  >Oleh Rybkin (Post-doctoral scholar at UC Berkeley)
+                </a>
+              </li>
+              <li>
+                <a href="https://young-geng.xyz/"
+                  >Xinyang (Young) Geng (Research Scientist at Google
+                  DeepMind)
+                </a>
+              </li>
+              <li>
+                <a href="https://agarwl.github.io/"
+                  >Rishabh Agarwal (Research Scientist at Google
+                  DeepMind)
                 </a>
               </li>
               <li>
                 <a href="https://verityw.github.io/"
-                  >William Chen (PhD student at Berkeley)
+                  >William Chen (PhD student at UC Berkeley)
                 </a>
               </li>
             </ul>
@@ -375,7 +375,7 @@
               <li><a href="../index.html">Homepage</a></li>
               <li><a href="../index.html#news">News</a></li>
               <li><a href="people.html">People</a></li>
-              <li><a href="research.html">Research</a></li>
+              <li><a href="blog1.html">Blog</a></li>
               <li><a href="publications.html">Publications</a></li>
               <li><a href="join_us.html">Join Us</a></li>
             </ul>
