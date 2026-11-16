@@ -1,0 +1,110 @@
+{
+  "reward_conditioned_policies": {
+    "title": "Reward-Conditioned Policies",
+    "authors": [
+      "Aviral Kumar",
+      "Xue Bin Peng",
+      "Sergey Levine"
+    ],
+    "conference": "arXiv 2019",
+    "date": "December 2019",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/1912.13465",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/1912.13465"
+  },
+  "model_inversion_networks": {
+    "title": "Model Inversion Networks for Model-Based Optimization",
+    "authors": [
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "conference": "NeurIPS 2020",
+    "date": "December 2019",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/1912.13464",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/static/virtual/data/neurips-2020-orals-posters.json"
+  },
+  "awr": {
+    "title": "Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcement Learning",
+    "authors": [
+      "Xue Bin Peng",
+      "Aviral Kumar",
+      "Grace Zhang",
+      "Sergey Levine"
+    ],
+    "conference": "arXiv 2019",
+    "date": "October 2019",
+    "website": "https://xbpeng.github.io/projects/AWR/index.html",
+    "arxiv": "https://arxiv.org/abs/1910.00177",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/1910.00177"
+  },
+  "bear": {
+    "title": "Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction",
+    "authors": [
+      "Aviral Kumar",
+      "Justin Fu",
+      "George Tucker",
+      "Sergey Levine"
+    ],
+    "conference": "NeurIPS 2019",
+    "date": "June 2019",
+    "website": "https://sites.google.com/view/bear-off-policyrl",
+    "arxiv": "https://arxiv.org/abs/1906.00949",
+    "code": "",
+    "video": "",
+    "source": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/c2073ffa77b5357a498057413bb09d3a-Abstract.html"
+  },
+  "graph_normalizing_flows": {
+    "title": "Graph Normalizing Flows",
+    "authors": [
+      "Jenny Liu",
+      "Aviral Kumar",
+      "Jimmy Ba",
+      "Jamie Kiros",
+      "Kevin Swersky"
+    ],
+    "conference": "NeurIPS 2019",
+    "date": "May 2019",
+    "website": "https://sites.google.com/view/graph-normalizing-flows/home",
+    "arxiv": "https://arxiv.org/abs/1905.13177",
+    "code": "",
+    "video": "",
+    "source": "https://proceedings.neurips.cc/paper_files/paper/2019/hash/1e44fdf9c44d7328fecc02d677ed704d-Abstract.html"
+  },
+  "calibration_nmt": {
+    "title": "Calibration of Encoder Decoder Models for Neural Machine Translation",
+    "authors": [
+      "Aviral Kumar",
+      "Sunita Sarawagi"
+    ],
+    "conference": "arXiv 2019",
+    "date": "March 2019",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/1903.00802",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/1903.00802"
+  },
+  "diagnosing_q_learning": {
+    "title": "Diagnosing Bottlenecks in Deep Q-learning Algorithms",
+    "authors": [
+      "Justin Fu",
+      "Aviral Kumar",
+      "Matthew Soh",
+      "Sergey Levine"
+    ],
+    "conference": "ICML 2019",
+    "date": "February 2019",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/1902.10250",
+    "code": "",
+    "video": "",
+    "source": "https://proceedings.mlr.press/v97/fu19a.html"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "dr3": {
+    "title": "DR3: Value-Based Deep Reinforcement Learning Requires Explicit Regularization",
+    "authors": [
+      "Aviral Kumar",
+      "Rishabh Agarwal",
+      "Tengyu Ma",
+      "Aaron Courville",
+      "George Tucker",
+      "Sergey Levine"
+    ],
+    "conference": "ICLR 2022 (Spotlight)",
+    "date": "December 2021",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2112.04716",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/static/virtual/data/iclr-2022-orals-posters.json"
+  },
+  "prime_accelerators": {
+    "title": "Data-Driven Offline Optimization For Architecting Hardware Accelerators",
+    "authors": [
+      "Aviral Kumar",
+      "Amir Yazdanbakhsh",
+      "Milad Hashemi",
+      "Kevin Swersky",
+      "Sergey Levine"
+    ],
+    "conference": "ICLR 2022",
+    "date": "October 2021",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2110.11346",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/static/virtual/data/iclr-2022-orals-posters.json"
+  },
+  "offline_rl_workflow": {
+    "title": "A Workflow for Offline Model-Free Robotic Reinforcement Learning",
+    "authors": [
+      "Aviral Kumar",
+      "Anikait Singh",
+      "Stephen Tian",
+      "Chelsea Finn",
+      "Sergey Levine"
+    ],
+    "conference": "CoRL 2021 (Oral)",
+    "date": "September 2021",
+    "website": "https://sites.google.com/view/offline-rl-workflow",
+    "arxiv": "https://arxiv.org/abs/2109.10813",
+    "code": "",
+    "video": "",
+    "source": "https://proceedings.mlr.press/v164/kumar22a.html"
+  },
+  "cds": {
+    "title": "Conservative Data Sharing for Multi-Task Offline Reinforcement Learning",
+    "authors": [
+      "Tianhe Yu",
+      "Aviral Kumar",
+      "Yevgen Chebotar",
+      "Karol Hausman",
+      "Sergey Levine",
+      "Chelsea Finn"
+    ],
+    "conference": "NeurIPS 2021",
+    "date": "September 2021",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2109.08128",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/static/virtual/data/neurips-2021-orals-posters.json"
+  },
+  "coms": {
+    "title": "Conservative Objective Models for Effective Offline Model-Based Optimization",
+    "authors": [
+      "Brandon Trabucco",
+      "Aviral Kumar",
+      "Xinyang Geng",
+      "Sergey Levine"
+    ],
+    "conference": "ICML 2021",
+    "date": "July 2021",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2107.06882",
+    "code": "",
+    "video": "",
+    "source": "https://icml.cc/static/virtual/data/icml-2021-orals-posters.json"
+  },
+  "epistemic_pomdp": {
+    "title": "Why Generalization in RL is Difficult: Epistemic POMDPs and Implicit Partial Observability",
+    "authors": [
+      "Dibya Ghosh",
+      "Jad Rahme",
+      "Aviral Kumar",
+      "Amy Zhang",
+      "Ryan P. Adams",
+      "Sergey Levine"
+    ],
+    "conference": "NeurIPS 2021",
+    "date": "July 2021",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2107.06277",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/static/virtual/data/neurips-2021-orals-posters.json"
+  },
+  "deep_ope_benchmarks": {
+    "title": "Benchmarks for Deep Off-Policy Evaluation",
+    "authors": [
+      "Justin Fu",
+      "Mohammad Norouzi",
+      "Ofir Nachum",
+      "George Tucker",
+      "Ziyu Wang",
+      "Alexander Novikov",
+      "Mengjiao Yang",
+      "Michael R. Zhang",
+      "Yutian Chen",
+      "Aviral Kumar",
+      "Cosmin Paduraru",
+      "Sergey Levine",
+      "Tom Le Paine"
+    ],
+    "conference": "ICLR 2021",
+    "date": "March 2021",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2103.16596",
+    "code": "https://github.com/google-research/deep_ope",
+    "video": "",
+    "source": "https://iclr.cc/static/virtual/data/iclr-2021-orals-posters.json"
+  },
+  "combo": {
+    "title": "COMBO: Conservative Offline Model-Based Policy Optimization",
+    "authors": [
+      "Tianhe Yu",
+      "Aviral Kumar",
+      "Rafael Rafailov",
+      "Aravind Rajeswaran",
+      "Sergey Levine",
+      "Chelsea Finn"
+    ],
+    "conference": "NeurIPS 2021",
+    "date": "February 2021",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2102.08363",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/static/virtual/data/neurips-2021-orals-posters.json"
+  }
+}

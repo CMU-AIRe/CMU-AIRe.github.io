@@ -1,0 +1,293 @@
+{
+  "rlac": {
+    "title": "RLAC: Reinforcement Learning with Adversarial Critic for Free-Form Generation Tasks",
+    "authors": [
+      "Mian Wu",
+      "Gavin Zhang",
+      "Sewon Min",
+      "Sergey Levine",
+      "Aviral Kumar"
+    ],
+    "conference": "ICLR 2026",
+    "date": "November 2025",
+    "website": "https://mianwu01.github.io/RLAC_website/",
+    "arxiv": "https://arxiv.org/abs/2511.01758",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2026/poster/10008432"
+  },
+  "cart": {
+    "title": "CaRT: Teaching LLM Agents to Know When They Know Enough",
+    "authors": [
+      "Grace Liu",
+      "Yuxiao Qu",
+      "Jeff Schneider",
+      "Aarti Singh",
+      "Aviral Kumar"
+    ],
+    "conference": "arXiv 2025",
+    "date": "October 2025",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2510.08517",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2510.08517"
+  },
+  "rlad": {
+    "title": "RLAD: Training LLMs to Discover Abstractions for Solving Reasoning Problems",
+    "authors": [
+      "Yuxiao Qu",
+      "Anikait Singh",
+      "Yoonho Lee",
+      "Amrith Setlur",
+      "Ruslan Salakhutdinov",
+      "Chelsea Finn",
+      "Aviral Kumar"
+    ],
+    "conference": "ICLR 2026",
+    "date": "October 2025",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2510.02263",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2026/poster/10008193"
+  },
+  "rac": {
+    "title": "RaC: Robot Learning for Long-Horizon Tasks by Scaling Recovery and Correction",
+    "authors": [
+      "Zheyuan Hu",
+      "Robyn Wu",
+      "Naveen Enock",
+      "Jasmine Li",
+      "Riya Kadakia",
+      "Zackory Erickson",
+      "Aviral Kumar"
+    ],
+    "conference": "IEEE T-RO 2026",
+    "date": "September 2025",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2509.07953",
+    "code": "",
+    "video": "",
+    "source": "https://doi.org/10.1109/tro.2026.3706552"
+  },
+  "floq": {
+    "title": "floq: Training Critics via Flow-Matching for Scaling Compute in Value-Based RL",
+    "authors": [
+      "Bhavya Agrawalla",
+      "Michal Nauman",
+      "Khush Agrawal",
+      "Aviral Kumar"
+    ],
+    "conference": "ICLR 2026",
+    "date": "September 2025",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2509.06863",
+    "code": "https://github.com/CMU-AIRe/floq",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2026/poster/10007626"
+  },
+  "compute_optimal_value_rl": {
+    "title": "Compute-Optimal Scaling for Value-Based Deep RL",
+    "authors": [
+      "Preston Fu",
+      "Oleh Rybkin",
+      "Zhiyuan Zhou",
+      "Michal Nauman",
+      "Pieter Abbeel",
+      "Sergey Levine",
+      "Aviral Kumar"
+    ],
+    "conference": "NeurIPS 2025",
+    "date": "August 2025",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2508.14881",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2025/poster/119555"
+  },
+  "reasoning_adaptive_defense": {
+    "title": "Reasoning as an Adaptive Defense for Safety",
+    "authors": [
+      "Taeyoun Kim",
+      "Fahim Tajwar",
+      "Aditi Raghunathan",
+      "Aviral Kumar"
+    ],
+    "conference": "NeurIPS 2025",
+    "date": "July 2025",
+    "website": "https://training-adaptive-reasoners-safety.github.io",
+    "arxiv": "https://arxiv.org/abs/2507.00971",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2025/poster/120150"
+  },
+  "e3": {
+    "title": "e3: Learning to Explore Enables Extrapolation of Test-Time Compute for LLMs",
+    "authors": [
+      "Amrith Setlur",
+      "Matthew Y. R. Yang",
+      "Charlie Snell",
+      "Jeremy Greer",
+      "Ian Wu",
+      "Virginia Smith",
+      "Max Simchowitz",
+      "Aviral Kumar"
+    ],
+    "conference": "ICLR 2026",
+    "date": "June 2025",
+    "website": "https://matthewyryang.com/e3/",
+    "arxiv": "https://arxiv.org/abs/2506.09026",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2026/poster/10008718"
+  },
+  "thinking_vs_doing": {
+    "title": "Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction",
+    "authors": [
+      "Junhong Shen",
+      "Hao Bai",
+      "Lunjun Zhang",
+      "Yifei Zhou",
+      "Amrith Setlur",
+      "Shengbang Tong",
+      "Diego Caples",
+      "Nan Jiang",
+      "Tong Zhang",
+      "Ameet Talwalkar",
+      "Aviral Kumar"
+    ],
+    "conference": "NeurIPS 2025",
+    "date": "June 2025",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2506.07976",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2025/poster/115466"
+  },
+  "horizon_reduction": {
+    "title": "Horizon Reduction Makes RL Scalable",
+    "authors": [
+      "Seohong Park",
+      "Kevin Frans",
+      "Deepinder Mann",
+      "Benjamin Eysenbach",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "conference": "NeurIPS 2025 (Spotlight)",
+    "date": "June 2025",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2506.04168",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2025/poster/116623"
+  },
+  "grounded_rl_visual_reasoning": {
+    "title": "Grounded Reinforcement Learning for Visual Reasoning",
+    "authors": [
+      "Gabriel Sarch",
+      "Snigdha Saha",
+      "Naitik Khandelwal",
+      "Ayush Jain",
+      "Michael J. Tarr",
+      "Aviral Kumar",
+      "Katerina Fragkiadaki"
+    ],
+    "conference": "NeurIPS 2025",
+    "date": "May 2025",
+    "website": "https://visually-grounded-rl.github.io/",
+    "arxiv": "https://arxiv.org/abs/2505.23678",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2025/poster/120218"
+  },
+  "brc": {
+    "title": "Bigger, Regularized, Categorical: High-Capacity Value Functions are Efficient Multi-Task Learners",
+    "authors": [
+      "Michal Nauman",
+      "Marek Cygan",
+      "Carmelo Sferrazza",
+      "Aviral Kumar",
+      "Pieter Abbeel"
+    ],
+    "conference": "NeurIPS 2025",
+    "date": "May 2025",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2505.23150",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2025/poster/115028"
+  },
+  "mrt": {
+    "title": "Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning",
+    "authors": [
+      "Yuxiao Qu",
+      "Matthew Y. R. Yang",
+      "Amrith Setlur",
+      "Lewis Tunstall",
+      "Edward Emanuel Beeching",
+      "Ruslan Salakhutdinov",
+      "Aviral Kumar"
+    ],
+    "conference": "ICML 2025",
+    "date": "March 2025",
+    "website": "https://cohenqu.github.io/mrt.github.io/",
+    "arxiv": "https://arxiv.org/abs/2503.07572",
+    "code": "",
+    "video": "",
+    "source": "https://icml.cc/virtual/2025/poster/45154"
+  },
+  "scaling_without_verification": {
+    "title": "Scaling Test-Time Compute Without Verification or RL is Suboptimal",
+    "authors": [
+      "Amrith Setlur",
+      "Nived Rajaraman",
+      "Sergey Levine",
+      "Aviral Kumar"
+    ],
+    "conference": "ICML 2025 (Spotlight)",
+    "date": "February 2025",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2502.12118",
+    "code": "",
+    "video": "",
+    "source": "https://icml.cc/virtual/2025/poster/44733"
+  },
+  "digi_q": {
+    "title": "Digi-Q: Learning Q-Value Functions for Training Device-Control Agents",
+    "authors": [
+      "Hao Bai",
+      "Yifei Zhou",
+      "Li Erran Li",
+      "Sergey Levine",
+      "Aviral Kumar"
+    ],
+    "conference": "ICLR 2025",
+    "date": "February 2025",
+    "website": "https://digirl-agent.github.io/DigiQ-agent.github.io/",
+    "arxiv": "https://arxiv.org/abs/2502.15760",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2025/poster/30502"
+  },
+  "value_rl_scales_predictably": {
+    "title": "Value-Based Deep RL Scales Predictably",
+    "authors": [
+      "Oleh Rybkin",
+      "Michal Nauman",
+      "Preston Fu",
+      "Charlie Snell",
+      "Pieter Abbeel",
+      "Sergey Levine",
+      "Aviral Kumar"
+    ],
+    "conference": "ICML 2025",
+    "date": "February 2025",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2502.04327",
+    "code": "",
+    "video": "",
+    "source": "https://icml.cc/virtual/2025/poster/45893"
+  }
+}

@@ -1,159 +1,1079 @@
 <!DOCTYPE html>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-  <head>
-    <title>CMU AIRe</title>
-    <link rel="icon" href="images/logo.png" type="image/x-icon" />
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
-  <body class="is-preload">
-    <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Main -->
-      <div id="main">
-        <div class="inner">
-          <!-- Header -->
-          <header id="header">
-            <a href="index.html" class="logo"
-              ><strong
-                >CMU Artificial Intelligence and Reinforcement Learning (AIRe)
-                Lab</strong
-              >
-            </a>
-            <!-- <ul class="icons">
-              <li>
-                <a href="#" class="icon brands fa-twitter"
-                  ><span class="label">Twitter</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-facebook-f"
-                  ><span class="label">Facebook</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-snapchat-ghost"
-                  ><span class="label">Snapchat</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-instagram"
-                  ><span class="label">Instagram</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-medium-m"
-                  ><span class="label">Medium</span></a
-                >
-              </li>
-            </ul> -->
-          </header>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIRe Lab</title>
+<meta name="description" content="The AIRe Lab at Carnegie Mellon University, led by Aviral Kumar, builds reinforcement learning and decision-making methods for language models, robots and software agents.">
+<link rel="canonical" href="https://cmu-aire.github.io/">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cmu-aire.github.io/">
+<meta property="og:site_name" content="AIRe Lab">
+<meta property="og:title" content="AIRe Lab">
+<meta property="og:description" content="The AIRe Lab at Carnegie Mellon University, led by Aviral Kumar, builds reinforcement learning and decision-making methods for language models, robots and software agents.">
+<meta property="og:image" content="https://cmu-aire.github.io/media/group.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ResearchOrganization",
+ "name": "AIRe Lab",
+ "alternateName": "CMU Artificial Intelligence and Reinforcement Learning Lab",
+ "url": "https://cmu-aire.github.io/",
+ "logo": "https://cmu-aire.github.io/apple-touch-icon.png",
+ "image": "https://cmu-aire.github.io/media/group.jpg",
+ "email": "aviralku@andrew.cmu.edu",
+ "sameAs": [
+  "https://github.com/CMU-AIRe"
+ ],
+ "parentOrganization": {
+  "@type": "CollegeOrUniversity",
+  "name": "Carnegie Mellon University",
+  "url": "https://www.cmu.edu/"
+ },
+ "founder": {
+  "@type": "Person",
+  "name": "Aviral Kumar",
+  "url": "https://aviralkumar2907.github.io/",
+  "jobTitle": "Assistant Professor",
+  "affiliation": "Carnegie Mellon University"
+ },
+ "member": [
+  {
+   "@type": "Person",
+   "name": "Aviral Kumar",
+   "url": "https://aviralkumar2907.github.io/"
+  },
+  {
+   "@type": "Person",
+   "name": "Bhavya Agrawalla",
+   "url": "https://agrawallabhavya.github.io/"
+  },
+  {
+   "@type": "Person",
+   "name": "Apurva Gandhi",
+   "url": "https://apga.github.io/"
+  },
+  {
+   "@type": "Person",
+   "name": "Zheyuan Hu",
+   "url": "https://huzheyuan.io/"
+  },
+  {
+   "@type": "Person",
+   "name": "Max Sobol Mark",
+   "url": "https://maxsobolmark.com/"
+  },
+  {
+   "@type": "Person",
+   "name": "Yuxiao Qu",
+   "url": "https://cohenqu.github.io/"
+  },
+  {
+   "@type": "Person",
+   "name": "Shashwat Chandra",
+   "url": "https://shashwatchandra.com/"
+  },
+  {
+   "@type": "Person",
+   "name": "Saksham Singh",
+   "url": "https://github.com/saksham002"
+  },
+  {
+   "@type": "Person",
+   "name": "Sreyas Venkataraman",
+   "url": "https://vsreyas.github.io/"
+  },
+  {
+   "@type": "Person",
+   "name": "Khush Agrawal",
+   "url": "https://khush3.github.io/"
+  },
+  {
+   "@type": "Person",
+   "name": "Nir Pechuk",
+   "url": "https://nirpechuk.github.io/"
+  },
+  {
+   "@type": "Person",
+   "name": "Ivan Zhang",
+   "url": "https://enspikondplusplus.github.io/"
+  },
+  {
+   "@type": "Person",
+   "name": "Taeyoun Kim",
+   "url": "https://danielkty.github.io/"
+  }
+ ]
+}
+</script>
+</head>
+<body>
 
-          <!-- Introduction -->
-          <section id="banner">
-            <div class="content">
-              <header>
-                <h1>AIRe Lab @ CMU</h1>
-              </header>
-              <p>
-                Welcome to the AIRe lab website! Our research focus is to
-                learning methods that enable machines to act intelligently and
-                autonomously open-world scenarios. To this end, we build
-                reinforcement learning and sequential decision-making algorithms
-                for building AI systems, and study intersections with several
-                domains (e.g., language, robotics, software agents, applications
-                in science and engineering).
-              </p>
-            </div>
-            <span
-              class="image object"
-              style="
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                max-width: 100%;
-                height: auto;
-                overflow: hidden;
-              "
-            >
-              <img
-                src="images/lab_group_image.jpg"
-                alt=""
-                style="width: 100%; height: auto; object-fit: contain"
-              />
-            </span>
-          </section>
+<header class="wrap top">
+  <a class="brand" href="index.html" aria-label="AIRe Lab home">
+    <img src="media/logo.png" alt="" width="24" height="24">
+    AIRe Lab
+  </a>
+  <nav aria-label="Main">
+    <ul>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="join.html">Join</a></li>
+    </ul>
+  </nav>
+</header>
 
-          <!-- News -->
-          <section id="news">
-            <header class="major">
-              <h2>News</h2>
-            </header>
-            <div class="content">
-              <ul>
-                <li>
-                  Jan 2025: Checkout a discussion of some of the guiding
-                  principles behind our research and a summary of our work in
-                  2024 <a href="pages/blog1.html">here</a>.
-                </li>
-                <li>
-                  Nov 2024: Aviral was named one out of five Samsung AI
-                  Researchers of the Year, 2024.
-                </li>
-                <li>
-                  Nov 2024: Aviral was awarded the AI2050 Early Career
-                  Fellowship by Schmidt Sciences in 2024.
-                </li>
-              </ul>
-            </div>
-          </section>
+<main class="wrap home" data-home>
+  <div class="fold">
+  <div class="top-band">
+    <section class="intro" aria-labelledby="lab-name">
+      <h1 id="lab-name">AIRe Lab @ CMU</h1>
+      <p class="full-name">CMU Artificial Intelligence and Reinforcement Learning Lab</p>
+      <p class="lede">We develop machines that act intelligently and autonomously in open-world scenarios, building reinforcement learning and sequential decision-making algorithms for AI systems in the intersection of language, robotics, software agents, science and engineering, and more.</p>
+      <h2 class="col-head">News</h2>
+      <ul class="news">
+        <li><time datetime="2024-11">Nov 2024</time><span>Aviral was named one of five Samsung AI Researchers of the Year.</span></li>
+        <li><time datetime="2024-11">Nov 2024</time><span>Aviral received the AI2050 Early Career Fellowship from Schmidt Sciences.</span></li>
+      </ul>
+    </section>
+    <div class="photo-frame"><img class="group-photo" src="media/group.jpg" width="1200" height="900" alt="Members of the AIRe Lab around a long table at a group dinner"></div>
+  </div>
+
+  <section class="swarm" data-band data-band-plain aria-label="A swarm of dots learning its way through a maze"></section>
+  <div class="fold-actions">
+    <a class="jump" href="#work">Check out our work<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3v9M3.5 7.5 8 12l4.5-4.5"/></svg></a>
+    <button class="round-toggle" type="button" data-band-pause></button>
+  </div>
+  </div>
+  <div class="lists" id="work">
+    <section class="col people" aria-labelledby="people-head">
+      <h2 class="col-head" id="people-head"><a href="people.html">People</a></h2>
+      <div class="scroll">
+        <div class="roster">
+        <div class="group"><h3>Faculty</h3>
+        <a class="person" href="people.html#aviral-kumar" data-person="aviral-kumar"><img src="media/aviral.jpg" alt="" width="40" height="40" loading="lazy"><span>Aviral Kumar</span></a>
+        </div>
+        <div class="group"><h3>PhD students</h3>
+        <a class="person" href="people.html#bhavya-agrawalla" data-person="bhavya-agrawalla"><img src="media/bhavya.jpg" alt="" width="40" height="40" loading="lazy"><span>Bhavya Agrawalla</span></a>
+        <a class="person" href="people.html#apurva-gandhi" data-person="apurva-gandhi"><img src="media/people/apurva-gandhi.jpg" alt="" width="40" height="40" loading="lazy"><span>Apurva Gandhi</span></a>
+        <a class="person" href="people.html#zheyuan-hu" data-person="zheyuan-hu"><img src="media/zheyuan.jpg" alt="" width="40" height="40" loading="lazy"><span>Zheyuan Hu</span></a>
+        <a class="person" href="people.html#max-sobol-mark" data-person="max-sobol-mark"><img src="media/max.jpg" alt="" width="40" height="40" loading="lazy"><span>Max Sobol Mark</span></a>
+        <a class="person" href="people.html#yuxiao-qu" data-person="yuxiao-qu"><img src="media/yuxiao.jpg" alt="" width="40" height="40" loading="lazy"><span>Yuxiao Qu</span></a>
+        </div>
+        <div class="group"><h3>Master&#x27;s and undergraduate students</h3>
+        <a class="person" href="people.html#shashwat-chandra" data-person="shashwat-chandra"><img src="media/people/shashwat-chandra.jpg" alt="" width="40" height="40" loading="lazy"><span>Shashwat Chandra</span></a>
+        <a class="person" href="people.html#saksham-singh" data-person="saksham-singh"><img src="media/people/saksham-singh.jpg" alt="" width="40" height="40" loading="lazy"><span>Saksham Singh</span></a>
+        <a class="person" href="people.html#sreyas-venkataraman" data-person="sreyas-venkataraman"><img src="media/people/sreyas-venkataraman.jpg" alt="" width="40" height="40" loading="lazy"><span>Sreyas Venkataraman</span></a>
+        <a class="person" href="people.html#khush-agrawal" data-person="khush-agrawal"><img src="media/khush.jpg" alt="" width="40" height="40" loading="lazy"><span>Khush Agrawal</span></a>
+        <a class="person" href="people.html#nir-pechuk" data-person="nir-pechuk"><img src="media/people/nir-pechuk.jpg" alt="" width="40" height="40" loading="lazy"><span>Nir Pechuk</span></a>
+        <a class="person" href="people.html#ivan-zhang" data-person="ivan-zhang"><img src="media/people/ivan-zhang.jpg" alt="" width="40" height="40" loading="lazy"><span>Ivan Zhang</span></a>
+        </div>
+        <div class="group"><h3>Affiliated researchers</h3>
+        <a class="person" href="people.html#taeyoun-kim" data-person="taeyoun-kim"><img src="media/people/taeyoun-kim.jpg" alt="" width="40" height="40" loading="lazy"><span>Taeyoun Kim</span></a>
+        </div>
+        <div class="group"><h3>Alumni</h3>
+        <a class="person" href="people.html#matthew-y-r-yang" data-person="matthew-y-r-yang"><img src="media/matthew.jpg" alt="" width="40" height="40" loading="lazy"><span>Matthew Y.R. Yang</span></a>
+        </div>
+        <div class="group"><h3>Collaborators</h3>
+        <a class="person" href="people.html#amrith-setlur" data-person="amrith-setlur"><img src="media/people/amrith-setlur.jpg" alt="" width="40" height="40" loading="lazy"><span>Amrith Setlur</span></a>
+        <a class="person" href="people.html#mitsuhiko-nakamoto" data-person="mitsuhiko-nakamoto"><img src="media/people/mitsuhiko-nakamoto.jpg" alt="" width="40" height="40" loading="lazy"><span>Mitsuhiko Nakamoto</span></a>
+        <a class="person" href="people.html#yifei-zhou" data-person="yifei-zhou"><img src="media/people/yifei-zhou.jpg" alt="" width="40" height="40" loading="lazy"><span>Yifei Zhou</span></a>
+        <a class="person" href="people.html#fahim-tajwar" data-person="fahim-tajwar"><img src="media/people/fahim-tajwar.jpg" alt="" width="40" height="40" loading="lazy"><span>Fahim Tajwar</span></a>
+        <a class="person" href="people.html#anikait-singh" data-person="anikait-singh"><img src="media/people/anikait-singh.jpg" alt="" width="40" height="40" loading="lazy"><span>Anikait Singh</span></a>
+        <a class="person" href="people.html#seohong-park" data-person="seohong-park"><img src="media/people/seohong-park.jpg" alt="" width="40" height="40" loading="lazy"><span>Seohong Park</span></a>
+        <a class="person" href="people.html#lunjun-zhang" data-person="lunjun-zhang"><img src="media/people/lunjun-zhang.jpg" alt="" width="40" height="40" loading="lazy"><span>Lunjun Zhang</span></a>
+        <a class="person" href="people.html#hao-bai" data-person="hao-bai"><img src="media/people/hao-bai.jpg" alt="" width="40" height="40" loading="lazy"><span>Hao Bai</span></a>
+        <a class="person" href="people.html#katie-kang" data-person="katie-kang"><img src="media/people/katie-kang.jpg" alt="" width="40" height="40" loading="lazy"><span>Katie Kang</span></a>
+        <a class="person" href="people.html#oleh-rybkin" data-person="oleh-rybkin"><span class="blank" aria-hidden="true"></span><span>Oleh Rybkin</span></a>
+        <a class="person" href="people.html#paul-zhou" data-person="paul-zhou"><img src="media/people/paul-zhou.jpg" alt="" width="40" height="40" loading="lazy"><span>Paul Zhou</span></a>
+        <a class="person" href="people.html#xinyang-young-geng" data-person="xinyang-young-geng"><span class="blank" aria-hidden="true"></span><span>Xinyang (Young) Geng</span></a>
+        <a class="person" href="people.html#rishabh-agarwal" data-person="rishabh-agarwal"><img src="media/people/rishabh-agarwal.jpg" alt="" width="40" height="40" loading="lazy"><span>Rishabh Agarwal</span></a>
+        <a class="person" href="people.html#william-chen" data-person="william-chen"><span class="blank" aria-hidden="true"></span><span>William Chen</span></a>
+        </div>
         </div>
       </div>
+    </section>
 
-      <!-- Sidebar -->
-      <div id="sidebar">
-        <div class="inner">
-          <!-- Menu -->
-          <nav id="menu">
-            <header class="major">
-              <h2>Menu</h2>
-            </header>
-            <ul>
-              <li><a href="index.html">Homepage</a></li>
-              <li><a href="index.html#news">News</a></li>
-              <li><a href="pages/people.html">People</a></li>
-              <li><a href="pages/blog1.html">Blog</a></li>
-              <li><a href="pages/publications.html">Publications</a></li>
-              <li><a href="pages/join_us.html">Join Us</a></li>
-            </ul>
-          </nav>
-
-          <!-- Footer -->
-          <footer id="footer">
-            <p class="copyright">
-              &copy; Untitled. All rights reserved. Demo Images:
-              <a href="https://unsplash.com">Unsplash</a>. Design:
-              <a href="https://html5up.net">HTML5 UP</a>.
-            </p>
-          </footer>
+    <section class="col" aria-label="Papers">
+      <div class="col-head">
+        <div class="tabs" role="group" aria-label="Show">
+          <button type="button" data-show="published" aria-pressed="true">Publications</button>
+          <button type="button" data-show="preprints" aria-pressed="false">Preprints</button>
         </div>
+        <a class="all" href="publications.html">All papers</a>
       </div>
-    </div>
+      <div class="scroll">
+        <ol class="papers">
+        <li data-paper="ideataste" data-kind="preprints" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#ideataste" aria-expanded="false" aria-controls="about-ideataste"><span class="title"><strong>IdeaTaste</strong>: Do LLMs Share the Research Taste of Human Researchers?</span><span class="venue">arXiv 2026</span></a>
+          <div class="detail" id="about-ideataste" inert><div>
+            <div class="preview"><img src="media/ideataste.jpg" width="1000" height="249" alt="How human and AI scientists cite prior work and propose new papers" loading="lazy"></div>
+            <p class="authors">Shanshan Zhong, Chen Xu, Jingjie Ning, Zhengzhong Liu, Aviral Kumar, Chenyan Xiong</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2611.03424">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="librarian-agents" data-kind="preprints" data-authors="anikait-singh aviral-kumar">
+          <a class="row" href="publications.html#librarian-agents" aria-expanded="false" aria-controls="about-librarian-agents"><span class="title"><strong>Librarian Agents</strong>: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries</span><span class="venue">arXiv 2026</span></a>
+          <div class="detail" id="about-librarian-agents" inert><div>
+            <div class="preview"><img src="media/librarian_agents.jpg" width="1000" height="335" alt="An agent building a workspace from a corpus, then searching it to answer a query" loading="lazy"></div>
+            <p class="authors">Anikait Singh, Teresa Zhang, Yoonho Lee, Roshen Sanjay Nair, Aviral Kumar, Chelsea Finn</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2610.22273">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="magicbeanstalk" data-kind="preprints" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#magicbeanstalk" aria-expanded="false" aria-controls="about-magicbeanstalk"><span class="title"><strong>MagicBeanStalk</strong>: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis</span><span class="venue">arXiv 2026</span></a>
+          <div class="detail" id="about-magicbeanstalk" inert><div>
+            <div class="preview"><img src="media/magicbeanstalk.jpg" width="1000" height="416" alt="Problem difficulty across training data, showing a band of useful difficulty" loading="lazy"></div>
+            <p class="authors">Ximing Lu, Aviral Kumar, Jan Kautz, Yejin Choi, David Acuna</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2610.12659">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="seeq" data-kind="preprints" data-authors="saksham-singh zheyuan-hu max-sobol-mark aviral-kumar">
+          <a class="row" href="publications.html#seeq" aria-expanded="false" aria-controls="about-seeq"><span class="title"><strong>SeeQ</strong>: Training Generalist Value Functions for Long-Horizon Robotic Manipulation</span><span class="venue">arXiv 2026</span></a>
+          <div class="detail" id="about-seeq" inert><div>
+            <div class="preview"><img src="media/seeq.jpg" width="1000" height="400" alt="Pretraining a generalist value function and using it to steer a robot policy" loading="lazy"></div>
+            <p class="authors">Saksham Singh, Zheyuan Hu, Max Sobol Mark, Jeffrey Yu, Zackory Erickson, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2609.22085">Paper</a><a href="https://saksham002.github.io/seeq/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="progressive-point-matching" data-kind="preprints" data-authors="oleh-rybkin aviral-kumar">
+          <a class="row" href="publications.html#progressive-point-matching" aria-expanded="false" aria-controls="about-progressive-point-matching"><span class="title"><strong class="whole">Long-Horizon Language Model Reinforcement Learning via Progressive Point Matching</strong></span><span class="venue">arXiv 2026</span></a>
+          <div class="detail" id="about-progressive-point-matching" inert><div>
+            
+            <p class="authors">Preston Fu, Kevin Frans, Oleh Rybkin, Sergey Levine, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2609.07303">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="r3-robot-reasoning" data-kind="preprints" data-authors="yuxiao-qu zheyuan-hu ivan-zhang aviral-kumar">
+          <a class="row" href="publications.html#r3-robot-reasoning" aria-expanded="false" aria-controls="about-r3-robot-reasoning"><span class="title"><strong>R³</strong>: Training Robots to Reason in Natural Language via Reinforcement Learning</span><span class="venue">arXiv 2026</span></a>
+          <div class="detail" id="about-r3-robot-reasoning" inert><div>
+            <div class="preview"><img src="media/r3_robot_reasoning.jpg" width="1000" height="667" alt="Two-stage training of a robot policy that reasons in language" loading="lazy"></div>
+            <p class="authors">Lehong Wu, Yuxiao Qu, Zheyuan Hu, Ivan Zhang, Limin Wei, Zackory Erickson, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2608.26053">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="generalist-adaptation-minimal-data" data-kind="preprints" data-authors="sreyas-venkataraman aviral-kumar">
+          <a class="row" href="publications.html#generalist-adaptation-minimal-data" aria-expanded="false" aria-controls="about-generalist-adaptation-minimal-data"><span class="title"><strong class="whole">What Does It Take For A Generalist Robot Policy To Adapt Using Minimal Data?</strong></span><span class="venue">arXiv 2026</span></a>
+          <div class="detail" id="about-generalist-adaptation-minimal-data" inert><div>
+            <div class="preview"><img src="media/generalist_adaptation_minimal_data.jpg" width="1000" height="400" alt="Adapting a pretrained robot policy from one demonstration with residual RL" loading="lazy"></div>
+            <p class="authors">Shreyas Kowshik, Sreyas Venkataraman, Leo Wang, Niharika Pant, Max Simchowitz, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2608.11363">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="mirror" data-kind="preprints" data-authors="yuxiao-qu aviral-kumar">
+          <a class="row" href="publications.html#mirror" aria-expanded="false" aria-controls="about-mirror"><span class="title"><strong>MIRROR</strong>: Learning from the Other View for Multi-Modal Reasoning</span><span class="venue">arXiv 2026</span></a>
+          <div class="detail" id="about-mirror" inert><div>
+            <div class="preview"><img src="media/mirror.jpg" width="1000" height="470" alt="The same problem given as an image, as text, or both, with a teacher chosen per problem" loading="lazy"></div>
+            <p class="authors">Wen Ye, Yuxiao Qu, Aviral Kumar, Xuezhe Ma</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2607.21552">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="over-refusal-competing-rewards" data-kind="preprints" data-authors="taeyoun-kim aviral-kumar">
+          <a class="row" href="publications.html#over-refusal-competing-rewards" aria-expanded="false" aria-controls="about-over-refusal-competing-rewards"><span class="title"><strong class="whole">Addressing Over-Refusal in LLMs with Competing Rewards</strong></span><span class="venue">arXiv 2026</span></a>
+          <div class="detail" id="about-over-refusal-competing-rewards" inert><div>
+            <div class="preview"><img src="media/papers/over-refusal-competing-rewards.jpg" width="1000" height="405" alt="Bar and dot plots of datapoints and harmfulness by reasoning-harmfulness bucket for four models." loading="lazy"></div>
+            <p class="authors">Taeyoun Kim, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2606.31748">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="exprl" data-kind="preprints" data-authors="amrith-setlur aviral-kumar">
+          <a class="row" href="publications.html#exprl" aria-expanded="false" aria-controls="about-exprl"><span class="title"><strong>ExpRL</strong>: Exploratory RL for LLM Mid-Training</span><span class="venue">arXiv 2026</span></a>
+          <div class="detail" id="about-exprl" inert><div>
+            <div class="preview"><img src="media/papers/exprl.jpg" width="1000" height="323" alt="Diagram of zero-reward hard problems versus exploratory RL mid-training with an LLM judge." loading="lazy"></div>
+            <p class="authors">Violet Xiang, Amrith Setlur, Chase Blagden, Nick Haber, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2606.17024">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="asyncwebrl" data-kind="published" data-authors="hao-bai aviral-kumar">
+          <a class="row" href="publications.html#asyncwebrl" aria-expanded="false" aria-controls="about-asyncwebrl"><span class="title"><strong>AsyncWebRL</strong>: Efficient Asynchronous Reinforcement Learning for Multi-Step Visual Web Agents</span><span class="venue">EMNLP 2026 (Findings)</span></a>
+          <div class="detail" id="about-asyncwebrl" inert><div>
+            <div class="preview"><img src="media/papers/asyncwebrl.jpg" width="1000" height="402" alt="Rollout threads over wall-clock time: synchronous WebGym idles between policy updates, AsyncWebGym does not" loading="lazy"></div>
+            <p class="authors">Hao Bai, Rui Yang, Chenlu Ye, Spencer Whitehead, Aviral Kumar, Tong Zhang</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2606.05597">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="recursive-agent-optimization" data-kind="preprints" data-authors="apurva-gandhi aviral-kumar">
+          <a class="row" href="publications.html#recursive-agent-optimization" aria-expanded="false" aria-controls="about-recursive-agent-optimization"><span class="title"><strong class="whole">Recursive Agent Optimization</strong></span><span class="venue">arXiv 2026</span></a>
+          <div class="detail" id="about-recursive-agent-optimization" inert><div>
+            <div class="preview"><img src="media/papers/recursive-agent-optimization.jpg" width="772" height="1010" alt="Minecraft crafting tree with item icons and required quantities." loading="lazy"></div>
+            <p class="authors">Apurva Gandhi, Satyaki Chakraborty, Xiangjun Wang, Aviral Kumar, Graham Neubig</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2605.06639">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="qed-nano" data-kind="preprints" data-authors="yuxiao-qu amrith-setlur aviral-kumar">
+          <a class="row" href="publications.html#qed-nano" aria-expanded="false" aria-controls="about-qed-nano"><span class="title"><strong>QED-Nano</strong>: Teaching a Tiny Model to Prove Hard Theorems</span><span class="venue">arXiv 2026</span></a>
+          <div class="detail" id="about-qed-nano" inert><div>
+            
+            <p class="authors">LM-Provers, Yuxiao Qu, Amrith Setlur, Jasper Dekoninck, Edward Beeching, Jia Li, Ian Wu, Lewis Tunstall, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2604.04898">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="isocompute-playbook" data-kind="published" data-authors="yuxiao-qu amrith-setlur aviral-kumar">
+          <a class="row" href="publications.html#isocompute-playbook" aria-expanded="false" aria-controls="about-isocompute-playbook"><span class="title"><strong>IsoCompute Playbook</strong>: Optimally Scaling Sampling Compute for LLM RL</span><span class="venue">ICML 2026</span></a>
+          <div class="detail" id="about-isocompute-playbook" inert><div>
+            <div class="preview"><img src="media/papers/isocompute-playbook.jpg" width="1000" height="282" alt="Three-dimensional schematics of trading off parallel rollouts, problems per batch and sequential iterations." loading="lazy"></div>
+            <p class="authors">Zhoujun Cheng, Yutao Xie, Yuxiao Qu, Amrith Setlur, Shibo Hao, Varad Pimpalkhute, Tongtong Liang, Feng Yao, Zhengzhong Liu, Eric Xing, Virginia Smith, Ruslan Salakhutdinov, Zhiting Hu, Taylor Killian, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2603.12151">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="flow-matching-td" data-kind="published" data-authors="bhavya-agrawalla aviral-kumar">
+          <a class="row" href="publications.html#flow-matching-td" aria-expanded="false" aria-controls="about-flow-matching-td"><span class="title"><strong class="whole">What Does Flow Matching Bring To TD Learning?</strong></span><span class="venue">ICML 2026</span></a>
+          <div class="detail" id="about-flow-matching-td" inert><div>
+            <div class="preview"><img src="media/papers/flow-matching-td.jpg" width="1000" height="711" alt="Line plots of feature norms and Q-values for flow-based versus other TD critics." loading="lazy"></div>
+            <p class="authors">Bhavya Agrawalla, Michal Nauman, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2603.04333">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="bpp" data-kind="published" data-authors="max-sobol-mark aviral-kumar">
+          <a class="row" href="publications.html#bpp" aria-expanded="false" aria-controls="about-bpp"><span class="title"><strong>BPP</strong>: Long-Context Robot Imitation Learning by Focusing on Key History Frames</span><span class="venue">RSS 2026</span></a>
+          <div class="detail" id="about-bpp" inert><div>
+            <div class="preview"><img src="media/papers/bpp.jpg" width="1000" height="431" alt="Photo of a bimanual robot arm setup with a cup on a table." loading="lazy"></div>
+            <p class="authors">Max Sobol Mark, Jacky Liang, Maria Attarian, Chuyuan Fu, Debidatta Dwibedi, Dhruv Shah, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2602.15010">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="reasoning-cache" data-kind="published" data-authors="yuxiao-qu amrith-setlur aviral-kumar">
+          <a class="row" href="publications.html#reasoning-cache" aria-expanded="false" aria-controls="about-reasoning-cache"><span class="title"><strong>Reasoning Cache</strong>: Continual Improvement Over Long Horizons via Short-Horizon RL</span><span class="venue">ICML 2026</span></a>
+          <div class="detail" id="about-reasoning-cache" inert><div>
+            
+            <p class="authors">Ian Wu, Yuxiao Qu, Amrith Setlur, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2602.03773">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="pope" data-kind="published" data-authors="yuxiao-qu amrith-setlur aviral-kumar">
+          <a class="row" href="publications.html#pope" aria-expanded="false" aria-controls="about-pope"><span class="title"><strong>POPE</strong>: Learning to Reason on Hard Problems via Privileged On-Policy Exploration</span><span class="venue">TMLR 2026 (J2C Certification)</span></a>
+          <div class="detail" id="about-pope" inert><div>
+            <div class="preview"><img src="media/papers/pope.jpg" width="1000" height="383" alt="Diagram of standard RL, oracle-solution training and RL with guidance prefixes." loading="lazy"></div>
+            <p class="authors">Yuxiao Qu, Amrith Setlur, Virginia Smith, Ruslan Salakhutdinov, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2601.18779">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="intervention-training" data-kind="published" data-authors="matthew-y-r-yang hao-bai amrith-setlur aviral-kumar">
+          <a class="row" href="publications.html#intervention-training" aria-expanded="false" aria-controls="about-intervention-training"><span class="title"><strong>InT</strong>: Self-Proposed Interventions Enable Credit Assignment in LLM Reasoning</span><span class="venue">ICLR 2026</span></a>
+          <div class="detail" id="about-intervention-training" inert><div>
+            <div class="preview"><img src="media/papers/intervention-training.jpg" width="1000" height="358" alt="Diagram of generating interventions on a reasoning trace and comparing SFT and RL." loading="lazy"></div>
+            <p class="authors">Matthew Y. R. Yang, Hao Bai, Ian Wu, Gene Yang, Amrith Setlur, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2601.14209">Paper</a><a href="https://intervention-training.github.io/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="trim" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#trim" aria-expanded="false" aria-controls="about-trim"><span class="title"><strong>TRIM</strong>: Hybrid Inference via Targeted Stepwise Routing in Multi-Step Reasoning Tasks</span><span class="venue">ICLR 2026</span></a>
+          <div class="detail" id="about-trim" inert><div>
+            <div class="preview"><img src="media/papers/trim.jpg" width="1000" height="402" alt="Flow diagram of stepwise routing between a cheap and an expensive LLM." loading="lazy"></div>
+            <p class="authors">Vansh Kapoor, Aman Gupta, Hao Chen, Anurag Beniwal, Jing Huang, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2601.10245">Paper</a><a href="https://vansh28kapoor.github.io/trim.github.io/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="webgym" data-kind="published" data-authors="hao-bai aviral-kumar">
+          <a class="row" href="publications.html#webgym" aria-expanded="false" aria-controls="about-webgym"><span class="title"><strong>WebGym</strong>: Scaling Training Environments for Visual Web Agents with Realistic Tasks</span><span class="venue">CVPR 2026</span></a>
+          <div class="detail" id="about-webgym" inert><div>
+            <div class="preview"><img src="media/papers/webgym.jpg" width="709" height="466" alt="Log-scale plot of number of tasks versus website rank." loading="lazy"></div>
+            <p class="authors">Hao Bai, Alexey Taymanov, Tong Zhang, Aviral Kumar, Spencer Whitehead</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2601.02439">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="rlac" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#rlac" aria-expanded="false" aria-controls="about-rlac"><span class="title"><strong>RLAC</strong>: Reinforcement Learning with Adversarial Critic for Free-Form Generation Tasks</span><span class="venue">ICLR 2026</span></a>
+          <div class="detail" id="about-rlac" inert><div>
+            <div class="preview"><img src="media/papers/rlac.jpg" width="1000" height="378" alt="Table of results on four- and eight-sentence generation for several methods." loading="lazy"></div>
+            <p class="authors">Mian Wu, Gavin Zhang, Sewon Min, Sergey Levine, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2511.01758">Paper</a><a href="https://mianwu01.github.io/RLAC_website/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="cart" data-kind="preprints" data-authors="yuxiao-qu aviral-kumar">
+          <a class="row" href="publications.html#cart" aria-expanded="false" aria-controls="about-cart"><span class="title"><strong>CaRT</strong>: Teaching LLM Agents to Know When They Know Enough</span><span class="venue">arXiv 2025</span></a>
+          <div class="detail" id="about-cart" inert><div>
+            <div class="preview"><img src="media/papers/cart.jpg" width="1000" height="363" alt="Plots of oracle success versus token budget and a doctor-patient dialogue example." loading="lazy"></div>
+            <p class="authors">Grace Liu, Yuxiao Qu, Jeff Schneider, Aarti Singh, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2510.08517">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="rlad" data-kind="published" data-authors="yuxiao-qu anikait-singh amrith-setlur aviral-kumar">
+          <a class="row" href="publications.html#rlad" aria-expanded="false" aria-controls="about-rlad"><span class="title"><strong>RLAD</strong>: Training LLMs to Discover Abstractions for Solving Reasoning Problems</span><span class="venue">ICLR 2026</span></a>
+          <div class="detail" id="about-rlad" inert><div>
+            <div class="preview"><img src="media/papers/rlad.jpg" width="1000" height="228" alt="Diagram of standard reasoning, generating abstractions and using them to solve problems." loading="lazy"></div>
+            <p class="authors">Yuxiao Qu, Anikait Singh, Yoonho Lee, Amrith Setlur, Ruslan Salakhutdinov, Chelsea Finn, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2510.02263">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="rac" data-kind="published" data-authors="zheyuan-hu aviral-kumar">
+          <a class="row" href="publications.html#rac" aria-expanded="false" aria-controls="about-rac"><span class="title"><strong>RaC</strong>: Robot Learning for Long-Horizon Tasks by Scaling Recovery and Correction</span><span class="venue">IEEE T-RO 2026</span></a>
+          <div class="detail" id="about-rac" inert><div>
+            <div class="preview"><img src="media/papers/rac.jpg" width="1000" height="563" alt="Diagram of robot data collection with human intervention and policy rollout with recovery behaviors." loading="lazy"></div>
+            <p class="authors">Zheyuan Hu, Robyn Wu, Naveen Enock, Jasmine Li, Riya Kadakia, Zackory Erickson, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2509.07953">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="floq" data-kind="published" data-authors="bhavya-agrawalla khush-agrawal aviral-kumar">
+          <a class="row" href="publications.html#floq" aria-expanded="false" aria-controls="about-floq"><span class="title"><strong>floq</strong>: Training Critics via Flow-Matching for Scaling Compute in Value-Based RL</span><span class="venue">ICLR 2026</span></a>
+          <div class="detail" id="about-floq" inert><div>
+            <div class="preview"><img src="media/papers/floq.jpg" width="1000" height="753" alt="Diagram of a flow-matching critic integrating a velocity field to produce a Q-value sample." loading="lazy"></div>
+            <p class="authors">Bhavya Agrawalla, Michal Nauman, Khush Agrawal, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2509.06863">Paper</a><a href="https://github.com/CMU-AIRe/floq">Code</a></div>
+          </div></div>
+        </li>
+        <li data-paper="compute-optimal-value-rl" data-kind="published" data-authors="oleh-rybkin paul-zhou aviral-kumar">
+          <a class="row" href="publications.html#compute-optimal-value-rl" aria-expanded="false" aria-controls="about-compute-optimal-value-rl"><span class="title"><strong class="whole">Compute-Optimal Scaling for Value-Based Deep RL</strong></span><span class="venue">NeurIPS 2025</span></a>
+          <div class="detail" id="about-compute-optimal-value-rl" inert><div>
+            <div class="preview"><img src="media/papers/compute-optimal-value-rl.jpg" width="1000" height="506" alt="Contour plots of compute-optimal scaling across several RL environments." loading="lazy"></div>
+            <p class="authors">Preston Fu, Oleh Rybkin, Zhiyuan Zhou, Michal Nauman, Pieter Abbeel, Sergey Levine, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2508.14881">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="reasoning-adaptive-defense" data-kind="published" data-authors="taeyoun-kim fahim-tajwar aviral-kumar">
+          <a class="row" href="publications.html#reasoning-adaptive-defense" aria-expanded="false" aria-controls="about-reasoning-adaptive-defense"><span class="title"><strong class="whole">Reasoning as an Adaptive Defense for Safety</strong></span><span class="venue">NeurIPS 2025</span></a>
+          <div class="detail" id="about-reasoning-adaptive-defense" inert><div>
+            <div class="preview"><img src="media/papers/reasoning-adaptive-defense.jpg" width="1000" height="562" alt="Plot of compliance rate versus defense success rate for several methods." loading="lazy"></div>
+            <p class="authors">Taeyoun Kim, Fahim Tajwar, Aditi Raghunathan, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2507.00971">Paper</a><a href="https://training-adaptive-reasoners-safety.github.io">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="e3" data-kind="published" data-authors="amrith-setlur matthew-y-r-yang aviral-kumar">
+          <a class="row" href="publications.html#e3" aria-expanded="false" aria-controls="about-e3"><span class="title"><strong>e3</strong>: Learning to Explore Enables Extrapolation of Test-Time Compute for LLMs</span><span class="venue">ICLR 2026</span></a>
+          <div class="detail" id="about-e3" inert><div>
+            <div class="preview"><img src="media/papers/e3.jpg" width="583" height="432" alt="Line plot of AIME accuracy versus test-time compute for e3 and open-source models." loading="lazy"></div>
+            <p class="authors">Amrith Setlur, Matthew Y. R. Yang, Charlie Snell, Jeremy Greer, Ian Wu, Virginia Smith, Max Simchowitz, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2506.09026">Paper</a><a href="https://matthewyryang.com/e3/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="thinking-vs-doing" data-kind="published" data-authors="hao-bai lunjun-zhang yifei-zhou amrith-setlur aviral-kumar">
+          <a class="row" href="publications.html#thinking-vs-doing" aria-expanded="false" aria-controls="about-thinking-vs-doing"><span class="title"><strong>Thinking vs. Doing</strong>: Agents that Reason by Scaling Test-Time Interaction</span><span class="venue">NeurIPS 2025</span></a>
+          <div class="detail" id="about-thinking-vs-doing" inert><div>
+            <div class="preview"><img src="media/papers/thinking-vs-doing.jpg" width="1000" height="279" alt="Bar and line chart of task success and steps across web environments." loading="lazy"></div>
+            <p class="authors">Junhong Shen, Hao Bai, Lunjun Zhang, Yifei Zhou, Amrith Setlur, Shengbang Tong, Diego Caples, Nan Jiang, Tong Zhang, Ameet Talwalkar, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2506.07976">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="horizon-reduction" data-kind="published" data-authors="seohong-park aviral-kumar">
+          <a class="row" href="publications.html#horizon-reduction" aria-expanded="false" aria-controls="about-horizon-reduction"><span class="title"><strong class="whole">Horizon Reduction Makes RL Scalable</strong></span><span class="venue">NeurIPS 2025 <span class="award">Spotlight</span></span></a>
+          <div class="detail" id="about-horizon-reduction" inert><div>
+            <div class="preview"><img src="media/papers/horizon-reduction.jpg" width="1000" height="1211" alt="Four simulated tasks: cube-octuple, puzzle-4x6, humanoid maze and a maze." loading="lazy"></div>
+            <p class="authors">Seohong Park, Kevin Frans, Deepinder Mann, Benjamin Eysenbach, Aviral Kumar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2506.04168">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="grounded-rl-visual-reasoning" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#grounded-rl-visual-reasoning" aria-expanded="false" aria-controls="about-grounded-rl-visual-reasoning"><span class="title"><strong class="whole">Grounded Reinforcement Learning for Visual Reasoning</strong></span><span class="venue">NeurIPS 2025</span></a>
+          <div class="detail" id="about-grounded-rl-visual-reasoning" inert><div>
+            <div class="preview"><img src="media/papers/grounded-rl-visual-reasoning.jpg" width="1000" height="277" alt="Pipeline of grounded MCTS, warm-start fine-tuning and grounded RL for visual questions." loading="lazy"></div>
+            <p class="authors">Gabriel Sarch, Snigdha Saha, Naitik Khandelwal, Ayush Jain, Michael J. Tarr, Aviral Kumar, Katerina Fragkiadaki</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2505.23678">Paper</a><a href="https://visually-grounded-rl.github.io/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="brc" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#brc" aria-expanded="false" aria-controls="about-brc"><span class="title"><strong>Bigger, Regularized, Categorical</strong>: High-Capacity Value Functions are Efficient Multi-Task Learners</span><span class="venue">NeurIPS 2025</span></a>
+          <div class="detail" id="about-brc" inert><div>
+            <div class="preview"><img src="media/papers/brc.jpg" width="1000" height="190" alt="Row of benchmark environments including robot arm, quadruped, humanoid, a hand and Pac-Man." loading="lazy"></div>
+            <p class="authors">Michal Nauman, Marek Cygan, Carmelo Sferrazza, Aviral Kumar, Pieter Abbeel</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2505.23150">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="mrt" data-kind="published" data-authors="yuxiao-qu matthew-y-r-yang amrith-setlur aviral-kumar">
+          <a class="row" href="publications.html#mrt" aria-expanded="false" aria-controls="about-mrt"><span class="title"><strong class="whole">Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning</strong></span><span class="venue">ICML 2025</span></a>
+          <div class="detail" id="about-mrt" inert><div>
+            <div class="preview"><img src="media/papers/mrt.jpg" width="1000" height="288" alt="Two plots of probability of success versus test-time token budget for outcome-reward RL and dense reward." loading="lazy"></div>
+            <p class="authors">Yuxiao Qu, Matthew Y. R. Yang, Amrith Setlur, Lewis Tunstall, Edward Emanuel Beeching, Ruslan Salakhutdinov, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2503.07572">Paper</a><a href="https://cohenqu.github.io/mrt.github.io/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="scaling-without-verification" data-kind="published" data-authors="amrith-setlur aviral-kumar">
+          <a class="row" href="publications.html#scaling-without-verification" aria-expanded="false" aria-controls="about-scaling-without-verification"><span class="title"><strong class="whole">Scaling Test-Time Compute Without Verification or RL is Suboptimal</strong></span><span class="venue">ICML 2025 <span class="award">Spotlight</span></span></a>
+          <div class="detail" id="about-scaling-without-verification" inert><div>
+            <div class="preview"><img src="media/papers/scaling-without-verification.jpg" width="1000" height="725" alt="Diagram comparing verifier-free and verifier-based methods with test-time compute scaling plots." loading="lazy"></div>
+            <p class="authors">Amrith Setlur, Nived Rajaraman, Sergey Levine, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2502.12118">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="digi-q" data-kind="published" data-authors="hao-bai yifei-zhou aviral-kumar">
+          <a class="row" href="publications.html#digi-q" aria-expanded="false" aria-controls="about-digi-q"><span class="title"><strong>Digi-Q</strong>: Learning Q-Value Functions for Training Device-Control Agents</span><span class="venue">ICLR 2025</span></a>
+          <div class="detail" id="about-digi-q" inert><div>
+            <div class="preview"><img src="media/papers/digi-q.jpg" width="1000" height="515" alt="Diagram comparing policy-based filtering with Digi-Q value-function training for device control." loading="lazy"></div>
+            <p class="authors">Hao Bai, Yifei Zhou, Li Erran Li, Sergey Levine, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2502.15760">Paper</a><a href="https://digirl-agent.github.io/DigiQ-agent.github.io/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="value-rl-scales-predictably" data-kind="published" data-authors="oleh-rybkin aviral-kumar">
+          <a class="row" href="publications.html#value-rl-scales-predictably" aria-expanded="false" aria-controls="about-value-rl-scales-predictably"><span class="title"><strong class="whole">Value-Based Deep RL Scales Predictably</strong></span><span class="venue">ICML 2025</span></a>
+          <div class="detail" id="about-value-rl-scales-predictably" inert><div>
+            <div class="preview"><img src="media/papers/value-rl-scales-predictably.jpg" width="929" height="617" alt="Grid of fitted scaling curves for compute, budget and data across several environments." loading="lazy"></div>
+            <p class="authors">Oleh Rybkin, Michal Nauman, Preston Fu, Charlie Snell, Pieter Abbeel, Sergey Levine, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2502.04327">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="parl" data-kind="preprints" data-authors="max-sobol-mark aviral-kumar">
+          <a class="row" href="publications.html#parl" aria-expanded="false" aria-controls="about-parl"><span class="title"><strong>Policy Agnostic RL</strong>: Offline RL and Online RL Fine-Tuning of Any Class and Backbone</span><span class="venue">arXiv 2024</span></a>
+          <div class="detail" id="about-parl" inert><div>
+            <div class="preview"><img src="media/parl.jpg" width="1000" height="445" alt="Actions from a base policy filtered and refined using Q-values" loading="lazy"></div>
+            <p class="authors">Max Sobol Mark, Tian Gao, Georgia Gabriela Sampaio, Mohan Kumar Srirama, Archit Sharma, Chelsea Finn, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2412.06685">Paper</a><a href="https://github.com/MaxSobolMark/PolicyAgnosticRL">Code</a><a href="https://policyagnosticrl.github.io/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="efficient-rl-finetune" data-kind="published" data-authors="paul-zhou aviral-kumar">
+          <a class="row" href="publications.html#efficient-rl-finetune" aria-expanded="false" aria-controls="about-efficient-rl-finetune"><span class="title"><strong class="whole">Efficient Online Reinforcement Learning Fine-Tuning Need Not Retain Offline Data</strong></span><span class="venue">ICLR 2025</span></a>
+          <div class="detail" id="about-efficient-rl-finetune" inert><div>
+            <div class="preview"><img src="media/wsrl.jpg" width="941" height="431" alt="Return over time when fine-tuning online without the offline data" loading="lazy"></div>
+            <p class="authors">Zhiyuan Zhou, Andy Peng, Qiyang Li, Sergey Levine, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2412.07762">Paper</a><a href="https://github.com/zhouzypaul/wsrl">Code</a><a href="https://zhouzypaul.github.io/wsrl/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="inference-aware-bon" data-kind="published" data-authors="rishabh-agarwal aviral-kumar">
+          <a class="row" href="publications.html#inference-aware-bon" aria-expanded="false" aria-controls="about-inference-aware-bon"><span class="title"><strong class="whole">Inference-Aware Fine-Tuning for Best-of-N Sampling in Large Language Models</strong></span><span class="venue">ICLR 2025</span></a>
+          <div class="detail" id="about-inference-aware-bon" inert><div>
+            <div class="preview"><img src="media/papers/inference-aware-bon.jpg" width="512" height="401" alt="Scatter plot of optimal sample count versus temperature for best-of-N sampling." loading="lazy"></div>
+            <p class="authors">Yinlam Chow, Guy Tennenholtz, Izzeddin Gur, Vincent Zhuang, Bo Dai, Sridhar Thiagarajan, Craig Boutilier, Rishabh Agarwal, Aviral Kumar, Aleksandra Faust</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2412.15287">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="learning-dynamics-llm" data-kind="published" data-authors="katie-kang amrith-setlur aviral-kumar">
+          <a class="row" href="publications.html#learning-dynamics-llm" aria-expanded="false" aria-controls="about-learning-dynamics-llm"><span class="title"><strong class="whole">What Do Learning Dynamics Reveal About Generalization in LLM Reasoning?</strong></span><span class="venue">ICML 2025</span></a>
+          <div class="detail" id="about-learning-dynamics-llm" inert><div>
+            <div class="preview"><img src="media/papers/learning-dynamics-llm.jpg" width="1000" height="359" alt="Two accuracy-versus-training-examples plots comparing data selection strategies." loading="lazy"></div>
+            <p class="authors">Katie Kang, Amrith Setlur, Dibya Ghosh, Jacob Steinhardt, Claire Tomlin, Sergey Levine, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2411.07681">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="steering-generalists" data-kind="published" data-authors="mitsuhiko-nakamoto aviral-kumar">
+          <a class="row" href="publications.html#steering-generalists" aria-expanded="false" aria-controls="about-steering-generalists"><span class="title"><strong>Steering Your Generalists</strong>: Improving Robotic Foundation Models via Value Guidance</span><span class="venue">CoRL 2024</span></a>
+          <div class="detail" id="about-steering-generalists" inert><div>
+            <div class="preview"><video src="media/vgps.mp4" poster="media/vgps.jpg" width="800" height="396" muted loop playsinline preload="none" aria-label="A robot arm choosing between proposed actions using a value function"></video></div>
+            <p class="authors">Mitsuhiko Nakamoto, Oier Mees, Aviral Kumar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2410.13816">Paper</a><a href="https://nakamotoo.github.io/V-GPS/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="rewarding-progress" data-kind="published" data-authors="amrith-setlur xinyang-young-geng rishabh-agarwal aviral-kumar">
+          <a class="row" href="publications.html#rewarding-progress" aria-expanded="false" aria-controls="about-rewarding-progress"><span class="title"><strong>Rewarding Progress</strong>: Scaling Automated Process Verifiers for LLM Reasoning</span><span class="venue">ICLR 2025 <span class="award">Spotlight</span></span></a>
+          <div class="detail" id="about-rewarding-progress" inert><div>
+            <div class="preview"><img src="media/prm.jpg" width="1000" height="283" alt="Search over reasoning steps guided by a process verifier" loading="lazy"></div>
+            <p class="authors">Amrith Setlur, Chirag Nagpal, Adam Fisch, Xinyang Geng, Jacob Eisenstein, Rishabh Agarwal, Alekh Agarwal, Jonathan Berant, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2410.08146">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="self-correct-rl" data-kind="published" data-authors="aviral-kumar rishabh-agarwal">
+          <a class="row" href="publications.html#self-correct-rl" aria-expanded="false" aria-controls="about-self-correct-rl"><span class="title"><strong class="whole">Training Language Models to Self-Correct via Reinforcement Learning</strong></span><span class="venue">ICLR 2025 <span class="award">Oral</span></span></a>
+          <div class="detail" id="about-self-correct-rl" inert><div>
+            
+            <p class="authors">Aviral Kumar, Vincent Zhuang, Rishabh Agarwal, Yi Su, John D Co-Reyes, Avi Singh, Kate Baumli, Shariq Iqbal, Colton Bishop, Rebecca Roelofs, Lei M Zhang, Kay McKinney, Disha Shrivastava, Cosmin Paduraru, George Tucker, Doina Precup, Feryal Behbahani, Aleksandra Faust</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2409.12917">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="rrm" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#rrm" aria-expanded="false" aria-controls="about-rrm"><span class="title"><strong>RRM</strong>: Robust Reward Model Training Mitigates Reward Hacking</span><span class="venue">ICLR 2025</span></a>
+          <div class="detail" id="about-rrm" inert><div>
+            <div class="preview"><img src="media/papers/rrm.jpg" width="1000" height="425" alt="Diagram of reward-model training with instruction permutations and data augmentations." loading="lazy"></div>
+            <p class="authors">Tianqi Liu, Wei Xiong, Jie Ren, Lichang Chen, Junru Wu, Rishabh Joshi, Yang Gao, Jiaming Shen, Zhen Qin, Tianhe Yu, Daniel Sohn, Anastasiia Makarova, Jeremiah Liu, Yuan Liu, Bilal Piot, Abe Ittycheriah, Aviral Kumar, Mohammad Saleh</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2409.13156">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="generative-verifiers" data-kind="published" data-authors="lunjun-zhang aviral-kumar rishabh-agarwal">
+          <a class="row" href="publications.html#generative-verifiers" aria-expanded="false" aria-controls="about-generative-verifiers"><span class="title"><strong>Generative Verifiers</strong>: Reward Modeling as Next-Token Prediction</span><span class="venue">ICLR 2025</span></a>
+          <div class="detail" id="about-generative-verifiers" inert><div>
+            
+            <p class="authors">Lunjun Zhang, Arian Hosseini, Hritik Bansal, Mehran Kazemi, Aviral Kumar, Rishabh Agarwal</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2408.15240">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="scaling-llm-compute" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#scaling-llm-compute" aria-expanded="false" aria-controls="about-scaling-llm-compute"><span class="title"><strong class="whole">Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters</strong></span><span class="venue">ICLR 2025 <span class="award">Oral</span></span></a>
+          <div class="detail" id="about-scaling-llm-compute" inert><div>
+            <div class="preview"><img src="media/papers/scaling-llm-compute.jpg" width="1000" height="349" alt="Scatter and bar plots of accuracy versus sequential-to-parallel compute ratio." loading="lazy"></div>
+            <p class="authors">Charlie Snell, Jaehoon Lee, Kelvin Xu, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2408.03314">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="d5rl" data-kind="published" data-authors="anikait-singh aviral-kumar">
+          <a class="row" href="publications.html#d5rl" aria-expanded="false" aria-controls="about-d5rl"><span class="title"><strong>D5RL</strong>: Diverse Datasets for Data-Driven Deep Reinforcement Learning</span><span class="venue">RLC 2024</span></a>
+          <div class="detail" id="about-d5rl" inert><div>
+            <div class="preview"><img src="media/papers/d5rl.jpg" width="1000" height="178" alt="Strip of simulated D5RL environments including a quadruped and robot arms." loading="lazy"></div>
+            <p class="authors">Rafael Rafailov, Kyle Hatch, Anikait Singh, Laura Smith, Aviral Kumar, Ilya Kostrikov, Philippe Hansen-Estruch, Victor Kolev, Philip Ball, Jiajun Wu, Chelsea Finn, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2408.08441">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="llmcognition-icml" data-kind="published" data-authors="yuxiao-qu aviral-kumar">
+          <a class="row" href="publications.html#llmcognition-icml" aria-expanded="false" aria-controls="about-llmcognition-icml"><span class="title"><strong>Recursive Introspection</strong>: Teaching Language Model Agents How to Self-Improve</span><span class="venue">NeurIPS 2024</span></a>
+          <div class="detail" id="about-llmcognition-icml" inert><div>
+            <div class="preview"><img src="media/rise.jpg" width="1000" height="563" alt="A language model improving its answer over several turns" loading="lazy"></div>
+            <p class="authors">Yuxiao Qu, Tianjun Zhang, Naman Garg, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2407.18219">Paper</a><a href="https://github.com/cmu-mind/RISE">Code</a><a href="https://cohenqu.github.io/rise.github.io/">Project page</a><a href="https://www.youtube.com/watch?v=Qv8aTLthfhs">Video</a></div>
+          </div></div>
+        </li>
+        <li data-paper="persteprl-icml" data-kind="published" data-authors="amrith-setlur xinyang-young-geng aviral-kumar">
+          <a class="row" href="publications.html#persteprl-icml" aria-expanded="false" aria-controls="about-persteprl-icml"><span class="title"><strong class="whole">RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold</strong></span><span class="venue">NeurIPS 2024</span></a>
+          <div class="detail" id="about-persteprl-icml" inert><div>
+            <div class="preview"><img src="media/papers/persteprl-icml.jpg" width="1000" height="263" alt="Diagram of finetuning on synthetic data with negative and positive examples for RL or SFT." loading="lazy"></div>
+            <p class="authors">Amrith Setlur, Saurabh Garg, Xinyang (Young) Geng, Naman Garg, Virginia Smith, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2406.14532">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="digirl" data-kind="published" data-authors="hao-bai yifei-zhou aviral-kumar">
+          <a class="row" href="publications.html#digirl" aria-expanded="false" aria-controls="about-digirl"><span class="title"><strong>DigiRL</strong>: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning</span><span class="venue">NeurIPS 2024</span></a>
+          <div class="detail" id="about-digirl" inert><div>
+            <div class="preview"><video src="media/digirl.mp4" poster="media/digirl.jpg" width="800" height="440" muted loop playsinline preload="none" aria-label="An agent operating an Android phone while its success rate rises"></video></div>
+            <p class="authors">Hao Bai, Yifei Zhou, Mert Cemri, Jiayi Pan, Alane Suhr, Sergey Levine, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2406.11896">Paper</a><a href="https://github.com/DigiRL-agent/digirl">Code</a><a href="https://digirl-agent.github.io/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="value-learning-bottleneck" data-kind="published" data-authors="seohong-park aviral-kumar">
+          <a class="row" href="publications.html#value-learning-bottleneck" aria-expanded="false" aria-controls="about-value-learning-bottleneck"><span class="title"><strong class="whole">Is Value Learning Really the Main Bottleneck in Offline RL?</strong></span><span class="venue">NeurIPS 2024</span></a>
+          <div class="detail" id="about-value-learning-bottleneck" inert><div>
+            <div class="preview"><img src="media/offrl.jpg" width="1000" height="654" alt="Actions chosen by two policy extraction methods" loading="lazy"></div>
+            <p class="authors">Seohong Park, Kevin Frans, Sergey Levine, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2406.09329">Paper</a><a href="https://seohong.me/projects/offrl-bottlenecks/">Project page</a><a href="https://www.youtube.com/watch?v=oWeTG-NNCcc">Video</a></div>
+          </div></div>
+        </li>
+        <li data-paper="promoter-design-coms" data-kind="published" data-authors="xinyang-young-geng aviral-kumar">
+          <a class="row" href="publications.html#promoter-design-coms" aria-expanded="false" aria-controls="about-promoter-design-coms"><span class="title"><strong class="whole">Designing Cell-Type-Specific Promoter Sequences Using Conservative Model-Based Optimization</strong></span><span class="venue">NeurIPS 2024</span></a>
+          <div class="detail" id="about-promoter-design-coms" inert><div>
+            
+            <p class="authors">Aniketh Janardhan Reddy, Xinyang Geng, Michael H. Herschl, Sathvik Kolli, Aviral Kumar, Patrick D. Hsu, Sergey Levine, Nilah M. Ioannidis</p>
+            <div class="meta"><a href="https://github.com/young-geng/promoter_design">Code</a></div>
+          </div></div>
+        </li>
+        <li data-paper="preference-icml" data-kind="published" data-authors="fahim-tajwar anikait-singh aviral-kumar">
+          <a class="row" href="publications.html#preference-icml" aria-expanded="false" aria-controls="about-preference-icml"><span class="title"><strong class="whole">Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data</strong></span><span class="venue">ICML 2024</span></a>
+          <div class="detail" id="about-preference-icml" inert><div>
+            <div class="preview"><img src="media/papers/preference-icml.jpg" width="1000" height="382" alt="Diagrams of on-policy sampling and negative gradients with preference-data scenarios." loading="lazy"></div>
+            <p class="authors">Fahim Tajwar, Anikait Singh, Archit Sharma, Rafael Rafailov, Jeff Schneider, Tengyang Xie, Stefano Ermon, Chelsea Finn, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2404.14367">Paper</a><a href="https://github.com/Asap7772/understanding-rlhf">Code</a><a href="https://understanding-rlhf.github.io/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="stop-regressing" data-kind="published" data-authors="aviral-kumar rishabh-agarwal">
+          <a class="row" href="publications.html#stop-regressing" aria-expanded="false" aria-controls="about-stop-regressing"><span class="title"><strong>Stop Regressing</strong>: Training Value Functions via Classification for Scalable Deep RL</span><span class="venue">ICML 2024 <span class="award">Oral</span></span></a>
+          <div class="detail" id="about-stop-regressing" inert><div>
+            <div class="preview"><img src="media/stop.png" width="640" height="534" alt="A scalar target spread over neighbouring bins as a Gaussian histogram" loading="lazy"></div>
+            <p class="authors">Jesse Farebrother, Jordi Orbay, Quan Vuong, Adrien Ali Taïga, Yevgen Chebotar, Ted Xiao, Alex Irpan, Sergey Levine, Pablo Samuel Castro, Aleksandra Faust, Aviral Kumar, Rishabh Agarwal</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2403.03950">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="hallucination-control" data-kind="published" data-authors="katie-kang aviral-kumar">
+          <a class="row" href="publications.html#hallucination-control" aria-expanded="false" aria-controls="about-hallucination-control"><span class="title"><strong class="whole">Unfamiliar Finetuning Examples Control How Language Models Hallucinate</strong></span><span class="venue">NAACL 2025</span></a>
+          <div class="detail" id="about-hallucination-control" inert><div>
+            <div class="preview"><img src="media/papers/hallucination-control.jpg" width="1000" height="229" alt="Distribution diagram and example chats of fine-tuning on familiar versus unfamiliar examples." loading="lazy"></div>
+            <p class="authors">Katie Kang, Eric Wallace, Claire Tomlin, Aviral Kumar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2403.05612">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="archer" data-kind="published" data-authors="yifei-zhou aviral-kumar">
+          <a class="row" href="publications.html#archer" aria-expanded="false" aria-controls="about-archer"><span class="title"><strong>ArCHer</strong>: Training Language Model Agents via Hierarchical Multi-Turn RL</span><span class="venue">ICML 2024</span></a>
+          <div class="detail" id="about-archer" inert><div>
+            <div class="preview"><img src="media/papers/archer.jpg" width="1000" height="533" alt="Diagram of utterance-level critic and token-level actor for hierarchical language agent RL." loading="lazy"></div>
+            <p class="authors">Yifei Zhou, Andrea Zanette, Jiayi Pan, Sergey Levine, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2402.19446">Paper</a><a href="https://github.com/YifeiZhou02/ArCHer">Code</a><a href="https://yifeizhou02.github.io/archer.io/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="vlm-promptable-representations" data-kind="published" data-authors="william-chen aviral-kumar">
+          <a class="row" href="publications.html#vlm-promptable-representations" aria-expanded="false" aria-controls="about-vlm-promptable-representations"><span class="title"><strong class="whole">Vision-Language Models Provide Promptable Representations for Reinforcement Learning</strong></span><span class="venue">TMLR 2025</span></a>
+          <div class="detail" id="about-vlm-promptable-representations" inert><div>
+            <div class="preview"><img src="media/papers/vlm-promptable-representations.jpg" width="1000" height="258" alt="Diagrams of a VLM prompted to guide RL agents in Minecraft and Habitat tasks." loading="lazy"></div>
+            <p class="authors">William Chen, Oier Mees, Aviral Kumar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2402.02651">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="saq" data-kind="published" data-authors="aviral-kumar xinyang-young-geng">
+          <a class="row" href="publications.html#saq" aria-expanded="false" aria-controls="about-saq"><span class="title"><strong class="whole">Action-Quantized Offline Reinforcement Learning for Robotic Skill Learning</strong></span><span class="venue">CoRL 2023</span></a>
+          <div class="detail" id="about-saq" inert><div>
+            <div class="preview"><img src="media/papers/saq.jpg" width="960" height="540" alt="VQ-VAE encoder and decoder with a codebook for quantizing actions." loading="lazy"></div>
+            <p class="authors">Jianlan Luo, Perry Dong, Jeffrey Wu, Aviral Kumar, Xinyang Geng, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2310.11731">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="susie" data-kind="published" data-authors="mitsuhiko-nakamoto aviral-kumar">
+          <a class="row" href="publications.html#susie" aria-expanded="false" aria-controls="about-susie"><span class="title"><strong class="whole">Zero-Shot Robotic Manipulation with Pretrained Image-Editing Diffusion Models</strong></span><span class="venue">ICLR 2024</span></a>
+          <div class="detail" id="about-susie" inert><div>
+            <div class="preview"><img src="media/papers/susie.jpg" width="711" height="390" alt="Robot manipulation frames showing real and generated subgoal images for language instructions." loading="lazy"></div>
+            <p class="authors">Kevin Black, Mitsuhiko Nakamoto, Pranav Atreya, Homer Walke, Chelsea Finn, Aviral Kumar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2310.10639">Paper</a><a href="https://rail-berkeley.github.io/susie/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="latent-coms-crystal" data-kind="preprints" data-authors="xinyang-young-geng aviral-kumar">
+          <a class="row" href="publications.html#latent-coms-crystal" aria-expanded="false" aria-controls="about-latent-coms-crystal"><span class="title"><strong class="whole">Latent Conservative Objective Models for Data-Driven Crystal Structure Prediction</strong></span><span class="venue">arXiv 2023</span></a>
+          <div class="detail" id="about-latent-coms-crystal" inert><div>
+            <div class="preview"><img src="media/papers/latent-coms-crystal.jpg" width="1000" height="382" alt="Pipeline from a lattice through a CD-VAE encoder to energy minimization in latent space." loading="lazy"></div>
+            <p class="authors">Han Qi, Xinyang Geng, Stefano Rando, Iku Ohama, Aviral Kumar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2310.10056">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="beyond-uniform-sampling" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#beyond-uniform-sampling" aria-expanded="false" aria-controls="about-beyond-uniform-sampling"><span class="title"><strong>Beyond Uniform Sampling</strong>: Offline Reinforcement Learning with Imbalanced Datasets</span><span class="venue">NeurIPS 2023</span></a>
+          <div class="detail" id="about-beyond-uniform-sampling" inert><div>
+            
+            <p class="authors">Zhang-Wei Hong, Aviral Kumar, Sathwik Karnik, Abhishek Bhandwaldar, Akash Srivastava, Joni Pajarinen, Romain Laroche, Abhishek Gupta, Pulkit Agrawal</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2310.04413">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="vptr" data-kind="published" data-authors="anikait-singh aviral-kumar">
+          <a class="row" href="publications.html#vptr" aria-expanded="false" aria-controls="about-vptr"><span class="title"><strong class="whole">Robotic Offline RL from Internet Videos via Value-Function Pre-Training</strong></span><span class="venue">ICRA 2024</span></a>
+          <div class="detail" id="about-vptr" inert><div>
+            <div class="preview"><img src="media/papers/vptr.jpg" width="509" height="384" alt="Architecture with video and robot data encoders feeding value and Q-value heads." loading="lazy"></div>
+            <p class="authors">Chethan Bhateja, Derek Guo, Dibya Ghosh, Anikait Singh, Manan Tomar, Quan Vuong, Yevgen Chebotar, Sergey Levine, Aviral Kumar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2309.13041">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="q-transformer" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#q-transformer" aria-expanded="false" aria-controls="about-q-transformer"><span class="title"><strong>Q-Transformer</strong>: Scalable Offline Reinforcement Learning via Autoregressive Q-Functions</span><span class="venue">CoRL 2023</span></a>
+          <div class="detail" id="about-q-transformer" inert><div>
+            <div class="preview"><img src="media/papers/q-transformer.jpg" width="1000" height="689" alt="Diagram of Q-Transformer using mixed-quality human and autonomous data with autoregressive Q-learning." loading="lazy"></div>
+            <p class="authors">Yevgen Chebotar, Quan Vuong, Alex Irpan, Karol Hausman, Fei Xia, Yao Lu, Aviral Kumar, Tianhe Yu, Alexander Herzog, Karl Pertsch, Keerthana Gopalakrishnan, Julian Ibarz, Ofir Nachum, Sumedh Sontakke, Grecia Salazar, Huong T Tran, Jodilyn Peralta, Clayton Tan, Deeksha Manjunath, Jaspiar Singht, Brianna Zitkovich, Tomas Jackson, Kanishka Rao, Chelsea Finn, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2309.10150">Paper</a><a href="https://qtransformer.github.io">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="regulating-overfitting" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#regulating-overfitting" aria-expanded="false" aria-controls="about-regulating-overfitting"><span class="title"><strong class="whole">Efficient Deep Reinforcement Learning Requires Regulating Overfitting</strong></span><span class="venue">ICLR 2023</span></a>
+          <div class="detail" id="about-regulating-overfitting" inert><div>
+            <div class="preview"><img src="media/papers/regulating-overfitting.jpg" width="1000" height="302" alt="Return curves for online, offline streaming and shuffled streaming training." loading="lazy"></div>
+            <p class="authors">Qiyang Li, Aviral Kumar, Ilya Kostrikov, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2304.10466">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="cal-ql" data-kind="published" data-authors="mitsuhiko-nakamoto anikait-singh max-sobol-mark aviral-kumar">
+          <a class="row" href="publications.html#cal-ql" aria-expanded="false" aria-controls="about-cal-ql"><span class="title"><strong>Cal-QL</strong>: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning</span><span class="venue">NeurIPS 2023</span></a>
+          <div class="detail" id="about-cal-ql" inert><div>
+            <div class="preview"><img src="media/papers/cal-ql.jpg" width="1000" height="746" alt="Conceptual plot of return from offline pre-training through online fine-tuning." loading="lazy"></div>
+            <p class="authors">Mitsuhiko Nakamoto, Yuexiang Zhai, Anikait Singh, Max Sobol Mark, Yi Ma, Chelsea Finn, Aviral Kumar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2303.05479">Paper</a><a href="https://nakamotoo.github.io/Cal-QL">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="promoter-transfer-learning" data-kind="preprints" data-authors="xinyang-young-geng aviral-kumar">
+          <a class="row" href="publications.html#promoter-transfer-learning" aria-expanded="false" aria-controls="about-promoter-transfer-learning"><span class="title"><strong class="whole">Strategies for effectively modelling promoter-driven gene expression using transfer learning</strong></span><span class="venue">bioRxiv 2023</span></a>
+          <div class="detail" id="about-promoter-transfer-learning" inert><div>
+            
+            <p class="authors">Aniketh Janardhan Reddy, Michael H. Herschl, Xinyang Geng, Sathvik Kolli, Amy X. Lu, Aviral Kumar, Patrick D. Hsu, Sergey Levine, Nilah M. Ioannidis</p>
+            <div class="meta"></div>
+          </div></div>
+        </li>
+        <li data-paper="confidence-conditioned-vf" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#confidence-conditioned-vf" aria-expanded="false" aria-controls="about-confidence-conditioned-vf"><span class="title"><strong class="whole">Confidence-Conditioned Value Functions for Offline Reinforcement Learning</strong></span><span class="venue">ICLR 2023 (Notable Top 5%)</span></a>
+          <div class="detail" id="about-confidence-conditioned-vf" inert><div>
+            
+            <p class="authors">Joey Hong, Aviral Kumar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2212.04607">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="scaled-ql" data-kind="published" data-authors="aviral-kumar rishabh-agarwal xinyang-young-geng">
+          <a class="row" href="publications.html#scaled-ql" aria-expanded="false" aria-controls="about-scaled-ql"><span class="title"><strong class="whole">Offline Q-Learning on Diverse Multi-Task Data Both Scales And Generalizes</strong></span><span class="venue">ICLR 2023 (Notable Top 5%)</span></a>
+          <div class="detail" id="about-scaled-ql" inert><div>
+            <div class="preview"><img src="media/papers/scaled-ql.jpg" width="1000" height="303" alt="Atari game frames for training one policy on 40 games, evaluating and fine-tuning on new games." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Rishabh Agarwal, Xinyang Geng, George Tucker, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2211.15144">Paper</a><a href="https://sites.google.com/view/scaling-offlinerl/home">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="invariant-representation-mbo" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#invariant-representation-mbo" aria-expanded="false" aria-controls="about-invariant-representation-mbo"><span class="title"><strong class="whole">Data-Driven Offline Decision-Making via Invariant Representation Learning</strong></span><span class="venue">NeurIPS 2022</span></a>
+          <div class="detail" id="about-invariant-representation-mbo" inert><div>
+            <div class="preview"><img src="media/papers/invariant-representation-mbo.jpg" width="1000" height="667" alt="Plot of ground-truth, invariance and conservatism value estimates over data." loading="lazy"></div>
+            <p class="authors">Han Qi, Yi Su, Aviral Kumar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2211.11349">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="dasco" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#dasco" aria-expanded="false" aria-controls="about-dasco"><span class="title"><strong class="whole">Dual Generator Offline Reinforcement Learning</strong></span><span class="venue">NeurIPS 2022</span></a>
+          <div class="detail" id="about-dasco" inert><div>
+            <div class="preview"><img src="media/papers/dasco.jpg" width="1000" height="503" alt="Two plots of probability density curves for data, generator and auxiliary distributions." loading="lazy"></div>
+            <p class="authors">Quan Vuong, Aviral Kumar, Sergey Levine, Yevgen Chebotar</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2211.01471">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="reds" data-kind="published" data-authors="anikait-singh aviral-kumar">
+          <a class="row" href="publications.html#reds" aria-expanded="false" aria-controls="about-reds"><span class="title"><strong>Offline RL With Realistic Datasets</strong>: Heteroskedasticity and Support Constraints</span><span class="venue">NeurIPS 2023</span></a>
+          <div class="detail" id="about-reds" inert><div>
+            <div class="preview"><img src="media/papers/reds.jpg" width="1000" height="773" alt="Gridworld maps showing heteroskedastic behavior data and where AWR and CQL get stuck or succeed." loading="lazy"></div>
+            <p class="authors">Anikait Singh, Aviral Kumar, Quan Vuong, Yevgen Chebotar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2211.01052">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="ptr" data-kind="published" data-authors="aviral-kumar anikait-singh mitsuhiko-nakamoto">
+          <a class="row" href="publications.html#ptr" aria-expanded="false" aria-controls="about-ptr"><span class="title"><strong>Pre-Training for Robots</strong>: Offline RL Enables Learning New Tasks from a Handful of Trials</span><span class="venue">RSS 2023</span></a>
+          <div class="detail" id="about-ptr" inert><div>
+            <div class="preview"><img src="media/papers/ptr.jpg" width="1000" height="462" alt="Network diagram with ResNet34 features, spatial embeddings and fully connected layers for a Q-function over a robot image." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Anikait Singh, Frederik Ebert, Mitsuhiko Nakamoto, Yanlai Yang, Chelsea Finn, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2210.05178">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="offpolicy-actor-critic-recsys" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#offpolicy-actor-critic-recsys" aria-expanded="false" aria-controls="about-offpolicy-actor-critic-recsys"><span class="title"><strong class="whole">Off-Policy Actor-critic for Recommender Systems</strong></span><span class="venue">RecSys 2022</span></a>
+          <div class="detail" id="about-offpolicy-actor-critic-recsys" inert><div>
+            
+            <p class="authors">Minmin Chen, Can Xu, Vince Gatto, Devanshu Jain, Aviral Kumar, Ed Chi</p>
+            <div class="meta"></div>
+          </div></div>
+        </li>
+        <li data-paper="ariel" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#ariel" aria-expanded="false" aria-controls="about-ariel"><span class="title"><strong>Don&#x27;t Start From Scratch</strong>: Leveraging Prior Data to Automate Robotic Reinforcement Learning</span><span class="venue">CoRL 2022</span></a>
+          <div class="detail" id="about-ariel" inert><div>
+            <div class="preview"><img src="media/papers/ariel.jpg" width="1000" height="361" alt="Three-phase diagram of collecting human demos, offline learning and online fine-tuning on a new task." loading="lazy"></div>
+            <p class="authors">Homer Walke, Jonathan Yang, Albert Yu, Aviral Kumar, Jedrzej Orbik, Avi Singh, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2207.04703">Paper</a><a href="https://sites.google.com/view/ariel-berkeley/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="offline-rl-vs-bc" data-kind="published" data-authors="aviral-kumar anikait-singh">
+          <a class="row" href="publications.html#offline-rl-vs-bc" aria-expanded="false" aria-controls="about-offline-rl-vs-bc"><span class="title"><strong class="whole">When Should We Prefer Offline Reinforcement Learning Over Behavioral Cloning?</strong></span><span class="venue">ICLR 2022</span></a>
+          <div class="detail" id="about-offline-rl-vs-bc" inert><div>
+            <div class="preview"><img src="media/papers/offline-rl-vs-bc.jpg" width="1000" height="396" alt="Diagram of a narrow passage where only one critical action succeeds." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Joey Hong, Anikait Singh, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2204.05618">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="design-bench" data-kind="published" data-authors="xinyang-young-geng aviral-kumar">
+          <a class="row" href="publications.html#design-bench" aria-expanded="false" aria-controls="about-design-bench"><span class="title"><strong>Design-Bench</strong>: Benchmarks for Data-Driven Offline Model-Based Optimization</span><span class="venue">ICML 2022</span></a>
+          <div class="detail" id="about-design-bench" inert><div>
+            <div class="preview"><img src="media/papers/design-bench.jpg" width="1000" height="564" alt="Overview of offline model-based optimization for superconductors, DNA, molecules, proteins and robots." loading="lazy"></div>
+            <p class="authors">Brandon Trabucco, Xinyang Geng, Aviral Kumar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2202.08450">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="unlabeled-data-offline-rl" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#unlabeled-data-offline-rl" aria-expanded="false" aria-controls="about-unlabeled-data-offline-rl"><span class="title"><strong class="whole">How to Leverage Unlabeled Data in Offline Reinforcement Learning</strong></span><span class="venue">ICML 2022</span></a>
+          <div class="detail" id="about-unlabeled-data-offline-rl" inert><div>
+            <div class="preview"><img src="media/papers/unlabeled-data-offline-rl.jpg" width="1000" height="314" alt="Two diagrams of offline RL with reward-predictor methods versus unlabeled data sharing." loading="lazy"></div>
+            <p class="authors">Tianhe Yu, Aviral Kumar, Yevgen Chebotar, Karol Hausman, Chelsea Finn, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2202.01741">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="dr3" data-kind="published" data-authors="aviral-kumar rishabh-agarwal">
+          <a class="row" href="publications.html#dr3" aria-expanded="false" aria-controls="about-dr3"><span class="title"><strong>DR3</strong>: Value-Based Deep Reinforcement Learning Requires Explicit Regularization</span><span class="venue">ICLR 2022 <span class="award">Spotlight</span></span></a>
+          <div class="detail" id="about-dr3" inert><div>
+            <div class="preview"><img src="media/papers/dr3.jpg" width="1000" height="528" alt="Plots of feature dot products and returns showing instability in Q-learning." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Rishabh Agarwal, Tengyu Ma, Aaron Courville, George Tucker, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2112.04716">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="prime-accelerators" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#prime-accelerators" aria-expanded="false" aria-controls="about-prime-accelerators"><span class="title"><strong class="whole">Data-Driven Offline Optimization For Architecting Hardware Accelerators</strong></span><span class="venue">ICLR 2022</span></a>
+          <div class="detail" id="about-prime-accelerators" inert><div>
+            <div class="preview"><img src="media/papers/prime-accelerators.jpg" width="1000" height="297" alt="Diagram of an offline dataset, conservative model and optimizer producing hardware accelerators." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Amir Yazdanbakhsh, Milad Hashemi, Kevin Swersky, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2110.11346">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="offline-rl-workflow" data-kind="published" data-authors="aviral-kumar anikait-singh">
+          <a class="row" href="publications.html#offline-rl-workflow" aria-expanded="false" aria-controls="about-offline-rl-workflow"><span class="title"><strong class="whole">A Workflow for Offline Model-Free Robotic Reinforcement Learning</strong></span><span class="venue">CoRL 2021 <span class="award">Oral</span></span></a>
+          <div class="detail" id="about-offline-rl-workflow" inert><div>
+            <div class="preview"><img src="media/papers/offline-rl-workflow.jpg" width="1000" height="666" alt="Diagram of overfitting and underfitting in offline RL with policy-selection curves." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Anikait Singh, Stephen Tian, Chelsea Finn, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2109.10813">Paper</a><a href="https://sites.google.com/view/offline-rl-workflow">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="cds" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#cds" aria-expanded="false" aria-controls="about-cds"><span class="title"><strong class="whole">Conservative Data Sharing for Multi-Task Offline Reinforcement Learning</strong></span><span class="venue">NeurIPS 2021</span></a>
+          <div class="detail" id="about-cds" inert><div>
+            <div class="preview"><img src="media/papers/cds.jpg" width="1000" height="602" alt="Robot arm diagram of conservative data sharing across place-bowl, lift-can and lift-banana tasks." loading="lazy"></div>
+            <p class="authors">Tianhe Yu, Aviral Kumar, Yevgen Chebotar, Karol Hausman, Sergey Levine, Chelsea Finn</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2109.08128">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="coms" data-kind="published" data-authors="aviral-kumar xinyang-young-geng">
+          <a class="row" href="publications.html#coms" aria-expanded="false" aria-controls="about-coms"><span class="title"><strong class="whole">Conservative Objective Models for Effective Offline Model-Based Optimization</strong></span><span class="venue">ICML 2021</span></a>
+          <div class="detail" id="about-coms" inert><div>
+            
+            <p class="authors">Brandon Trabucco, Aviral Kumar, Xinyang Geng, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2107.06882">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="epistemic-pomdp" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#epistemic-pomdp" aria-expanded="false" aria-controls="about-epistemic-pomdp"><span class="title"><strong>Why Generalization in RL is Difficult</strong>: Epistemic POMDPs and Implicit Partial Observability</span><span class="venue">NeurIPS 2021</span></a>
+          <div class="detail" id="about-epistemic-pomdp" inert><div>
+            <div class="preview"><img src="media/papers/epistemic-pomdp.jpg" width="1000" height="163" alt="Illustration of two classification strategies for a maze-like task with train and test accuracy." loading="lazy"></div>
+            <p class="authors">Dibya Ghosh, Jad Rahme, Aviral Kumar, Amy Zhang, Ryan P. Adams, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2107.06277">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="deep-ope-benchmarks" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#deep-ope-benchmarks" aria-expanded="false" aria-controls="about-deep-ope-benchmarks"><span class="title"><strong class="whole">Benchmarks for Deep Off-Policy Evaluation</strong></span><span class="venue">ICLR 2021</span></a>
+          <div class="detail" id="about-deep-ope-benchmarks" inert><div>
+            <div class="preview"><img src="media/papers/deep-ope-benchmarks.jpg" width="531" height="727" alt="Flow diagrams of off-policy evaluation and offline policy selection." loading="lazy"></div>
+            <p class="authors">Justin Fu, Mohammad Norouzi, Ofir Nachum, George Tucker, Ziyu Wang, Alexander Novikov, Mengjiao Yang, Michael R. Zhang, Yutian Chen, Aviral Kumar, Cosmin Paduraru, Sergey Levine, Tom Le Paine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2103.16596">Paper</a><a href="https://github.com/google-research/deep_ope">Code</a></div>
+          </div></div>
+        </li>
+        <li data-paper="combo" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#combo" aria-expanded="false" aria-controls="about-combo"><span class="title"><strong>COMBO</strong>: Conservative Offline Model-Based Policy Optimization</span><span class="venue">NeurIPS 2021</span></a>
+          <div class="detail" id="about-combo" inert><div>
+            <div class="preview"><img src="media/papers/combo.jpg" width="1000" height="507" alt="Plot of value functions over states comparing COMBO, CQL and the true value function." loading="lazy"></div>
+            <p class="authors">Tianhe Yu, Aviral Kumar, Rafael Rafailov, Aravind Rajeswaran, Sergey Levine, Chelsea Finn</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2102.08363">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="cog" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#cog" aria-expanded="false" aria-controls="about-cog"><span class="title"><strong>COG</strong>: Connecting New Skills to Past Experience with Offline Reinforcement Learning</span><span class="venue">CoRL 2020</span></a>
+          <div class="detail" id="about-cog" inert><div>
+            <div class="preview"><img src="media/papers/cog.jpg" width="1000" height="470" alt="Robot task data, the method box and a policy generalizing to unseen task data." loading="lazy"></div>
+            <p class="authors">Avi Singh, Albert Yu, Jonathan Yang, Jesse Zhang, Aviral Kumar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2010.14500">Paper</a><a href="https://sites.google.com/view/cog-rl">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="implicit-underparameterization" data-kind="published" data-authors="aviral-kumar rishabh-agarwal">
+          <a class="row" href="publications.html#implicit-underparameterization" aria-expanded="false" aria-controls="about-implicit-underparameterization"><span class="title"><strong class="whole">Implicit Under-Parameterization Inhibits Data-Efficient Deep Reinforcement Learning</strong></span><span class="venue">ICLR 2021</span></a>
+          <div class="detail" id="about-implicit-underparameterization" inert><div>
+            <div class="preview"><img src="media/papers/implicit-underparameterization.jpg" width="1000" height="260" alt="Diagram of rank-minimizing Q-learning iterations and their effect on features." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Rishabh Agarwal, Dibya Ghosh, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2010.14498">Paper</a><a href="https://agarwl.github.io/iup/">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="conservative-safety-critics" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#conservative-safety-critics" aria-expanded="false" aria-controls="about-conservative-safety-critics"><span class="title"><strong class="whole">Conservative Safety Critics for Exploration</strong></span><span class="venue">ICLR 2021</span></a>
+          <div class="detail" id="about-conservative-safety-critics" inert><div>
+            <div class="preview"><img src="media/papers/conservative-safety-critics.jpg" width="1000" height="380" alt="Flowchart of policy execution with a safety critic, and a plot of Q-values." loading="lazy"></div>
+            <p class="authors">Homanga Bharadhwaj, Aviral Kumar, Nicholas Rhinehart, Sergey Levine, Florian Shkurti, Animesh Garg</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2010.14497">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="structured-maxent-rl" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#structured-maxent-rl" aria-expanded="false" aria-controls="about-structured-maxent-rl"><span class="title"><strong>One Solution is Not All You Need</strong>: Few-Shot Extrapolation via Structured MaxEnt RL</span><span class="venue">NeurIPS 2020</span></a>
+          <div class="detail" id="about-structured-maxent-rl" inert><div>
+            <div class="preview"><img src="media/papers/structured-maxent-rl.jpg" width="1000" height="411" alt="Train and test MDP mazes showing different paths around a blocked region." loading="lazy"></div>
+            <p class="authors">Saurabh Kumar, Aviral Kumar, Sergey Levine, Chelsea Finn</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2010.14484">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="opal" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#opal" aria-expanded="false" aria-controls="about-opal"><span class="title"><strong>OPAL</strong>: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning</span><span class="venue">ICLR 2021</span></a>
+          <div class="detail" id="about-opal" inert><div>
+            <div class="preview"><img src="media/papers/opal.jpg" width="1000" height="347" alt="Three-stage pipeline of unsupervised primitive discovery, policy training and test-time execution." loading="lazy"></div>
+            <p class="authors">Anurag Ajay, Aviral Kumar, Pulkit Agrawal, Sergey Levine, Ofir Nachum</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2010.13611">Paper</a><a href="https://sites.google.com/view/opal-iclr">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="cql" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#cql" aria-expanded="false" aria-controls="about-cql"><span class="title"><strong class="whole">Conservative Q-Learning for Offline Reinforcement Learning</strong></span><span class="venue">NeurIPS 2020</span></a>
+          <div class="detail" id="about-cql" inert><div>
+            <div class="preview"><img src="media/papers/cql.jpg" width="839" height="456" alt="Offline RL loop diagram: a policy collects a dataset once, then a learner trains offline." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2006.04779">Paper</a><a href="https://sites.google.com/view/cql-offline-rl">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="offline-rl-tutorial" data-kind="preprints" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#offline-rl-tutorial" aria-expanded="false" aria-controls="about-offline-rl-tutorial"><span class="title"><strong>Offline Reinforcement Learning</strong>: Tutorial, Review, and Perspectives on Open Problems</span><span class="venue">arXiv 2020</span></a>
+          <div class="detail" id="about-offline-rl-tutorial" inert><div>
+            <div class="preview"><img src="media/papers/offline-rl-tutorial.jpg" width="715" height="630" alt="Maze gridworld with a numbered yellow path between goal markers." loading="lazy"></div>
+            <p class="authors">Sergey Levine, Aviral Kumar, George Tucker, Justin Fu</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2005.01643">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="d4rl" data-kind="preprints" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#d4rl" aria-expanded="false" aria-controls="about-d4rl"><span class="title"><strong>D4RL</strong>: Datasets for Deep Data-Driven Reinforcement Learning</span><span class="venue">arXiv 2020</span></a>
+          <div class="detail" id="about-d4rl" inert><div>
+            <div class="preview"><img src="media/papers/d4rl.jpg" width="651" height="606" alt="Collage of four simulated D4RL environments including a robot hand, driving, maze and a walker." loading="lazy"></div>
+            <p class="authors">Justin Fu, Aviral Kumar, Ofir Nachum, George Tucker, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2004.07219">Paper</a><a href="https://github.com/rail-berkeley/offline_rl">Code</a><a href="https://sites.google.com/view/d4rl/home">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="discor" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#discor" aria-expanded="false" aria-controls="about-discor"><span class="title"><strong>DisCor</strong>: Corrective Feedback in Reinforcement Learning via Distribution Correction</span><span class="venue">NeurIPS 2020 <span class="award">Spotlight</span></span></a>
+          <div class="detail" id="about-discor" inert><div>
+            <div class="preview"><img src="media/papers/discor.jpg" width="415" height="272" alt="Bar chart of returns per task id comparing two methods." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Abhishek Gupta, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/2003.07305">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="reward-conditioned-policies" data-kind="preprints" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#reward-conditioned-policies" aria-expanded="false" aria-controls="about-reward-conditioned-policies"><span class="title"><strong class="whole">Reward-Conditioned Policies</strong></span><span class="venue">arXiv 2019</span></a>
+          <div class="detail" id="about-reward-conditioned-policies" inert><div>
+            <div class="preview"><img src="media/papers/reward-conditioned-policies.jpg" width="1000" height="711" alt="Network diagram of a policy conditioned on state and a target reward input." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Xue Bin Peng, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/1912.13465">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="model-inversion-networks" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#model-inversion-networks" aria-expanded="false" aria-controls="about-model-inversion-networks"><span class="title"><strong class="whole">Model Inversion Networks for Model-Based Optimization</strong></span><span class="venue">NeurIPS 2020</span></a>
+          <div class="detail" id="about-model-inversion-networks" inert><div>
+            <div class="preview"><img src="media/papers/model-inversion-networks.jpg" width="1000" height="648" alt="Training and optimization schematic of an inverse map with active data collection." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/1912.13464">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="awr" data-kind="preprints" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#awr" aria-expanded="false" aria-controls="about-awr"><span class="title"><strong>Advantage-Weighted Regression</strong>: Simple and Scalable Off-Policy Reinforcement Learning</span><span class="venue">arXiv 2019</span></a>
+          <div class="detail" id="about-awr" inert><div>
+            <div class="preview"><img src="media/papers/awr.jpg" width="1000" height="144" alt="Legged robots and obstacles in a simulated locomotion scene." loading="lazy"></div>
+            <p class="authors">Xue Bin Peng, Aviral Kumar, Grace Zhang, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/1910.00177">Paper</a><a href="https://xbpeng.github.io/projects/AWR/index.html">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="bear" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#bear" aria-expanded="false" aria-controls="about-bear"><span class="title"><strong class="whole">Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction</strong></span><span class="venue">NeurIPS 2019</span></a>
+          <div class="detail" id="about-bear" inert><div>
+            <div class="preview"><img src="media/papers/bear.jpg" width="1000" height="366" alt="Gridworld heatmaps comparing unconstrained, support-constrained and behavior-policy Q-values across iterations." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Justin Fu, George Tucker, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/1906.00949">Paper</a><a href="https://sites.google.com/view/bear-off-policyrl">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="graph-normalizing-flows" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#graph-normalizing-flows" aria-expanded="false" aria-controls="about-graph-normalizing-flows"><span class="title"><strong class="whole">Graph Normalizing Flows</strong></span><span class="venue">NeurIPS 2019</span></a>
+          <div class="detail" id="about-graph-normalizing-flows" inert><div>
+            <div class="preview"><img src="media/papers/graph-normalizing-flows.jpg" width="1000" height="359" alt="Message-passing diagram of a graph normalizing flow with two layers of node states." loading="lazy"></div>
+            <p class="authors">Jenny Liu, Aviral Kumar, Jimmy Ba, Jamie Kiros, Kevin Swersky</p>
+            <div class="meta"><a href="https://arxiv.org/abs/1905.13177">Paper</a><a href="https://sites.google.com/view/graph-normalizing-flows/home">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="calibration-nmt" data-kind="preprints" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#calibration-nmt" aria-expanded="false" aria-controls="about-calibration-nmt"><span class="title"><strong class="whole">Calibration of Encoder Decoder Models for Neural Machine Translation</strong></span><span class="venue">arXiv 2019</span></a>
+          <div class="detail" id="about-calibration-nmt" inert><div>
+            <div class="preview"><img src="media/papers/calibration-nmt.jpg" width="1000" height="222" alt="Calibration curves of accuracy versus confidence for individual output tokens." loading="lazy"></div>
+            <p class="authors">Aviral Kumar, Sunita Sarawagi</p>
+            <div class="meta"><a href="https://arxiv.org/abs/1903.00802">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="diagnosing-q-learning" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#diagnosing-q-learning" aria-expanded="false" aria-controls="about-diagnosing-q-learning"><span class="title"><strong class="whole">Diagnosing Bottlenecks in Deep Q-learning Algorithms</strong></span><span class="venue">ICML 2019</span></a>
+          <div class="detail" id="about-diagnosing-q-learning" inert><div>
+            <div class="preview"><img src="media/papers/diagnosing-q-learning.jpg" width="1000" height="520" alt="Bar chart of normalized returns and Q-function error across network architectures." loading="lazy"></div>
+            <p class="authors">Justin Fu, Aviral Kumar, Matthew Soh, Sergey Levine</p>
+            <div class="meta"><a href="https://arxiv.org/abs/1902.10250">Paper</a></div>
+          </div></div>
+        </li>
+        <li data-paper="grevnet" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#grevnet" aria-expanded="false" aria-controls="about-grevnet"><span class="title"><strong>GRevnet</strong>: Improving Graph Neural Networks with Reversible Computation</span><span class="venue">NeurIPS 2018 Workshop on Relational Representation Learning</span></a>
+          <div class="detail" id="about-grevnet" inert><div>
+            
+            <p class="authors">Aviral Kumar, Jimmy Ba, Jamie Kiros, Kevin Swersky</p>
+            <div class="meta"><a href="https://drive.google.com/file/d/1UYsTSnyKjl6MAox9vwGtV77wB_3vMavR/view">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="trainable-calibration" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#trainable-calibration" aria-expanded="false" aria-controls="about-trainable-calibration"><span class="title"><strong class="whole">Trainable Calibration Measures for Neural Networks from Kernel Mean Embeddings</strong></span><span class="venue">ICML 2018</span></a>
+          <div class="detail" id="about-trainable-calibration" inert><div>
+            
+            <p class="authors">Aviral Kumar, Sunita Sarawagi, Ujjwal Jain</p>
+            <div class="meta"><a href="http://proceedings.mlr.press/v80/kumar18a.html">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="feudal-learning" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#feudal-learning" aria-expanded="false" aria-controls="about-feudal-learning"><span class="title"><strong class="whole">Feudal Learning for Large Discrete Action Spaces with Recursive Substructure</strong></span><span class="venue">NIPS 2017 Hierarchical Reinforcement Learning Workshop</span></a>
+          <div class="detail" id="about-feudal-learning" inert><div>
+            
+            <p class="authors">Aviral Kumar, Kevin Swersky, Geoffrey Hinton</p>
+            <div class="meta"><a href="https://drive.google.com/open?id=1ddaP7FudvLuI6Yqk6B3qneigP_pQiVRD">Project page</a></div>
+          </div></div>
+        </li>
+        <li data-paper="hybrid-rrt-tool" data-kind="published" data-authors="aviral-kumar">
+          <a class="row" href="publications.html#hybrid-rrt-tool" aria-expanded="false" aria-controls="about-hybrid-rrt-tool"><span class="title"><strong class="whole">Challenges and Tool Implementation of Hybrid Rapidly-Exploring Random Trees</strong></span><span class="venue">NSV 2017</span></a>
+          <div class="detail" id="about-hybrid-rrt-tool" inert><div>
+            
+            <p class="authors">Stanley Bak, Sergiy Bogomolov, Thomas A. Henzinger, Aviral Kumar</p>
+            <div class="meta"></div>
+          </div></div>
+        </li>
+        </ol>
+      </div>
+    </section>
+  </div>
+</main>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+<footer class="wrap">
+  <span>AIRe Lab, School of Computer Science, Carnegie Mellon University</span>
+  <ul>
+    <li><a href="mailto:aviralku@andrew.cmu.edu">Contact</a></li>
+    <li><a href="https://github.com/CMU-AIRe">GitHub</a></li>
+  </ul>
+</footer>
+
+<script src="swarm.js"></script>
+<script src="home.js"></script>
+</body>
 </html>

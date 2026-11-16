@@ -1,0 +1,151 @@
+{
+  "cog": {
+    "title": "COG: Connecting New Skills to Past Experience with Offline Reinforcement Learning",
+    "authors": [
+      "Avi Singh",
+      "Albert Yu",
+      "Jonathan Yang",
+      "Jesse Zhang",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "conference": "CoRL 2020",
+    "date": "October 2020",
+    "website": "https://sites.google.com/view/cog-rl",
+    "arxiv": "https://arxiv.org/abs/2010.14500",
+    "code": "",
+    "video": "",
+    "source": "https://proceedings.mlr.press/v155/singh21a.html"
+  },
+  "implicit_underparameterization": {
+    "title": "Implicit Under-Parameterization Inhibits Data-Efficient Deep Reinforcement Learning",
+    "authors": [
+      "Aviral Kumar",
+      "Rishabh Agarwal",
+      "Dibya Ghosh",
+      "Sergey Levine"
+    ],
+    "conference": "ICLR 2021",
+    "date": "October 2020",
+    "website": "https://agarwl.github.io/iup/",
+    "arxiv": "https://arxiv.org/abs/2010.14498",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/static/virtual/data/iclr-2021-orals-posters.json"
+  },
+  "conservative_safety_critics": {
+    "title": "Conservative Safety Critics for Exploration",
+    "authors": [
+      "Homanga Bharadhwaj",
+      "Aviral Kumar",
+      "Nicholas Rhinehart",
+      "Sergey Levine",
+      "Florian Shkurti",
+      "Animesh Garg"
+    ],
+    "conference": "ICLR 2021",
+    "date": "October 2020",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2010.14497",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/static/virtual/data/iclr-2021-orals-posters.json"
+  },
+  "structured_maxent_rl": {
+    "title": "One Solution is Not All You Need: Few-Shot Extrapolation via Structured MaxEnt RL",
+    "authors": [
+      "Saurabh Kumar",
+      "Aviral Kumar",
+      "Sergey Levine",
+      "Chelsea Finn"
+    ],
+    "conference": "NeurIPS 2020",
+    "date": "October 2020",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2010.14484",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/static/virtual/data/neurips-2020-orals-posters.json"
+  },
+  "opal": {
+    "title": "OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning",
+    "authors": [
+      "Anurag Ajay",
+      "Aviral Kumar",
+      "Pulkit Agrawal",
+      "Sergey Levine",
+      "Ofir Nachum"
+    ],
+    "conference": "ICLR 2021",
+    "date": "October 2020",
+    "website": "https://sites.google.com/view/opal-iclr",
+    "arxiv": "https://arxiv.org/abs/2010.13611",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/static/virtual/data/iclr-2021-orals-posters.json"
+  },
+  "cql": {
+    "title": "Conservative Q-Learning for Offline Reinforcement Learning",
+    "authors": [
+      "Aviral Kumar",
+      "Aurick Zhou",
+      "George Tucker",
+      "Sergey Levine"
+    ],
+    "conference": "NeurIPS 2020",
+    "date": "June 2020",
+    "website": "https://sites.google.com/view/cql-offline-rl",
+    "arxiv": "https://arxiv.org/abs/2006.04779",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/static/virtual/data/neurips-2020-orals-posters.json"
+  },
+  "offline_rl_tutorial": {
+    "title": "Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems",
+    "authors": [
+      "Sergey Levine",
+      "Aviral Kumar",
+      "George Tucker",
+      "Justin Fu"
+    ],
+    "conference": "arXiv 2020",
+    "date": "May 2020",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2005.01643",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2005.01643"
+  },
+  "d4rl": {
+    "title": "D4RL: Datasets for Deep Data-Driven Reinforcement Learning",
+    "authors": [
+      "Justin Fu",
+      "Aviral Kumar",
+      "Ofir Nachum",
+      "George Tucker",
+      "Sergey Levine"
+    ],
+    "conference": "arXiv 2020",
+    "date": "April 2020",
+    "website": "https://sites.google.com/view/d4rl/home",
+    "arxiv": "https://arxiv.org/abs/2004.07219",
+    "code": "https://github.com/rail-berkeley/offline_rl",
+    "video": "",
+    "source": "https://arxiv.org/abs/2004.07219"
+  },
+  "discor": {
+    "title": "DisCor: Corrective Feedback in Reinforcement Learning via Distribution Correction",
+    "authors": [
+      "Aviral Kumar",
+      "Abhishek Gupta",
+      "Sergey Levine"
+    ],
+    "conference": "NeurIPS 2020 (Spotlight)",
+    "date": "March 2020",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2003.07305",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/static/virtual/data/neurips-2020-orals-posters.json"
+  }
+}

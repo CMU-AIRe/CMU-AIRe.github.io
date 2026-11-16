@@ -1,0 +1,193 @@
+{
+  "saq": {
+    "title": "Action-Quantized Offline Reinforcement Learning for Robotic Skill Learning",
+    "authors": [
+      "Jianlan Luo",
+      "Perry Dong",
+      "Jeffrey Wu",
+      "Aviral Kumar",
+      "Xinyang Geng",
+      "Sergey Levine"
+    ],
+    "conference": "CoRL 2023",
+    "date": "October 2023",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2310.11731",
+    "code": "",
+    "video": "",
+    "source": "https://proceedings.mlr.press/v229/luo23a.html"
+  },
+  "susie": {
+    "title": "Zero-Shot Robotic Manipulation with Pretrained Image-Editing Diffusion Models",
+    "authors": [
+      "Kevin Black",
+      "Mitsuhiko Nakamoto",
+      "Pranav Atreya",
+      "Homer Walke",
+      "Chelsea Finn",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "conference": "ICLR 2024",
+    "date": "October 2023",
+    "website": "https://rail-berkeley.github.io/susie/",
+    "arxiv": "https://arxiv.org/abs/2310.10639",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2024/poster/18313"
+  },
+  "latent_coms_crystal": {
+    "title": "Latent Conservative Objective Models for Data-Driven Crystal Structure Prediction",
+    "authors": [
+      "Han Qi",
+      "Xinyang Geng",
+      "Stefano Rando",
+      "Iku Ohama",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "conference": "arXiv 2023",
+    "date": "October 2023",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2310.10056",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2310.10056"
+  },
+  "beyond_uniform_sampling": {
+    "title": "Beyond Uniform Sampling: Offline Reinforcement Learning with Imbalanced Datasets",
+    "authors": [
+      "Zhang-Wei Hong",
+      "Aviral Kumar",
+      "Sathwik Karnik",
+      "Abhishek Bhandwaldar",
+      "Akash Srivastava",
+      "Joni Pajarinen",
+      "Romain Laroche",
+      "Abhishek Gupta",
+      "Pulkit Agrawal"
+    ],
+    "conference": "NeurIPS 2023",
+    "date": "October 2023",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2310.04413",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2023/poster/71552"
+  },
+  "vptr": {
+    "title": "Robotic Offline RL from Internet Videos via Value-Function Pre-Training",
+    "authors": [
+      "Chethan Bhateja",
+      "Derek Guo",
+      "Dibya Ghosh",
+      "Anikait Singh",
+      "Manan Tomar",
+      "Quan Vuong",
+      "Yevgen Chebotar",
+      "Sergey Levine",
+      "Aviral Kumar"
+    ],
+    "conference": "ICRA 2024",
+    "date": "September 2023",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2309.13041",
+    "code": "",
+    "video": "",
+    "source": "https://doi.org/10.1109/icra57147.2024.10611575"
+  },
+  "q_transformer": {
+    "title": "Q-Transformer: Scalable Offline Reinforcement Learning via Autoregressive Q-Functions",
+    "authors": [
+      "Yevgen Chebotar",
+      "Quan Vuong",
+      "Alex Irpan",
+      "Karol Hausman",
+      "Fei Xia",
+      "Yao Lu",
+      "Aviral Kumar",
+      "Tianhe Yu",
+      "Alexander Herzog",
+      "Karl Pertsch",
+      "Keerthana Gopalakrishnan",
+      "Julian Ibarz",
+      "Ofir Nachum",
+      "Sumedh Sontakke",
+      "Grecia Salazar",
+      "Huong T Tran",
+      "Jodilyn Peralta",
+      "Clayton Tan",
+      "Deeksha Manjunath",
+      "Jaspiar Singht",
+      "Brianna Zitkovich",
+      "Tomas Jackson",
+      "Kanishka Rao",
+      "Chelsea Finn",
+      "Sergey Levine"
+    ],
+    "conference": "CoRL 2023",
+    "date": "September 2023",
+    "website": "https://qtransformer.github.io",
+    "arxiv": "https://arxiv.org/abs/2309.10150",
+    "code": "",
+    "video": "",
+    "source": "https://proceedings.mlr.press/v229/chebotar23a.html"
+  },
+  "regulating_overfitting": {
+    "title": "Efficient Deep Reinforcement Learning Requires Regulating Overfitting",
+    "authors": [
+      "Qiyang Li",
+      "Aviral Kumar",
+      "Ilya Kostrikov",
+      "Sergey Levine"
+    ],
+    "conference": "ICLR 2023",
+    "date": "April 2023",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2304.10466",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2023/poster/10790"
+  },
+  "cal_ql": {
+    "title": "Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning",
+    "authors": [
+      "Mitsuhiko Nakamoto",
+      "Yuexiang Zhai",
+      "Anikait Singh",
+      "Max Sobol Mark",
+      "Yi Ma",
+      "Chelsea Finn",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "conference": "NeurIPS 2023",
+    "date": "March 2023",
+    "website": "https://nakamotoo.github.io/Cal-QL",
+    "arxiv": "https://arxiv.org/abs/2303.05479",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2023/poster/72205"
+  },
+  "promoter_transfer_learning": {
+    "title": "Strategies for effectively modelling promoter-driven gene expression using transfer learning",
+    "authors": [
+      "Aniketh Janardhan Reddy",
+      "Michael H. Herschl",
+      "Xinyang Geng",
+      "Sathvik Kolli",
+      "Amy X. Lu",
+      "Aviral Kumar",
+      "Patrick D. Hsu",
+      "Sergey Levine",
+      "Nilah M. Ioannidis"
+    ],
+    "conference": "bioRxiv 2023",
+    "date": "February 2023",
+    "website": "",
+    "arxiv": "",
+    "code": "",
+    "video": "",
+    "source": "https://doi.org/10.1101/2023.02.24.529941"
+  }
+}
