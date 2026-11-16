@@ -1,0 +1,262 @@
+:root {
+  --paper: #fff;
+  --ink: #17191e;
+  --soft: #6c717a;
+  --line: #e7e8ec;
+  --tile: #f0f1f4;
+  --accent: #2c56a6;      /* deep blue from the logo: links, choices, the button */
+  --accent-ink: #21447f;  /* the same, darker, for hover */
+  --accent-tint: #eef2fa; /* pale wash behind a chosen or hovered item */
+  --accent-line: #b9c8e8; /* underlines and thin rules */
+  --award: #9c6514;       /* ochre, only for orals, spotlights and awards */
+  --gap: 24px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 400 16px/1.55 "Hanken Grotesk", system-ui, sans-serif;
+}
+img, video, svg { display: block; max-width: 100%; }
+a { color: inherit; text-decoration-color: var(--accent-line); text-underline-offset: 0.22em; text-decoration-thickness: 1px; }
+a:hover { color: var(--accent); text-decoration-color: currentColor; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+h1, h2, h3, p, ul, ol, figure { margin: 0; }
+ul, ol { padding: 0; list-style: none; }
+h1, h2, h3 { font-weight: 500; }
+.soft { color: var(--soft); }
+
+.wrap { max-width: 1240px; margin-inline: auto; padding-inline: 32px; }
+
+/* Header and footer */
+.top { display: flex; align-items: center; justify-content: space-between; gap: 12px 32px; flex-wrap: wrap; padding-block: 16px; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 600; font-size: 1.05rem; letter-spacing: -0.01em; }
+.brand:hover { color: inherit; }
+.brand img { width: 24px; height: 24px; border-radius: 4px; }
+.top nav ul { display: flex; flex-wrap: wrap; gap: 4px 28px; }
+.top nav a { text-decoration: none; color: var(--soft); font-size: 0.95rem; }
+.top nav a:hover, .top nav a[aria-current] { color: var(--ink); }
+/* The current page is underlined by a small bar. Moving between pages, the browser slides
+   the bar from the old menu item to the new one (cross-document view transitions; where
+   unsupported, the new page simply shows its bar). */
+.top nav a[aria-current] { position: relative; }
+.nav-mark { position: absolute; left: 0; right: 0; bottom: -7px; height: 2px; border-radius: 2px; background: var(--accent); view-transition-name: nav-mark; }
+@view-transition { navigation: auto; }
+::view-transition-group(nav-mark) { animation-duration: 0.38s; animation-timing-function: cubic-bezier(0.3, 0.7, 0.2, 1); }
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: 0.18s; }
+@media (prefers-reduced-motion: reduce) { ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; } }
+footer { padding-block: 20px 28px; color: var(--soft); font-size: 0.85rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 32px; }
+footer ul { display: flex; flex-wrap: wrap; gap: 4px 22px; }
+
+/* Small quiet headings used for the columns on the home page */
+.label { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 14px; font-size: 0.88rem; color: var(--soft); }
+.label h2 { font-size: inherit; font-weight: 400; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+/* Home: who we are and the news beside the group photo; below, people and papers side by side */
+.home { padding-block: 10px 40px; }
+/* The group photo sits beside the introduction, centred on it */
+.top-band { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 40px 56px; align-items: center; }
+/* The photo keeps its 3:2 shape and scales with the screen's height, so the swarm below always has room */
+.photo-frame { position: relative; aspect-ratio: 3 / 2; height: clamp(250px, 46svh, 430px); max-width: 54vw; }
+.photo-frame .group-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 15%; border-radius: 10px; }
+/* The first screen: the introduction, then the learning swarm filling whatever height is left */
+.fold { display: flex; flex-direction: column; min-height: calc(100svh - 88px); } /* 88px: the top bar, the page's top padding and a little air below */
+.swarm { display: flex; flex-direction: column; flex: 1; min-height: 190px; margin-top: 22px; } /* same gap above as below, so the maze sits centred between the photo and the button */
+.sb-stage { position: relative; flex: 1; min-height: 0; }
+.sb-stage canvas { position: absolute; inset: -18px; /* bleeds past the stage; see BLEED in swarm.js */ display: block; cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+.sb-stage.sb-nope { animation: sb-nope 0.32s ease; }
+/* Pause / play: quiet until pointed at */
+.sb-pause { position: absolute; top: 2px; right: 2px; z-index: 1; display: grid; place-items: center; width: 30px; height: 30px; padding: 0; border: 1px solid var(--line); border-radius: 999px; background: rgba(255, 255, 255, 0.9); color: var(--accent); cursor: pointer; opacity: 0.55; transition: opacity 0.2s, border-color 0.2s; }
+.sb-pause:hover, .sb-pause:focus-visible { opacity: 1; border-color: var(--accent-line); }
+.sb-pause svg { width: 12px; height: 12px; fill: currentColor; }
+@keyframes sb-nope { 25% { transform: translateX(-3px); } 75% { transform: translateX(3px); } }
+.lists { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 48px 64px; margin-top: 64px; }
+.lists .scroll { height: min(78vh, 760px); }
+.col { display: flex; flex-direction: column; min-height: 0; }
+.intro { padding-top: 0; }
+.intro .full-name { margin-top: 10px; color: #4a4f58; font-size: 1.1rem; line-height: 1.35; }
+.intro h1 { margin-top: 0; font-size: clamp(2.2rem, 1.2rem + 2.2vw, 3rem); font-weight: 500; line-height: 1.05; letter-spacing: -0.03em; }
+.intro .lede { margin-top: 16px; color: #4a4f58; font-size: 1rem; line-height: 1.55; max-width: 36em; }
+.intro .also { display: flex; flex-wrap: wrap; gap: 4px 22px; margin-top: 14px; font-size: 0.95rem; }
+
+/* Column headings: one style for all three. Ones that lead somewhere are underlined like any link. */
+.col-head { display: flex; gap: 20px; align-items: baseline; margin: 0 0 12px; padding-bottom: 10px; border-bottom: 1px solid var(--line); font-size: 1.02rem; font-weight: 500; line-height: 1.3; letter-spacing: -0.005em; }
+/* "Check out our work": sits centred under the maze, at the bottom of the first screen */
+.fold-actions { align-self: center; display: flex; align-items: center; gap: 10px; margin-top: 22px; }
+.jump { display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px 9px 18px; border-radius: 999px; background: var(--accent); color: #fff; font-size: 0.92rem; font-weight: 500; text-decoration: none; transition: background-color 0.2s; }
+.jump:hover { background: var(--accent-ink); color: #fff; }
+.jump svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; transition: transform 0.25s ease; }
+.jump:hover svg { transform: translateY(2px); }
+/* Pause / play for the swarm: an outlined circle beside the button, quieter than it */
+.round-toggle { display: grid; place-items: center; width: 37px; height: 37px; padding: 0; border: 1px solid var(--accent-line); border-radius: 50%; background: none; color: var(--accent); cursor: pointer; transition: border-color 0.2s, color 0.2s; }
+.round-toggle:hover { border-color: var(--accent); color: var(--accent-ink); }
+.round-toggle svg { width: 12px; height: 12px; fill: currentColor; }
+.round-toggle[hidden] { display: none; }
+.lists { scroll-margin-top: 24px; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+.intro .col-head { margin-top: 24px; margin-bottom: 8px; padding-bottom: 8px; }
+.col-head .all { margin-left: auto; font-size: 0.9rem; font-weight: 400; color: var(--soft); }
+.tabs { display: flex; gap: 20px; }
+.tabs button { font: inherit; letter-spacing: inherit; color: var(--soft); background: none; border: 0; padding: 0; cursor: pointer; transition: color 0.2s; }
+.tabs button:hover, .tabs button[aria-pressed="true"] { color: var(--ink); }
+.tabs button, .col-head > a:first-child { position: relative; }
+.tabs button[aria-pressed="true"]::after, .col-head > a:first-child::after { content: ""; position: absolute; left: 0; right: 0; bottom: -11px; height: 2px; border-radius: 2px; background: var(--accent); }
+.col-head > a:first-child { text-decoration: none; }
+.col-head > a:first-child:hover { color: var(--accent); }
+.filter-note { margin: -4px 0 8px; font-size: 0.88rem; color: var(--soft); }
+.filter-note button { font: inherit; color: var(--ink); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-decoration-color: #c3c6ce; text-underline-offset: 0.22em; }
+.filter-note button:hover { color: var(--accent); }
+
+/* Scrolling columns fade out at the bottom while there is more below */
+.scroll { min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; scrollbar-color: #d5d8de transparent; padding-right: 6px; margin-right: -6px; }
+.scroll.more-below { -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 56px), transparent); mask-image: linear-gradient(to bottom, #000 calc(100% - 56px), transparent); }
+.scroll .end { margin: 14px 0 28px; font-size: 0.9rem; }
+
+.world { flex: none; margin-top: 20px; width: min(100%, 220px); }
+/* On short screens the news comes first; the gridworld only appears where it fits. */
+.world svg { width: 100%; height: auto; transition: opacity 0.45s ease; }
+.gw-cell { cursor: pointer; transition: fill 0.5s ease; }
+.gw-arrow, .gw-start, .gw-trail, .gw-agent { pointer-events: none; }
+.gw-arrow { fill: none; stroke: var(--ink); stroke-opacity: 0.42; stroke-width: 1.3px; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; transition: opacity 0.5s ease; }
+.gw-start { fill: none; stroke: var(--ink); stroke-opacity: 0.35; stroke-width: 1.2px; vector-effect: non-scaling-stroke; }
+.gw-trail { fill: none; stroke: var(--ink); stroke-width: 1.6px; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; }
+.gw-agent { fill: var(--ink); }
+
+.news { font-size: 0.9rem; }
+.news li { display: grid; grid-template-columns: 5.4em 1fr; gap: 0 8px; }
+.news li + li { margin-top: 6px; }
+.news time { color: var(--accent); font-variant-numeric: tabular-nums; }
+
+.papers .row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 16px; align-items: baseline; padding-block: 9px; text-decoration: none; font-size: 0.9rem; line-height: 1.45; color: #3d4048; }
+.papers .title strong { font-size: 1.04rem; font-weight: 600; color: var(--ink); }
+.papers .title strong.whole { font-size: 0.98rem; font-weight: 600; } /* a whole title, a touch smaller so it does not shout */
+.open .row, .open .title strong, .open .title { color: var(--accent-ink); }
+.award { color: var(--award); font-weight: 500; }
+.papers .venue { color: var(--soft); font-size: 0.8rem; white-space: nowrap; }
+.papers li[hidden] { display: none; }
+.papers li.enter { animation: drop-in 0.32s ease both; }
+@keyframes drop-in { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+.papers li, .roster .person { transition: opacity 0.25s ease; }
+.papers li.dim, .roster .person.dim { opacity: 0.24; }
+/* A selected paper opens in place: a larger preview, its authors and its links. */
+.detail { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.35s ease; }
+.detail > div { min-height: 0; overflow: hidden; }
+.open .detail { grid-template-rows: 1fr; }
+.preview { margin-top: 6px; padding: 10px; border: 1px solid var(--accent-line); border-radius: 8px; background: #fff; }
+.preview > * { width: 100%; height: auto; max-height: 300px; object-fit: contain; border-radius: 3px; }
+.detail .authors { margin-top: 12px; color: var(--soft); font-size: 0.88rem; }
+.detail .meta { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 8px 0 16px; font-size: 0.9rem; }
+
+.roster h3 { margin: 16px 0 6px; font-size: 0.82rem; font-weight: 400; color: var(--soft); }
+.roster .group:first-child h3 { margin-top: 0; }
+.roster .group { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2px 14px; }
+.roster h3 { grid-column: 1 / -1; }
+.roster a { display: flex; align-items: center; gap: 10px; padding-block: 4px; text-decoration: none; font-size: 0.92rem; line-height: 1.25; }
+.roster img, .roster .blank { flex: none; width: 40px; height: 40px; border-radius: 8px; object-fit: cover; background: var(--tile); }
+.roster a { border-radius: 8px; margin-inline: -6px; padding-inline: 6px; transition: background-color 0.2s, opacity 0.25s; }
+.roster a:hover { background: var(--accent-tint); }
+.roster .person.on { color: var(--accent-ink); background: var(--accent-tint); }
+
+.more { display: inline-block; margin-top: 14px; font-size: 0.88rem; color: var(--soft); }
+
+/* Linking: when a person or a paper is pointed at, everything unrelated steps back */
+[data-paper], .person { transition: opacity 0.25s ease; }
+.linking [data-paper]:not(.on), .linking .person:not(.on) { opacity: 0.24; }
+.linking.keep-papers [data-paper]:not(.on) { opacity: 1; } /* a selected paper filters the people only */
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* Inner pages */
+.page { padding-block: 26px 96px; }
+/* Page titles: one size everywhere (Publications, People, Blog, Join, a blog post) */
+.page > h1, .post h1, .post-head h1 { font-size: clamp(2rem, 1.2rem + 2vw, 2.9rem); font-weight: 500; line-height: 1.1; letter-spacing: -0.03em; text-wrap: balance; }
+.page > .lede { margin-top: 10px; color: var(--soft); max-width: 36em; }
+.page h2 { margin: 56px 0 20px; font-size: 0.88rem; font-weight: 500; color: var(--soft); }
+
+.pubs { max-width: 980px; }
+.pubs li { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 0 28px; align-items: start; padding-block: 16px; scroll-margin-top: 24px; }
+.pubs li:target h3 { color: var(--accent); }
+.thumb { aspect-ratio: 16 / 9; display: grid; place-items: center; padding: 6px; border: 1px solid var(--line); border-radius: 6px; background: #fff; overflow: hidden; }
+.thumb img { width: 100%; height: 100%; object-fit: contain; }
+.thumb.empty { background: var(--tile); border-color: transparent; }
+.thumb.empty span { color: var(--soft); font-size: 0.95rem; font-weight: 500; text-align: center; padding: 0 12px; }
+.pubs h3 { font-size: 1rem; line-height: 1.4; }
+.pubs .authors { margin-top: 4px; color: var(--soft); font-size: 0.92rem; }
+.pubs .meta { display: flex; flex-wrap: wrap; gap: 2px 16px; margin-top: 6px; color: var(--soft); font-size: 0.88rem; }
+
+.members { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px 56px; max-width: 980px; }
+.members li { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 0 20px; scroll-margin-top: 24px; }
+.members .blank { display: block; width: 84px; height: 84px; border-radius: 8px; background: var(--tile); }
+.members .role { margin-top: 2px; color: var(--ink); font-size: 0.9rem; }
+.members img { width: 84px; height: 84px; border-radius: 8px; object-fit: cover; background: var(--tile); }
+.members h3 { font-size: 1rem; }
+.members p { margin-top: 3px; color: var(--soft); font-size: 0.92rem; }
+.members ul { margin-top: 8px; font-size: 0.9rem; }
+.members ul li { display: block; }
+.members ul li + li { margin-top: 3px; }
+.collab { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 56px; max-width: 980px; font-size: 0.95rem; }
+.collab li { scroll-margin-top: 24px; }
+
+@media (max-width: 1040px) {
+  .top-band, .lists { grid-template-columns: minmax(0, 1fr); }
+  .photo-frame { height: auto; max-width: none; }
+
+  .lists .people .scroll { height: auto; }
+  .lists .scroll { height: 70vh; }
+}
+@media (max-width: 700px) {
+  .wrap { padding-inline: 18px; }
+  .home { grid-template-columns: minmax(0, 1fr); padding-top: 16px; }
+  .roster .group { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .members, .collab { grid-template-columns: minmax(0, 1fr); }
+  .papers .row { grid-template-columns: minmax(0, 1fr); }
+  .pubs li { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .thumb { max-width: 420px; }
+}
+
+/* Blog index */
+.posts { max-width: 760px; margin-top: 40px; }
+.posts li { padding-block: 22px; border-top: 1px solid var(--line); }
+.posts a { text-decoration: none; }
+.posts h2 { margin: 0; font-size: 1.3rem; font-weight: 500; letter-spacing: -0.012em; color: var(--ink); }
+.posts a:hover h2 { color: var(--accent); }
+.posts .meta, .post .meta { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 6px; color: var(--soft); font-size: 0.9rem; }
+.posts p:last-child { margin-top: 8px; color: #4a4f58; max-width: 40em; }
+
+/* Long-form pages: a blog post or the join page */
+.post { max-width: 760px; }
+.post .prose { margin-top: 32px; }
+.post .crumb, .post-head .crumb { font-size: 0.9rem; color: var(--soft); margin-bottom: 18px; }
+.post-head { max-width: 1052px; padding-bottom: 28px; border-bottom: 1px solid var(--line); scroll-margin-top: 24px; }
+.post-head .meta { display: flex; flex-wrap: wrap; gap: 4px 18px; margin-top: 16px; color: var(--soft); font-size: 0.95rem; }
+
+/* A post: contents on the left that follow along, the text on the right */
+.post-body { display: grid; grid-template-columns: 220px minmax(0, 760px); gap: 0 72px; margin-top: 44px; }
+.toc { position: sticky; top: 28px; align-self: start; font-size: 0.9rem; line-height: 1.4; }
+.toc > p { margin: 0 0 10px; color: var(--soft); font-size: 0.82rem; }
+.toc ol { border-left: 1px solid var(--line); }
+.toc li a { display: block; margin-left: -1px; padding: 5px 0 5px 14px; border-left: 2px solid transparent; color: var(--soft); text-decoration: none; transition: color 0.2s, border-color 0.2s; }
+.toc li.l3 a { padding-left: 26px; font-size: 0.85rem; }
+.toc li a:hover { color: var(--ink); }
+.toc li a.here { color: var(--accent); border-left-color: var(--accent); }
+
+.prose { font-size: 1.1rem; line-height: 1.75; color: #24272d; }
+.prose p { margin: 0 0 1.15em; }
+.prose p.opening { font-size: 1.28rem; line-height: 1.6; color: var(--ink); margin-bottom: 1.4em; }
+.prose strong { font-weight: 600; color: var(--ink); }
+.prose h2 { margin: 2.4em 0 0.8em; padding-top: 1.2em; border-top: 1px solid var(--line); font-size: 1.75rem; font-weight: 500; line-height: 1.2; letter-spacing: -0.02em; color: var(--ink); scroll-margin-top: 24px; position: relative; }
+.prose h2::before { content: ""; position: absolute; top: -2px; left: 0; width: 40px; height: 3px; border-radius: 2px; background: var(--accent); }
+.prose h3 { margin: 2em 0 0.5em; font-size: 1.22rem; font-weight: 600; line-height: 1.3; letter-spacing: -0.01em; color: var(--accent-ink); scroll-margin-top: 24px; }
+.prose hr { border: 0; border-top: 1px solid var(--line); margin: 2.6em 0; }
+.prose a { color: var(--accent); text-decoration-color: var(--accent-line); }
+.prose a:hover { color: var(--accent-ink); }
+.post .prose h2:first-child { margin-top: 0; }
+
+@media (max-width: 1040px) {
+  .post-body { grid-template-columns: minmax(0, 1fr); }
+  .toc { position: static; margin-bottom: 36px; }
+}
+

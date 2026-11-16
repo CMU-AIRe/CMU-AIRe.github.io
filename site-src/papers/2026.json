@@ -1,0 +1,377 @@
+{
+  "ideataste": {
+    "title": "IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
+    "authors": [
+      "Shanshan Zhong",
+      "Chen Xu",
+      "Jingjie Ning",
+      "Zhengzhong Liu",
+      "Aviral Kumar",
+      "Chenyan Xiong"
+    ],
+    "conference": "arXiv 2026",
+    "date": "November 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2611.03424",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2611.03424"
+  },
+  "librarian_agents": {
+    "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
+    "authors": [
+      "Anikait Singh",
+      "Teresa Zhang",
+      "Yoonho Lee",
+      "Roshen Sanjay Nair",
+      "Aviral Kumar",
+      "Chelsea Finn"
+    ],
+    "conference": "arXiv 2026",
+    "date": "October 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2610.22273",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2610.22273"
+  },
+  "magicbeanstalk": {
+    "title": "MagicBeanStalk: Escaping the RLVR Zero Advantage Trap with Recursive Data Synthesis",
+    "authors": [
+      "Ximing Lu",
+      "Aviral Kumar",
+      "Jan Kautz",
+      "Yejin Choi",
+      "David Acuna"
+    ],
+    "conference": "arXiv 2026",
+    "date": "October 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2610.12659",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2610.12659"
+  },
+  "seeq": {
+    "title": "SeeQ: Training Generalist Value Functions for Long-Horizon Robotic Manipulation",
+    "authors": [
+      "Saksham Singh",
+      "Zheyuan Hu",
+      "Max Sobol Mark",
+      "Jeffrey Yu",
+      "Zackory Erickson",
+      "Aviral Kumar"
+    ],
+    "conference": "arXiv 2026",
+    "date": "September 2026",
+    "website": "https://saksham002.github.io/seeq/",
+    "arxiv": "https://arxiv.org/abs/2609.22085",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2609.22085"
+  },
+  "progressive_point_matching": {
+    "title": "Long-Horizon Language Model Reinforcement Learning via Progressive Point Matching",
+    "authors": [
+      "Preston Fu",
+      "Kevin Frans",
+      "Oleh Rybkin",
+      "Sergey Levine",
+      "Aviral Kumar"
+    ],
+    "conference": "arXiv 2026",
+    "date": "September 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2609.07303",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2609.07303"
+  },
+  "r3_robot_reasoning": {
+    "title": "R³: Training Robots to Reason in Natural Language via Reinforcement Learning",
+    "authors": [
+      "Lehong Wu",
+      "Yuxiao Qu",
+      "Zheyuan Hu",
+      "Ivan Zhang",
+      "Limin Wei",
+      "Zackory Erickson",
+      "Aviral Kumar"
+    ],
+    "conference": "arXiv 2026",
+    "date": "August 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2608.26053",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2608.26053"
+  },
+  "generalist_adaptation_minimal_data": {
+    "title": "What Does It Take For A Generalist Robot Policy To Adapt Using Minimal Data?",
+    "authors": [
+      "Shreyas Kowshik",
+      "Sreyas Venkataraman",
+      "Leo Wang",
+      "Niharika Pant",
+      "Max Simchowitz",
+      "Aviral Kumar"
+    ],
+    "conference": "arXiv 2026",
+    "date": "August 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2608.11363",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2608.11363"
+  },
+  "mirror": {
+    "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
+    "authors": [
+      "Wen Ye",
+      "Yuxiao Qu",
+      "Aviral Kumar",
+      "Xuezhe Ma"
+    ],
+    "conference": "arXiv 2026",
+    "date": "July 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2607.21552",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2607.21552"
+  },
+  "over_refusal_competing_rewards": {
+    "title": "Addressing Over-Refusal in LLMs with Competing Rewards",
+    "authors": [
+      "Taeyoun Kim",
+      "Aviral Kumar"
+    ],
+    "conference": "arXiv 2026",
+    "date": "June 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2606.31748",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2606.31748"
+  },
+  "exprl": {
+    "title": "ExpRL: Exploratory RL for LLM Mid-Training",
+    "authors": [
+      "Violet Xiang",
+      "Amrith Setlur",
+      "Chase Blagden",
+      "Nick Haber",
+      "Aviral Kumar"
+    ],
+    "conference": "arXiv 2026",
+    "date": "June 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2606.17024",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2606.17024"
+  },
+  "asyncwebrl": {
+    "title": "AsyncWebRL: Efficient Asynchronous Reinforcement Learning for Multi-Step Visual Web Agents",
+    "authors": [
+      "Hao Bai",
+      "Rui Yang",
+      "Chenlu Ye",
+      "Spencer Whitehead",
+      "Aviral Kumar",
+      "Tong Zhang"
+    ],
+    "conference": "EMNLP 2026 (Findings)",
+    "date": "June 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2606.05597",
+    "code": "",
+    "video": "",
+    "source": "https://doi.org/10.18653/2026.findings-emnlp.1352"
+  },
+  "recursive_agent_optimization": {
+    "title": "Recursive Agent Optimization",
+    "authors": [
+      "Apurva Gandhi",
+      "Satyaki Chakraborty",
+      "Xiangjun Wang",
+      "Aviral Kumar",
+      "Graham Neubig"
+    ],
+    "conference": "arXiv 2026",
+    "date": "May 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2605.06639",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2605.06639"
+  },
+  "qed_nano": {
+    "title": "QED-Nano: Teaching a Tiny Model to Prove Hard Theorems",
+    "authors": [
+      "LM-Provers",
+      "Yuxiao Qu",
+      "Amrith Setlur",
+      "Jasper Dekoninck",
+      "Edward Beeching",
+      "Jia Li",
+      "Ian Wu",
+      "Lewis Tunstall",
+      "Aviral Kumar"
+    ],
+    "conference": "arXiv 2026",
+    "date": "April 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2604.04898",
+    "code": "",
+    "video": "",
+    "source": "https://arxiv.org/abs/2604.04898"
+  },
+  "isocompute_playbook": {
+    "title": "IsoCompute Playbook: Optimally Scaling Sampling Compute for LLM RL",
+    "authors": [
+      "Zhoujun Cheng",
+      "Yutao Xie",
+      "Yuxiao Qu",
+      "Amrith Setlur",
+      "Shibo Hao",
+      "Varad Pimpalkhute",
+      "Tongtong Liang",
+      "Feng Yao",
+      "Zhengzhong Liu",
+      "Eric Xing",
+      "Virginia Smith",
+      "Ruslan Salakhutdinov",
+      "Zhiting Hu",
+      "Taylor Killian",
+      "Aviral Kumar"
+    ],
+    "conference": "ICML 2026",
+    "date": "March 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2603.12151",
+    "code": "",
+    "video": "",
+    "source": "https://icml.cc/virtual/2026/poster/61333"
+  },
+  "flow_matching_td": {
+    "title": "What Does Flow Matching Bring To TD Learning?",
+    "authors": [
+      "Bhavya Agrawalla",
+      "Michal Nauman",
+      "Aviral Kumar"
+    ],
+    "conference": "ICML 2026",
+    "date": "March 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2603.04333",
+    "code": "",
+    "video": "",
+    "source": "https://icml.cc/virtual/2026/poster/62698"
+  },
+  "bpp": {
+    "title": "BPP: Long-Context Robot Imitation Learning by Focusing on Key History Frames",
+    "authors": [
+      "Max Sobol Mark",
+      "Jacky Liang",
+      "Maria Attarian",
+      "Chuyuan Fu",
+      "Debidatta Dwibedi",
+      "Dhruv Shah",
+      "Aviral Kumar"
+    ],
+    "conference": "RSS 2026",
+    "date": "February 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2602.15010",
+    "code": "",
+    "video": "",
+    "source": "https://doi.org/10.15607/rss.2026.xxii.201"
+  },
+  "reasoning_cache": {
+    "title": "Reasoning Cache: Continual Improvement Over Long Horizons via Short-Horizon RL",
+    "authors": [
+      "Ian Wu",
+      "Yuxiao Qu",
+      "Amrith Setlur",
+      "Aviral Kumar"
+    ],
+    "conference": "ICML 2026",
+    "date": "February 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2602.03773",
+    "code": "",
+    "video": "",
+    "source": "https://icml.cc/virtual/2026/poster/64887"
+  },
+  "pope": {
+    "title": "POPE: Learning to Reason on Hard Problems via Privileged On-Policy Exploration",
+    "authors": [
+      "Yuxiao Qu",
+      "Amrith Setlur",
+      "Virginia Smith",
+      "Ruslan Salakhutdinov",
+      "Aviral Kumar"
+    ],
+    "conference": "TMLR 2026 (J2C Certification)",
+    "date": "January 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2601.18779",
+    "code": "",
+    "video": "",
+    "source": "https://openreview.net/forum?id=pbyIoUW7YV"
+  },
+  "intervention_training": {
+    "title": "InT: Self-Proposed Interventions Enable Credit Assignment in LLM Reasoning",
+    "authors": [
+      "Matthew Y. R. Yang",
+      "Hao Bai",
+      "Ian Wu",
+      "Gene Yang",
+      "Amrith Setlur",
+      "Aviral Kumar"
+    ],
+    "conference": "ICLR 2026",
+    "date": "January 2026",
+    "website": "https://intervention-training.github.io/",
+    "arxiv": "https://arxiv.org/abs/2601.14209",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2026/poster/10008910"
+  },
+  "trim": {
+    "title": "TRIM: Hybrid Inference via Targeted Stepwise Routing in Multi-Step Reasoning Tasks",
+    "authors": [
+      "Vansh Kapoor",
+      "Aman Gupta",
+      "Hao Chen",
+      "Anurag Beniwal",
+      "Jing Huang",
+      "Aviral Kumar"
+    ],
+    "conference": "ICLR 2026",
+    "date": "January 2026",
+    "website": "https://vansh28kapoor.github.io/trim.github.io/",
+    "arxiv": "https://arxiv.org/abs/2601.10245",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2026/poster/10009916"
+  },
+  "webgym": {
+    "title": "WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks",
+    "authors": [
+      "Hao Bai",
+      "Alexey Taymanov",
+      "Tong Zhang",
+      "Aviral Kumar",
+      "Spencer Whitehead"
+    ],
+    "conference": "CVPR 2026",
+    "date": "January 2026",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2601.02439",
+    "code": "",
+    "video": "",
+    "source": "https://openaccess.thecvf.com/content/CVPR2026/html/Bai_WebGym_Scaling_Training_Environments_for_Long-Horizon_Visual_Web_Agents_with_CVPR_2026_paper.html"
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "parl": {
+    "title": "Policy Agnostic RL: Offline RL and Online RL Fine-Tuning of Any Class and Backbone",
+    "authors": [
+      "Max Sobol Mark",
+      "Tian Gao",
+      "Georgia Gabriela Sampaio",
+      "Mohan Kumar Srirama",
+      "Archit Sharma",
+      "Chelsea Finn",
+      "Aviral Kumar"
+    ],
+    "conference": "arXiv 2024",
+    "date": "December 2024",
+    "website": "https://policyagnosticrl.github.io/",
+    "arxiv": "https://arxiv.org/abs/2412.06685",
+    "code": "https://github.com/MaxSobolMark/PolicyAgnosticRL",
+    "video": "",
+    "source": "https://arxiv.org/abs/2412.06685"
+  },
+  "efficient_rl_finetune": {
+    "title": "Efficient Online Reinforcement Learning Fine-Tuning Need Not Retain Offline Data",
+    "authors": [
+      "Zhiyuan Zhou",
+      "Andy Peng",
+      "Qiyang Li",
+      "Sergey Levine",
+      "Aviral Kumar"
+    ],
+    "conference": "ICLR 2025",
+    "date": "December 2024",
+    "website": "https://zhouzypaul.github.io/wsrl/",
+    "arxiv": "https://arxiv.org/abs/2412.07762",
+    "code": "https://github.com/zhouzypaul/wsrl",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2025/poster/30230"
+  },
+  "inference_aware_bon": {
+    "title": "Inference-Aware Fine-Tuning for Best-of-N Sampling in Large Language Models",
+    "authors": [
+      "Yinlam Chow",
+      "Guy Tennenholtz",
+      "Izzeddin Gur",
+      "Vincent Zhuang",
+      "Bo Dai",
+      "Sridhar Thiagarajan",
+      "Craig Boutilier",
+      "Rishabh Agarwal",
+      "Aviral Kumar",
+      "Aleksandra Faust"
+    ],
+    "conference": "ICLR 2025",
+    "date": "December 2024",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2412.15287",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2025/poster/30849"
+  },
+  "learning_dynamics_llm": {
+    "title": "What Do Learning Dynamics Reveal About Generalization in LLM Reasoning?",
+    "authors": [
+      "Katie Kang",
+      "Amrith Setlur",
+      "Dibya Ghosh",
+      "Jacob Steinhardt",
+      "Claire Tomlin",
+      "Sergey Levine",
+      "Aviral Kumar"
+    ],
+    "conference": "ICML 2025",
+    "date": "November 2024",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2411.07681",
+    "code": "",
+    "video": "",
+    "source": "https://icml.cc/virtual/2025/poster/44724"
+  },
+  "steering_generalists": {
+    "title": "Steering Your Generalists: Improving Robotic Foundation Models via Value Guidance",
+    "authors": [
+      "Mitsuhiko Nakamoto",
+      "Oier Mees",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "conference": "CoRL 2024",
+    "date": "October 2024",
+    "website": "https://nakamotoo.github.io/V-GPS/",
+    "arxiv": "https://arxiv.org/abs/2410.13816",
+    "code": "",
+    "video": "",
+    "source": "https://proceedings.mlr.press/v270/nakamoto25a.html"
+  },
+  "rewarding_progress": {
+    "title": "Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning",
+    "authors": [
+      "Amrith Setlur",
+      "Chirag Nagpal",
+      "Adam Fisch",
+      "Xinyang Geng",
+      "Jacob Eisenstein",
+      "Rishabh Agarwal",
+      "Alekh Agarwal",
+      "Jonathan Berant",
+      "Aviral Kumar"
+    ],
+    "conference": "ICLR 2025 (Spotlight)",
+    "date": "October 2024",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2410.08146",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2025/poster/30649"
+  },
+  "self_correct_rl": {
+    "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+    "authors": [
+      "Aviral Kumar",
+      "Vincent Zhuang",
+      "Rishabh Agarwal",
+      "Yi Su",
+      "John D Co-Reyes",
+      "Avi Singh",
+      "Kate Baumli",
+      "Shariq Iqbal",
+      "Colton Bishop",
+      "Rebecca Roelofs",
+      "Lei M Zhang",
+      "Kay McKinney",
+      "Disha Shrivastava",
+      "Cosmin Paduraru",
+      "George Tucker",
+      "Doina Precup",
+      "Feryal Behbahani",
+      "Aleksandra Faust"
+    ],
+    "conference": "ICLR 2025 (Oral)",
+    "date": "September 2024",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2409.12917",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2025/oral/31899"
+  },
+  "rrm": {
+    "title": "RRM: Robust Reward Model Training Mitigates Reward Hacking",
+    "authors": [
+      "Tianqi Liu",
+      "Wei Xiong",
+      "Jie Ren",
+      "Lichang Chen",
+      "Junru Wu",
+      "Rishabh Joshi",
+      "Yang Gao",
+      "Jiaming Shen",
+      "Zhen Qin",
+      "Tianhe Yu",
+      "Daniel Sohn",
+      "Anastasiia Makarova",
+      "Jeremiah Liu",
+      "Yuan Liu",
+      "Bilal Piot",
+      "Abe Ittycheriah",
+      "Aviral Kumar",
+      "Mohammad Saleh"
+    ],
+    "conference": "ICLR 2025",
+    "date": "September 2024",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2409.13156",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2025/poster/30783"
+  },
+  "generative_verifiers": {
+    "title": "Generative Verifiers: Reward Modeling as Next-Token Prediction",
+    "authors": [
+      "Lunjun Zhang",
+      "Arian Hosseini",
+      "Hritik Bansal",
+      "Mehran Kazemi",
+      "Aviral Kumar",
+      "Rishabh Agarwal"
+    ],
+    "conference": "ICLR 2025",
+    "date": "August 2024",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2408.15240",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2025/poster/30506"
+  },
+  "scaling_llm_compute": {
+    "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+    "authors": [
+      "Charlie Snell",
+      "Jaehoon Lee",
+      "Kelvin Xu",
+      "Aviral Kumar"
+    ],
+    "conference": "ICLR 2025 (Oral)",
+    "date": "August 2024",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2408.03314",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2025/oral/31924"
+  },
+  "d5rl": {
+    "title": "D5RL: Diverse Datasets for Data-Driven Deep Reinforcement Learning",
+    "authors": [
+      "Rafael Rafailov",
+      "Kyle Hatch",
+      "Anikait Singh",
+      "Laura Smith",
+      "Aviral Kumar",
+      "Ilya Kostrikov",
+      "Philippe Hansen-Estruch",
+      "Victor Kolev",
+      "Philip Ball",
+      "Jiajun Wu",
+      "Chelsea Finn",
+      "Sergey Levine"
+    ],
+    "conference": "RLC 2024",
+    "date": "August 2024",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2408.08441",
+    "code": "",
+    "video": "",
+    "source": "https://rlj.cs.umass.edu/2024/2024issue.html"
+  },
+  "llmcognition@icml": {
+    "title": "Recursive Introspection: Teaching Language Model Agents How to Self-Improve",
+    "authors": [
+      "Yuxiao Qu",
+      "Tianjun Zhang",
+      "Naman Garg",
+      "Aviral Kumar"
+    ],
+    "conference": "NeurIPS 2024; ICML Workshop on LLMs and Cognition (Oral, top 2 / 94 submissions)",
+    "date": "July 2024",
+    "website": "https://cohenqu.github.io/rise.github.io/",
+    "arxiv": "https://arxiv.org/abs/2407.18219",
+    "code": "https://github.com/cmu-mind/RISE",
+    "video": "https://www.youtube.com/watch?v=Qv8aTLthfhs",
+    "source": "https://neurips.cc/virtual/2024/poster/96089"
+  },
+  "persteprl@icml": {
+    "title": "RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold",
+    "authors": [
+      "Amrith Setlur",
+      "Saurabh Garg",
+      "Xinyang (Young) Geng",
+      "Naman Garg",
+      "Virginia Smith",
+      "Aviral Kumar"
+    ],
+    "conference": "NeurIPS 2024",
+    "date": "June 2024",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2406.14532",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2024/poster/96295"
+  },
+  "digirl": {
+    "title": "DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning",
+    "authors": [
+      "Hao Bai",
+      "Yifei Zhou",
+      "Mert Cemri",
+      "Jiayi Pan",
+      "Alane Suhr",
+      "Sergey Levine",
+      "Aviral Kumar"
+    ],
+    "conference": "NeurIPS 2024",
+    "date": "June 2024",
+    "website": "https://digirl-agent.github.io/",
+    "arxiv": "https://arxiv.org/abs/2406.11896",
+    "code": "https://github.com/DigiRL-agent/digirl",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2024/poster/96658"
+  },
+  "value_learning_bottleneck": {
+    "title": "Is Value Learning Really the Main Bottleneck in Offline RL?",
+    "authors": [
+      "Seohong Park",
+      "Kevin Frans",
+      "Sergey Levine",
+      "Aviral Kumar"
+    ],
+    "conference": "NeurIPS 2024",
+    "date": "June 2024",
+    "website": "https://seohong.me/projects/offrl-bottlenecks/",
+    "arxiv": "https://arxiv.org/abs/2406.09329",
+    "code": "",
+    "video": "https://www.youtube.com/watch?v=oWeTG-NNCcc",
+    "source": "https://neurips.cc/virtual/2024/poster/93647"
+  },
+  "promoter_design_coms": {
+    "title": "Designing Cell-Type-Specific Promoter Sequences Using Conservative Model-Based Optimization",
+    "authors": [
+      "Aniketh Janardhan Reddy",
+      "Xinyang Geng",
+      "Michael H. Herschl",
+      "Sathvik Kolli",
+      "Aviral Kumar",
+      "Patrick D. Hsu",
+      "Sergey Levine",
+      "Nilah M. Ioannidis"
+    ],
+    "conference": "NeurIPS 2024",
+    "date": "June 2024",
+    "website": "",
+    "arxiv": "",
+    "code": "https://github.com/young-geng/promoter_design",
+    "video": "",
+    "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/a9619dd0f0d54a5cf7734add1dc38cd1-Abstract-Conference.html"
+  },
+  "preference@icml": {
+    "title": "Preference Fine-Tuning of LLMs Should Leverage Suboptimal, On-Policy Data",
+    "authors": [
+      "Fahim Tajwar",
+      "Anikait Singh",
+      "Archit Sharma",
+      "Rafael Rafailov",
+      "Jeff Schneider",
+      "Tengyang Xie",
+      "Stefano Ermon",
+      "Chelsea Finn",
+      "Aviral Kumar"
+    ],
+    "conference": "ICML 2024",
+    "date": "April 2024",
+    "website": "https://understanding-rlhf.github.io/",
+    "arxiv": "https://arxiv.org/abs/2404.14367",
+    "code": "https://github.com/Asap7772/understanding-rlhf",
+    "video": "",
+    "source": "https://icml.cc/virtual/2024/poster/33638"
+  },
+  "stop_regressing": {
+    "title": "Stop Regressing: Training Value Functions via Classification for Scalable Deep RL",
+    "authors": [
+      "Jesse Farebrother",
+      "Jordi Orbay",
+      "Quan Vuong",
+      "Adrien Ali Taïga",
+      "Yevgen Chebotar",
+      "Ted Xiao",
+      "Alex Irpan",
+      "Sergey Levine",
+      "Pablo Samuel Castro",
+      "Aleksandra Faust",
+      "Aviral Kumar",
+      "Rishabh Agarwal"
+    ],
+    "conference": "ICML 2024 (Oral)",
+    "date": "March 2024",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2403.03950",
+    "code": "",
+    "video": "",
+    "source": "https://icml.cc/virtual/2024/oral/35498"
+  },
+  "hallucination_control": {
+    "title": "Unfamiliar Finetuning Examples Control How Language Models Hallucinate",
+    "authors": [
+      "Katie Kang",
+      "Eric Wallace",
+      "Claire Tomlin",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "conference": "NAACL 2025",
+    "date": "March 2024",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2403.05612",
+    "code": "",
+    "video": "",
+    "source": "https://doi.org/10.18653/v1/2025.naacl-long.183"
+  },
+  "archer": {
+    "title": "ArCHer: Training Language Model Agents via Hierarchical Multi-Turn RL",
+    "authors": [
+      "Yifei Zhou",
+      "Andrea Zanette",
+      "Jiayi Pan",
+      "Sergey Levine",
+      "Aviral Kumar"
+    ],
+    "conference": "ICML 2024",
+    "date": "February 2024",
+    "website": "https://yifeizhou02.github.io/archer.io/",
+    "arxiv": "https://arxiv.org/abs/2402.19446",
+    "code": "https://github.com/YifeiZhou02/ArCHer",
+    "video": "",
+    "source": "https://icml.cc/virtual/2024/poster/33654"
+  },
+  "vlm_promptable_representations": {
+    "title": "Vision-Language Models Provide Promptable Representations for Reinforcement Learning",
+    "authors": [
+      "William Chen",
+      "Oier Mees",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "conference": "TMLR 2025",
+    "date": "February 2024",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2402.02651",
+    "code": "",
+    "video": "",
+    "source": "https://openreview.net/forum?id=vQDKYYuqWA"
+  }
+}

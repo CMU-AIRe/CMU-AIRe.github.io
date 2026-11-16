@@ -1,0 +1,189 @@
+{
+  "confidence_conditioned_vf": {
+    "title": "Confidence-Conditioned Value Functions for Offline Reinforcement Learning",
+    "authors": [
+      "Joey Hong",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "conference": "ICLR 2023 (Notable Top 5%)",
+    "date": "December 2022",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2212.04607",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2023/poster/10887"
+  },
+  "scaled_ql": {
+    "title": "Offline Q-Learning on Diverse Multi-Task Data Both Scales And Generalizes",
+    "authors": [
+      "Aviral Kumar",
+      "Rishabh Agarwal",
+      "Xinyang Geng",
+      "George Tucker",
+      "Sergey Levine"
+    ],
+    "conference": "ICLR 2023 (Notable Top 5%)",
+    "date": "November 2022",
+    "website": "https://sites.google.com/view/scaling-offlinerl/home",
+    "arxiv": "https://arxiv.org/abs/2211.15144",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/virtual/2023/poster/10845"
+  },
+  "invariant_representation_mbo": {
+    "title": "Data-Driven Offline Decision-Making via Invariant Representation Learning",
+    "authors": [
+      "Han Qi",
+      "Yi Su",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "conference": "NeurIPS 2022",
+    "date": "November 2022",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2211.11349",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2022/poster/53582"
+  },
+  "dasco": {
+    "title": "Dual Generator Offline Reinforcement Learning",
+    "authors": [
+      "Quan Vuong",
+      "Aviral Kumar",
+      "Sergey Levine",
+      "Yevgen Chebotar"
+    ],
+    "conference": "NeurIPS 2022",
+    "date": "November 2022",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2211.01471",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2022/poster/53611"
+  },
+  "reds": {
+    "title": "Offline RL With Realistic Datasets: Heteroskedasticity and Support Constraints",
+    "authors": [
+      "Anikait Singh",
+      "Aviral Kumar",
+      "Quan Vuong",
+      "Yevgen Chebotar",
+      "Sergey Levine"
+    ],
+    "conference": "NeurIPS 2023",
+    "date": "November 2022",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2211.01052",
+    "code": "",
+    "video": "",
+    "source": "https://neurips.cc/virtual/2023/poster/70166"
+  },
+  "ptr": {
+    "title": "Pre-Training for Robots: Offline RL Enables Learning New Tasks from a Handful of Trials",
+    "authors": [
+      "Aviral Kumar",
+      "Anikait Singh",
+      "Frederik Ebert",
+      "Mitsuhiko Nakamoto",
+      "Yanlai Yang",
+      "Chelsea Finn",
+      "Sergey Levine"
+    ],
+    "conference": "RSS 2023",
+    "date": "October 2022",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2210.05178",
+    "code": "",
+    "video": "",
+    "source": "https://doi.org/10.15607/rss.2023.xix.019"
+  },
+  "offpolicy_actor_critic_recsys": {
+    "title": "Off-Policy Actor-critic for Recommender Systems",
+    "authors": [
+      "Minmin Chen",
+      "Can Xu",
+      "Vince Gatto",
+      "Devanshu Jain",
+      "Aviral Kumar",
+      "Ed Chi"
+    ],
+    "conference": "RecSys 2022",
+    "date": "September 2022",
+    "website": "",
+    "arxiv": "",
+    "code": "",
+    "video": "",
+    "source": "https://doi.org/10.1145/3523227.3546758"
+  },
+  "ariel": {
+    "title": "Don't Start From Scratch: Leveraging Prior Data to Automate Robotic Reinforcement Learning",
+    "authors": [
+      "Homer Walke",
+      "Jonathan Yang",
+      "Albert Yu",
+      "Aviral Kumar",
+      "Jedrzej Orbik",
+      "Avi Singh",
+      "Sergey Levine"
+    ],
+    "conference": "CoRL 2022",
+    "date": "July 2022",
+    "website": "https://sites.google.com/view/ariel-berkeley/",
+    "arxiv": "https://arxiv.org/abs/2207.04703",
+    "code": "",
+    "video": "",
+    "source": "https://proceedings.mlr.press/v205/walke23a.html"
+  },
+  "offline_rl_vs_bc": {
+    "title": "When Should We Prefer Offline Reinforcement Learning Over Behavioral Cloning?",
+    "authors": [
+      "Aviral Kumar",
+      "Joey Hong",
+      "Anikait Singh",
+      "Sergey Levine"
+    ],
+    "conference": "ICLR 2022",
+    "date": "April 2022",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2204.05618",
+    "code": "",
+    "video": "",
+    "source": "https://iclr.cc/static/virtual/data/iclr-2022-orals-posters.json"
+  },
+  "design_bench": {
+    "title": "Design-Bench: Benchmarks for Data-Driven Offline Model-Based Optimization",
+    "authors": [
+      "Brandon Trabucco",
+      "Xinyang Geng",
+      "Aviral Kumar",
+      "Sergey Levine"
+    ],
+    "conference": "ICML 2022",
+    "date": "February 2022",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2202.08450",
+    "code": "",
+    "video": "",
+    "source": "https://icml.cc/virtual/2022/spotlight/17232"
+  },
+  "unlabeled_data_offline_rl": {
+    "title": "How to Leverage Unlabeled Data in Offline Reinforcement Learning",
+    "authors": [
+      "Tianhe Yu",
+      "Aviral Kumar",
+      "Yevgen Chebotar",
+      "Karol Hausman",
+      "Chelsea Finn",
+      "Sergey Levine"
+    ],
+    "conference": "ICML 2022",
+    "date": "February 2022",
+    "website": "",
+    "arxiv": "https://arxiv.org/abs/2202.01741",
+    "code": "",
+    "video": "",
+    "source": "https://icml.cc/virtual/2022/poster/17327"
+  }
+}

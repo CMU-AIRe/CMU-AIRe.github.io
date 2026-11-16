@@ -1,0 +1,33 @@
+{
+  "grevnet": {
+    "title": "GRevnet: Improving Graph Neural Networks with Reversible Computation",
+    "authors": [
+      "Aviral Kumar",
+      "Jimmy Ba",
+      "Jamie Kiros",
+      "Kevin Swersky"
+    ],
+    "conference": "NeurIPS 2018 Workshop on Relational Representation Learning",
+    "date": "December 2018",
+    "website": "https://drive.google.com/file/d/1UYsTSnyKjl6MAox9vwGtV77wB_3vMavR/view",
+    "arxiv": "",
+    "code": "",
+    "video": "",
+    "source": "https://aviralkumar2907.github.io/pubs/"
+  },
+  "trainable_calibration": {
+    "title": "Trainable Calibration Measures for Neural Networks from Kernel Mean Embeddings",
+    "authors": [
+      "Aviral Kumar",
+      "Sunita Sarawagi",
+      "Ujjwal Jain"
+    ],
+    "conference": "ICML 2018",
+    "date": "July 2018",
+    "website": "http://proceedings.mlr.press/v80/kumar18a.html",
+    "arxiv": "",
+    "code": "",
+    "video": "",
+    "source": "https://proceedings.mlr.press/v80/kumar18a.html"
+  }
+}

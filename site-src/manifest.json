@@ -1,0 +1,687 @@
+{
+  "papers": {
+    "reward_conditioned_policies": {
+      "file": "papers/reward-conditioned-policies.jpg",
+      "width": 1000,
+      "height": 711,
+      "alt": "Network diagram of a policy conditioned on state and a target reward input.",
+      "source": "https://arxiv.org/html/1912.13465v1/figures/rcps_networks.png"
+    },
+    "model_inversion_networks": {
+      "file": "papers/model-inversion-networks.jpg",
+      "width": 1000,
+      "height": 648,
+      "alt": "Training and optimization schematic of an inverse map with active data collection.",
+      "source": "https://arxiv.org/html/1912.13464v1/images/mins_schematic_final.png"
+    },
+    "awr": {
+      "file": "papers/awr.jpg",
+      "width": 1000,
+      "height": 144,
+      "alt": "Legged robots and obstacles in a simulated locomotion scene.",
+      "source": "https://xbpeng.github.io/projects/AWR/AWR_teaser_small.jpg"
+    },
+    "bear": {
+      "file": "papers/bear.jpg",
+      "width": 1000,
+      "height": 366,
+      "alt": "Gridworld heatmaps comparing unconstrained, support-constrained and behavior-policy Q-values across iterations.",
+      "source": "https://arxiv.org/html/1906.00949v2/images/gridworld.png"
+    },
+    "graph_normalizing_flows": {
+      "file": "papers/graph-normalizing-flows.jpg",
+      "width": 1000,
+      "height": 359,
+      "alt": "Message-passing diagram of a graph normalizing flow with two layers of node states.",
+      "source": "https://sites.google.com/sitesv-images-rt/APXyLQcu75_v2l1yaVr8vx1Fas1Xl6m-Dz-5pfWbW-VhfF0ukIZISTTE43RDwlsO8v6u3PbazQ3U9gCBNt0YRrOcrxJwtB7kym40oowwWTRbYOwbC9DKtbIdHlgg9orZYE7s5Bjg9Ijsvns9xorQiQH7oRP5wDrtSXCIEqFtDuYmnVWZZ4x_BwW4z-uXWkDnpAD2cK3xF4a7jdv1oPC2bLM=w1280"
+    },
+    "calibration_nmt": {
+      "file": "papers/calibration-nmt.jpg",
+      "width": 1000,
+      "height": 222,
+      "alt": "Calibration curves of accuracy versus confidence for individual output tokens.",
+      "source": "https://arxiv.org/html/1903.00802v1/en_de_gnmt_final.png"
+    },
+    "diagnosing_q_learning": {
+      "file": "papers/diagnosing-q-learning.jpg",
+      "width": 1000,
+      "height": 520,
+      "alt": "Bar chart of normalized returns and Q-function error across network architectures.",
+      "source": "https://arxiv.org/html/1902.10250v1/fig_1.png"
+    },
+    "cog": {
+      "file": "papers/cog.jpg",
+      "width": 1000,
+      "height": 470,
+      "alt": "Robot task data, the method box and a policy generalizing to unseen task data.",
+      "source": "https://sites.google.com/sitesv-images-rt/APXyLQfKx1xgzMrRWPcJ8Roju9sj0ek_biQ4hZR_9F7T4bHr3WeHCly0AlkBrV6erW6-PBEOhMMOnmJwEPD7OnGHqoRyKd4h3Pc1SJXbjVxLSGf6fmpn-_gcv5a--lxsxYXnQAV9ATCK_jejRJ4k7WoVXuTDxHQY5thut-3fBKLRUNNRSC9wnOKMDTBYsdOzlWe6GbT3MSdgaZEoYqYL2Y91yGM4kH858jKMYFWRz-P9=w1280"
+    },
+    "implicit_underparameterization": {
+      "file": "papers/implicit-underparameterization.jpg",
+      "width": 1000,
+      "height": 260,
+      "alt": "Diagram of rank-minimizing Q-learning iterations and their effect on features.",
+      "source": "https://agarwl.github.io/images/research/iup.png"
+    },
+    "conservative_safety_critics": {
+      "file": "papers/conservative-safety-critics.jpg",
+      "width": 1000,
+      "height": 380,
+      "alt": "Flowchart of policy execution with a safety critic, and a plot of Q-values.",
+      "source": "https://arxiv.org/html/2010.14497v2/csc_mainfiglowres.png"
+    },
+    "structured_maxent_rl": {
+      "file": "papers/structured-maxent-rl.jpg",
+      "width": 1000,
+      "height": 411,
+      "alt": "Train and test MDP mazes showing different paths around a blocked region.",
+      "source": "https://arxiv.org/html/2010.14484v2/figures/illustration_maxent.png"
+    },
+    "opal": {
+      "file": "papers/opal.jpg",
+      "width": 1000,
+      "height": 347,
+      "alt": "Three-stage pipeline of unsupervised primitive discovery, policy training and test-time execution.",
+      "source": "https://sites.google.com/sitesv-images-rt/APXyLQcU-_MIAfysdl6cd4mHJvdcRRpsOFpGS9E3AQvBicLM-1M5gfk_Vf9TknWSjdUa-BBv9ZZMSZfaOKiJaMwMMBOXhesD4G31pRn1NKscTAt5ibK3vDzC37bezNqWxfypqnB-OZm57uWqInxnTfqwY_nTahvadue2fi9YtOU0FeEb4peqV2s06U-414hGbUNdYrjpx9rIuqCVOT7M8RUf8Z5oCGCPkBFnMMSWaVX-5oM=w1280"
+    },
+    "cql": {
+      "file": "papers/cql.jpg",
+      "width": 839,
+      "height": 456,
+      "alt": "Offline RL loop diagram: a policy collects a dataset once, then a learner trains offline.",
+      "source": "https://sites.google.com/sitesv-images-rt/APXyLQcmKqtHG3zhM_fr78Nu_ngcMfRfb-q46oIwqij-lJV1qmdoDUosRlhIPT8xI-LmVMfprhRGzr0UBBHL4M2HOYV7pe0GOkkXLR9PqXkahiBy-soODVfbyyTTOcx6JYNG5skUEU9ijVTCbbQu-FHRQcFBwR_b5dOiBJg5DEdcj69zl6yTT6VuZQLH2kpGkgobyy82hY2DINBYG-FOu-Y=w1280"
+    },
+    "offline_rl_tutorial": {
+      "file": "papers/offline-rl-tutorial.jpg",
+      "width": 715,
+      "height": 630,
+      "alt": "Maze gridworld with a numbered yellow path between goal markers.",
+      "source": "https://arxiv.org/html/2005.01643v3/images/waypoints_maze2d_multi.png"
+    },
+    "d4rl": {
+      "file": "papers/d4rl.jpg",
+      "width": 651,
+      "height": 606,
+      "alt": "Collage of four simulated D4RL environments including a robot hand, driving, maze and a walker.",
+      "source": "https://arxiv.org/html/2004.07219v4/images/splash_offline_rl.png"
+    },
+    "discor": {
+      "file": "papers/discor.jpg",
+      "width": 415,
+      "height": 272,
+      "alt": "Bar chart of returns per task id comparing two methods.",
+      "source": "https://arxiv.org/html/2003.07305v1/images/metaworld_results/discor_mt10_sac_500.png"
+    },
+    "dr3": {
+      "file": "papers/dr3.jpg",
+      "width": 1000,
+      "height": 528,
+      "alt": "Plots of feature dot products and returns showing instability in Q-learning.",
+      "source": "https://arxiv.org/html/2112.04716v1/final_plot.png"
+    },
+    "prime_accelerators": {
+      "file": "papers/prime-accelerators.jpg",
+      "width": 1000,
+      "height": 297,
+      "alt": "Diagram of an offline dataset, conservative model and optimizer producing hardware accelerators.",
+      "source": "https://arxiv.org/html/2110.11346v3/prime-overview.png"
+    },
+    "offline_rl_workflow": {
+      "file": "papers/offline-rl-workflow.jpg",
+      "width": 1000,
+      "height": 666,
+      "alt": "Diagram of overfitting and underfitting in offline RL with policy-selection curves.",
+      "source": "https://sites.google.com/sitesv-images-rt/APXyLQdw3lSvb136Rv7DZEZMSQWPLtPcjQRYB3id5-fSg9U8E1EY6O-RRh5qXf1IC0Jks2Pf-JAn7rTaLmiYPM8jF6xaJzd1QGyA6vMaBK8ywKmDTIrTDAzhm3H6ii8jm3mEB-wPqlts-DHtWGLcxU6pHkfIQyFeMgMdtnOrEPTjL_8CfBcABRZgU3E_JLvoapRuif1xMy_TqobawwfkkhbwzGotgSxJXPYMw_QMvD5EY1M=w1280"
+    },
+    "cds": {
+      "file": "papers/cds.jpg",
+      "width": 1000,
+      "height": 602,
+      "alt": "Robot arm diagram of conservative data sharing across place-bowl, lift-can and lift-banana tasks.",
+      "source": "https://arxiv.org/html/2109.08128v1/teaser.png"
+    },
+    "epistemic_pomdp": {
+      "file": "papers/epistemic-pomdp.jpg",
+      "width": 1000,
+      "height": 163,
+      "alt": "Illustration of two classification strategies for a maze-like task with train and test accuracy.",
+      "source": "https://arxiv.org/html/2107.06277v1/figures/otters.001.png"
+    },
+    "deep_ope_benchmarks": {
+      "file": "papers/deep-ope-benchmarks.jpg",
+      "width": 531,
+      "height": 727,
+      "alt": "Flow diagrams of off-policy evaluation and offline policy selection.",
+      "source": "https://arxiv.org/html/2103.16596v1/figures/ope-ops.png"
+    },
+    "combo": {
+      "file": "papers/combo.jpg",
+      "width": 1000,
+      "height": 507,
+      "alt": "Plot of value functions over states comparing COMBO, CQL and the true value function.",
+      "source": "https://arxiv.org/html/2102.08363v2/teaser_combo.png"
+    },
+    "scaled_ql": {
+      "file": "papers/scaled-ql.jpg",
+      "width": 1000,
+      "height": 303,
+      "alt": "Atari game frames for training one policy on 40 games, evaluating and fine-tuning on new games.",
+      "source": "https://sites.google.com/sitesv-images-rt/APXyLQciyr_bw244QadSEfbqViUavnYOu06PoFHwvLONVBTrPhwdFz_1YXauZQpGWdHaPo86P5tlgODwVqDGblo3VYgSCIvRj3UsS1Vh9D1jyeMVQoO7i3FO4pcCZHBrl-Gq_D41WrZNHq8BTeTtMMjRczeGAHPP-Dkr4GWRjLhjQ0JBoW2crEqR05eAjx1gMN9fgITSbp8EyPvQASBlWOady_DJnFsXxd0JYcQOp7Mf8-I=w1280"
+    },
+    "invariant_representation_mbo": {
+      "file": "papers/invariant-representation-mbo.jpg",
+      "width": 1000,
+      "height": 667,
+      "alt": "Plot of ground-truth, invariance and conservatism value estimates over data.",
+      "source": "https://arxiv.org/html/2211.11349v2/figures/teaser_figure.png"
+    },
+    "dasco": {
+      "file": "papers/dasco.jpg",
+      "width": 1000,
+      "height": 503,
+      "alt": "Two plots of probability density curves for data, generator and auxiliary distributions.",
+      "source": "https://arxiv.org/html/2211.01471v1/fig/single_and_dual.png"
+    },
+    "reds": {
+      "file": "papers/reds.jpg",
+      "width": 1000,
+      "height": 773,
+      "alt": "Gridworld maps showing heteroskedastic behavior data and where AWR and CQL get stuck or succeed.",
+      "source": "https://arxiv.org/html/2211.01052v2/Figure1.png"
+    },
+    "ptr": {
+      "file": "papers/ptr.jpg",
+      "width": 1000,
+      "height": 462,
+      "alt": "Network diagram with ResNet34 features, spatial embeddings and fully connected layers for a Q-function over a robot image.",
+      "source": "https://arxiv.org/html/2210.05178v3/architecture.png"
+    },
+    "ariel": {
+      "file": "papers/ariel.jpg",
+      "width": 1000,
+      "height": 361,
+      "alt": "Three-phase diagram of collecting human demos, offline learning and online fine-tuning on a new task.",
+      "source": "https://sites.google.com/sitesv-images-rt/APXyLQfORFKUrqmM7aUChkoVIpidtuVyPJ9aFkO9-dXj30MLtuE2ldE_R8eZF1ksX99S7BoYGUsUIyxWW6j1a4fL8r1ZdkgZTAqwSkgW0ZaS2J9J_9wArCvCeSsYSfVUU--kgCzUXAKiQrSjdR3_wu671wDY7orY5BFoUBzFVjB7bNHZMDy89Q9V5KAtAB1t2G6M9gBLD9mov3ZjaRkR6S_rjKTAr67v_eczZHgHnVblW0M=w1280"
+    },
+    "offline_rl_vs_bc": {
+      "file": "papers/offline-rl-vs-bc.jpg",
+      "width": 1000,
+      "height": 396,
+      "alt": "Diagram of a narrow passage where only one critical action succeeds.",
+      "source": "https://arxiv.org/html/2204.05618v1/figures/critical_points.png"
+    },
+    "design_bench": {
+      "file": "papers/design-bench.jpg",
+      "width": 1000,
+      "height": 564,
+      "alt": "Overview of offline model-based optimization for superconductors, DNA, molecules, proteins and robots.",
+      "source": "https://arxiv.org/html/2202.08450v1/mbo_figure.png"
+    },
+    "unlabeled_data_offline_rl": {
+      "file": "papers/unlabeled-data-offline-rl.jpg",
+      "width": 1000,
+      "height": 314,
+      "alt": "Two diagrams of offline RL with reward-predictor methods versus unlabeled data sharing.",
+      "source": "https://arxiv.org/html/2202.01741v4/teaser_new.png"
+    },
+    "saq": {
+      "file": "papers/saq.jpg",
+      "width": 960,
+      "height": 540,
+      "alt": "VQ-VAE encoder and decoder with a codebook for quantizing actions.",
+      "source": "https://arxiv.org/html/2310.11731v1/figures/vqvae_new.png"
+    },
+    "susie": {
+      "file": "papers/susie.jpg",
+      "width": 711,
+      "height": 390,
+      "alt": "Robot manipulation frames showing real and generated subgoal images for language instructions.",
+      "source": "https://rail-berkeley.github.io/susie/teaser.png"
+    },
+    "latent_coms_crystal": {
+      "file": "papers/latent-coms-crystal.jpg",
+      "width": 1000,
+      "height": 382,
+      "alt": "Pipeline from a lattice through a CD-VAE encoder to energy minimization in latent space.",
+      "source": "https://arxiv.org/html/2310.10056v1/figures/lcoms.png"
+    },
+    "vptr": {
+      "file": "papers/vptr.jpg",
+      "width": 509,
+      "height": 384,
+      "alt": "Architecture with video and robot data encoders feeding value and Q-value heads.",
+      "source": "https://arxiv.org/html/2309.13041v1/figure2.png"
+    },
+    "q_transformer": {
+      "file": "papers/q-transformer.jpg",
+      "width": 1000,
+      "height": 689,
+      "alt": "Diagram of Q-Transformer using mixed-quality human and autonomous data with autoregressive Q-learning.",
+      "source": "https://qtransformer.github.io/img/qt_title_overview.png"
+    },
+    "regulating_overfitting": {
+      "file": "papers/regulating-overfitting.jpg",
+      "width": 1000,
+      "height": 302,
+      "alt": "Return curves for online, offline streaming and shuffled streaming training.",
+      "source": "https://arxiv.org/html/2304.10466v1/figures/Figure1.jpeg"
+    },
+    "cal_ql": {
+      "file": "papers/cal-ql.jpg",
+      "width": 1000,
+      "height": 746,
+      "alt": "Conceptual plot of return from offline pre-training through online fine-tuning.",
+      "source": "https://arxiv.org/html/2303.05479v4/Teaser_V2.png"
+    },
+    "parl": {
+      "file": "papers/parl.jpg",
+      "width": 1000,
+      "height": 445,
+      "alt": "Diagram of a flexible policy space with global and local optimization guided by Q-values.",
+      "source": "https://policyagnosticrl.github.io/data/parl_fig.png"
+    },
+    "efficient_rl_finetune": {
+      "file": "papers/efficient-rl-finetune.jpg",
+      "width": 941,
+      "height": 431,
+      "alt": "Diagram of fine-tuning without data retention next to a return-versus-step curve.",
+      "source": "https://zhouzypaul.github.io/images/paper-images/wsrl/teaser.png"
+    },
+    "inference_aware_bon": {
+      "file": "papers/inference-aware-bon.jpg",
+      "width": 512,
+      "height": 401,
+      "alt": "Scatter plot of optimal sample count versus temperature for best-of-N sampling.",
+      "source": "https://arxiv.org/html/2412.15287v2/images/T-N-opt.png"
+    },
+    "learning_dynamics_llm": {
+      "file": "papers/learning-dynamics-llm.jpg",
+      "width": 1000,
+      "height": 359,
+      "alt": "Two accuracy-versus-training-examples plots comparing data selection strategies.",
+      "source": "https://arxiv.org/html/2411.07681v2/scale.png"
+    },
+    "steering_generalists": {
+      "file": "papers/steering-generalists.jpg",
+      "width": 1000,
+      "height": 360,
+      "alt": "Architecture of a robot value function with a ResNet and language-prompt encoder.",
+      "source": "https://nakamotoo.github.io/V-GPS/static/images/training.jpeg"
+    },
+    "rewarding_progress": {
+      "file": "papers/rewarding-progress.jpg",
+      "width": 1000,
+      "height": 283,
+      "alt": "Beam-search diagram of step-level value and advantage, and a question-rephrasing diagram.",
+      "source": "https://arxiv.org/html/2410.08146v1/illustration_2.png"
+    },
+    "rrm": {
+      "file": "papers/rrm.jpg",
+      "width": 1000,
+      "height": 425,
+      "alt": "Diagram of reward-model training with instruction permutations and data augmentations.",
+      "source": "https://arxiv.org/html/2409.13156v2/RRM_Pipeline.png"
+    },
+    "scaling_llm_compute": {
+      "file": "papers/scaling-llm-compute.jpg",
+      "width": 1000,
+      "height": 349,
+      "alt": "Scatter and bar plots of accuracy versus sequential-to-parallel compute ratio.",
+      "source": "https://arxiv.org/html/2408.03314v1/revisions_varing_ratio_and_with_difficulty.png"
+    },
+    "d5rl": {
+      "file": "papers/d5rl.jpg",
+      "width": 1000,
+      "height": 178,
+      "alt": "Strip of simulated D5RL environments including a quadruped and robot arms.",
+      "source": "https://arxiv.org/html/2408.08441v1/d5rldomains.png"
+    },
+    "llmcognition@icml": {
+      "file": "papers/llmcognition-icml.jpg",
+      "width": 1000,
+      "height": 563,
+      "alt": "Chat transcript where a model answers a probability question wrongly across several attempts.",
+      "source": "https://cohenqu.github.io/rise.github.io/static/images/teaser.png"
+    },
+    "persteprl@icml": {
+      "file": "papers/persteprl-icml.jpg",
+      "width": 1000,
+      "height": 263,
+      "alt": "Diagram of finetuning on synthetic data with negative and positive examples for RL or SFT.",
+      "source": "https://arxiv.org/html/2406.14532v1/main_figure.png"
+    },
+    "digirl": {
+      "file": "papers/digirl.jpg",
+      "width": 1000,
+      "height": 470,
+      "alt": "Diagram of instruction-level and step-level value functions used to train a device-control actor.",
+      "source": "https://digirl-agent.github.io/website/images/algo.png"
+    },
+    "value_learning_bottleneck": {
+      "file": "papers/value-learning-bottleneck.jpg",
+      "width": 1000,
+      "height": 767,
+      "alt": "Heatmap tables of returns for combinations of offline RL algorithms and data sizes.",
+      "source": "https://seohong.me/projects/offrl-bottlenecks/img/policy_algo/dmc_walker_run.png"
+    },
+    "preference@icml": {
+      "file": "papers/preference-icml.jpg",
+      "width": 1000,
+      "height": 382,
+      "alt": "Diagrams of on-policy sampling and negative gradients with preference-data scenarios.",
+      "source": "https://understanding-rlhf.github.io/static/images/final_picture_teaser.jpg"
+    },
+    "stop_regressing": {
+      "file": "papers/stop-regressing.jpg",
+      "width": 1000,
+      "height": 262,
+      "alt": "Illustrations of two-hot, HL-Gauss and categorical distributional value targets.",
+      "source": "https://arxiv.org/html/2403.03950v1/methods.png"
+    },
+    "hallucination_control": {
+      "file": "papers/hallucination-control.jpg",
+      "width": 1000,
+      "height": 229,
+      "alt": "Distribution diagram and example chats of fine-tuning on familiar versus unfamiliar examples.",
+      "source": "https://arxiv.org/html/2403.05612v2/teaser.png"
+    },
+    "archer": {
+      "file": "papers/archer.jpg",
+      "width": 1000,
+      "height": 533,
+      "alt": "Diagram of utterance-level critic and token-level actor for hierarchical language agent RL.",
+      "source": "https://yifeizhou02.github.io/archer.io/static/images/archer_diagram.001.jpeg"
+    },
+    "vlm_promptable_representations": {
+      "file": "papers/vlm-promptable-representations.jpg",
+      "width": 1000,
+      "height": 258,
+      "alt": "Diagrams of a VLM prompted to guide RL agents in Minecraft and Habitat tasks.",
+      "source": "https://arxiv.org/html/2402.02651v3/PromptableEmbedsExample2.png"
+    },
+    "rlac": {
+      "file": "papers/rlac.jpg",
+      "width": 1000,
+      "height": 378,
+      "alt": "Table of results on four- and eight-sentence generation for several methods.",
+      "source": "https://mianwu01.github.io/RLAC_website/images/table1.png"
+    },
+    "cart": {
+      "file": "papers/cart.jpg",
+      "width": 1000,
+      "height": 363,
+      "alt": "Plots of oracle success versus token budget and a doctor-patient dialogue example.",
+      "source": "https://arxiv.org/html/2510.08517v1/horizontal_teaser.png"
+    },
+    "rlad": {
+      "file": "papers/rlad.jpg",
+      "width": 1000,
+      "height": 228,
+      "alt": "Diagram of standard reasoning, generating abstractions and using them to solve problems.",
+      "source": "https://arxiv.org/html/2510.02263v1/fig1.png"
+    },
+    "rac": {
+      "file": "papers/rac.jpg",
+      "width": 1000,
+      "height": 563,
+      "alt": "Diagram of robot data collection with human intervention and policy rollout with recovery behaviors.",
+      "source": "https://arxiv.org/html/2509.07953v1/teaser_figure.png"
+    },
+    "floq": {
+      "file": "papers/floq.jpg",
+      "width": 1000,
+      "height": 753,
+      "alt": "Diagram of a flow-matching critic integrating a velocity field to produce a Q-value sample.",
+      "source": "https://arxiv.org/html/2509.06863v2/floq_new2_final.png"
+    },
+    "compute_optimal_value_rl": {
+      "file": "papers/compute-optimal-value-rl.jpg",
+      "width": 1000,
+      "height": 506,
+      "alt": "Contour plots of compute-optimal scaling across several RL environments.",
+      "source": "https://arxiv.org/html/2508.14881v2/data_iso_contour_withsimba.png"
+    },
+    "reasoning_adaptive_defense": {
+      "file": "papers/reasoning-adaptive-defense.jpg",
+      "width": 1000,
+      "height": 562,
+      "alt": "Plot of compliance rate versus defense success rate for several methods.",
+      "source": "https://training-adaptive-reasoners-safety.github.io/static/images/results.png"
+    },
+    "e3": {
+      "file": "papers/e3.jpg",
+      "width": 583,
+      "height": 432,
+      "alt": "Line plot of AIME accuracy versus test-time compute for e3 and open-source models.",
+      "source": "https://matthewyryang.com/e3/static/images/method_plot_aime.png"
+    },
+    "thinking_vs_doing": {
+      "file": "papers/thinking-vs-doing.jpg",
+      "width": 1000,
+      "height": 279,
+      "alt": "Bar and line chart of task success and steps across web environments.",
+      "source": "https://arxiv.org/html/2506.07976v2/figs/grouped_barplot_with_tasks_corrected.png"
+    },
+    "horizon_reduction": {
+      "file": "papers/horizon-reduction.jpg",
+      "width": 1000,
+      "height": 1211,
+      "alt": "Four simulated tasks: cube-octuple, puzzle-4x6, humanoid maze and a maze.",
+      "source": "https://arxiv.org/html/2506.04168v3/envs.png"
+    },
+    "grounded_rl_visual_reasoning": {
+      "file": "papers/grounded-rl-visual-reasoning.jpg",
+      "width": 1000,
+      "height": 277,
+      "alt": "Pipeline of grounded MCTS, warm-start fine-tuning and grounded RL for visual questions.",
+      "source": "https://visually-grounded-rl.github.io/images/methods_figure_tweet.png"
+    },
+    "brc": {
+      "file": "papers/brc.jpg",
+      "width": 1000,
+      "height": 190,
+      "alt": "Row of benchmark environments including robot arm, quadruped, humanoid, a hand and Pac-Man.",
+      "source": "https://arxiv.org/html/2505.23150v1/tasks_pdf2.png"
+    },
+    "mrt": {
+      "file": "papers/mrt.jpg",
+      "width": 1000,
+      "height": 288,
+      "alt": "Two plots of probability of success versus test-time token budget for outcome-reward RL and dense reward.",
+      "source": "https://cohenqu.github.io/mrt.github.io/static/images/teaser.png"
+    },
+    "scaling_without_verification": {
+      "file": "papers/scaling-without-verification.jpg",
+      "width": 1000,
+      "height": 725,
+      "alt": "Diagram comparing verifier-free and verifier-based methods with test-time compute scaling plots.",
+      "source": "https://arxiv.org/html/2502.12118v2/figure-abstract.png"
+    },
+    "digi_q": {
+      "file": "papers/digi-q.jpg",
+      "width": 1000,
+      "height": 515,
+      "alt": "Diagram comparing policy-based filtering with Digi-Q value-function training for device control.",
+      "source": "https://digirl-agent.github.io/DigiQ-agent.github.io/website/images/teaser.png"
+    },
+    "value_rl_scales_predictably": {
+      "file": "papers/value-rl-scales-predictably.jpg",
+      "width": 929,
+      "height": 617,
+      "alt": "Grid of fitted scaling curves for compute, budget and data across several environments.",
+      "source": "https://arxiv.org/html/2502.04327v2/scaling.png"
+    },
+    "ideataste": {
+      "file": "papers/ideataste.jpg",
+      "width": 1000,
+      "height": 249,
+      "alt": "Diagram of human scientists and AI scientists proposing papers matched by citations for blind review.",
+      "source": "https://arxiv.org/html/2611.03424v1/introduction.png"
+    },
+    "librarian_agents": {
+      "file": "papers/librarian-agents.jpg",
+      "width": 1000,
+      "height": 335,
+      "alt": "Diagram of building and traversing a constructed workspace for a user query.",
+      "source": "https://arxiv.org/html/2610.22273v1/teaser_v2_workspace.png"
+    },
+    "magicbeanstalk": {
+      "file": "papers/magicbeanstalk.jpg",
+      "width": 1000,
+      "height": 416,
+      "alt": "Two charts of empirical success rate bins for math and finance difficulty by data source.",
+      "source": "https://arxiv.org/html/2610.12659v1/sections/figures/fig_insight_1_difficulty_only_v3.png"
+    },
+    "seeq": {
+      "file": "papers/seeq.jpg",
+      "width": 1000,
+      "height": 400,
+      "alt": "Three-panel diagram of pretraining, downstream finetuning and test-time policy steering.",
+      "source": "https://saksham002.github.io/seeq/static/seeq_teaser.png?v=293fc65b6475"
+    },
+    "r3_robot_reasoning": {
+      "file": "papers/r3-robot-reasoning.jpg",
+      "width": 1000,
+      "height": 667,
+      "alt": "Wide diagram of mid-training with expert reasoning and robot-relevant single-step RL.",
+      "source": "https://arxiv.org/html/2608.26053v1/workflow_v4.png"
+    },
+    "generalist_adaptation_minimal_data": {
+      "file": "papers/generalist-adaptation-minimal-data.jpg",
+      "width": 1000,
+      "height": 400,
+      "alt": "Diagram of minimal data adaptation of a pretrained VLA with one demonstration and residual RL.",
+      "source": "https://arxiv.org/html/2608.11363v3/figs/final_plots/main_fig.jpg"
+    },
+    "mirror": {
+      "file": "papers/mirror.jpg",
+      "width": 1000,
+      "height": 470,
+      "alt": "Diagram of image-dominant, text-dominant and combined problem views with teacher guidance.",
+      "source": "https://arxiv.org/html/2607.21552v2/neurips_sub_figurs.png"
+    },
+    "over_refusal_competing_rewards": {
+      "file": "papers/over-refusal-competing-rewards.jpg",
+      "width": 1000,
+      "height": 405,
+      "alt": "Bar and dot plots of datapoints and harmfulness by reasoning-harmfulness bucket for four models.",
+      "source": "https://arxiv.org/html/2606.31748v1/image/allenai_wildjailbreak__combined_2x4_buckets.png"
+    },
+    "exprl": {
+      "file": "papers/exprl.jpg",
+      "width": 1000,
+      "height": 323,
+      "alt": "Diagram of zero-reward hard problems versus exploratory RL mid-training with an LLM judge.",
+      "source": "https://arxiv.org/html/2606.17024v1/exprl.png"
+    },
+    "recursive_agent_optimization": {
+      "file": "papers/recursive-agent-optimization.jpg",
+      "width": 772,
+      "height": 1010,
+      "alt": "Minecraft crafting tree with item icons and required quantities.",
+      "source": "https://arxiv.org/html/2605.06639v2/figures/textcraft.png"
+    },
+    "isocompute_playbook": {
+      "file": "papers/isocompute-playbook.jpg",
+      "width": 1000,
+      "height": 282,
+      "alt": "Three-dimensional schematics of trading off parallel rollouts, problems per batch and sequential iterations.",
+      "source": "https://arxiv.org/html/2603.12151v1/main.png"
+    },
+    "flow_matching_td": {
+      "file": "papers/flow-matching-td.jpg",
+      "width": 1000,
+      "height": 711,
+      "alt": "Line plots of feature norms and Q-values for flow-based versus other TD critics.",
+      "source": "https://arxiv.org/html/2603.04333v2/feature_norm_fig.png"
+    },
+    "bpp": {
+      "file": "papers/bpp.jpg",
+      "width": 1000,
+      "height": 431,
+      "alt": "Photo of a bimanual robot arm setup with a cup on a table.",
+      "source": "https://arxiv.org/html/2602.15010v2/figures/environment_images/mug_replacement.png"
+    },
+    "pope": {
+      "file": "papers/pope.jpg",
+      "width": 1000,
+      "height": 383,
+      "alt": "Diagram of standard RL, oracle-solution training and RL with guidance prefixes.",
+      "source": "https://arxiv.org/html/2601.18779v1/main_figure.png"
+    },
+    "intervention_training": {
+      "file": "papers/intervention-training.jpg",
+      "width": 1000,
+      "height": 358,
+      "alt": "Diagram of generating interventions on a reasoning trace and comparing SFT and RL.",
+      "source": "https://intervention-training.github.io/static/images/fig1.png"
+    },
+    "trim": {
+      "file": "papers/trim.jpg",
+      "width": 1000,
+      "height": 402,
+      "alt": "Flow diagram of stepwise routing between a cheap and an expensive LLM.",
+      "source": "https://vansh28kapoor.github.io/trim.github.io/static/images/TRIM.png"
+    },
+    "webgym": {
+      "file": "papers/webgym.jpg",
+      "width": 709,
+      "height": 466,
+      "alt": "Log-scale plot of number of tasks versus website rank.",
+      "source": "https://arxiv.org/html/2601.02439v6/website_concentration_log.png"
+    },
+    "asyncwebrl": {
+      "file": "papers/asyncwebrl.jpg",
+      "width": 1000,
+      "height": 402,
+      "alt": "Rollout threads over wall-clock time: synchronous WebGym idles between policy updates, AsyncWebGym does not",
+      "source": "provided by Nir"
+    }
+  },
+  "people": {
+    "amrith-setlur": {
+      "file": "people/amrith-setlur.jpg",
+      "source": "https://ars22.github.io/images/new_small_profile_pic.jpg"
+    },
+    "mitsuhiko-nakamoto": {
+      "file": "people/mitsuhiko-nakamoto.jpg",
+      "source": "https://nakamotoo.github.io/images/mitsuhiko.jpeg"
+    },
+    "yifei-zhou": {
+      "file": "people/yifei-zhou.jpg",
+      "source": "https://yifeizhou02.github.io/images/profile.png"
+    },
+    "fahim-tajwar": {
+      "file": "people/fahim-tajwar.jpg",
+      "source": "https://tajwarfahim.github.io/images/fahim_tajwar.jpg"
+    },
+    "anikait-singh": {
+      "file": "people/anikait-singh.jpg",
+      "source": "https://asap7772.github.io/static/images/profile.jpg"
+    },
+    "seohong-park": {
+      "file": "people/seohong-park.jpg",
+      "source": "https://seohong.me/images/seohong.jpg"
+    },
+    "lunjun-zhang": {
+      "file": "people/lunjun-zhang.jpg",
+      "source": "https://lunjunzhang.github.io/imgs/me-photo.jpeg"
+    },
+    "hao-bai": {
+      "file": "people/hao-bai.jpg",
+      "source": "https://biechi.github.io/assets/img/profile-2026-10.jpg"
+    },
+    "katie-kang": {
+      "file": "people/katie-kang.jpg",
+      "source": "http://katiekang.com/images/katie2-circle.png"
+    },
+    "paul-zhou": {
+      "file": "people/paul-zhou.jpg",
+      "source": "https://zhouzypaul.github.io/images/new_profile.png"
+    },
+    "rishabh-agarwal": {
+      "file": "people/rishabh-agarwal.jpg",
+      "source": "https://agarwl.github.io/images/rishabh_profile.jpg"
+    }
+  }
+}
